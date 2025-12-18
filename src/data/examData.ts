@@ -84,7 +84,7 @@ export const exams: Exam[] = [
     name: "University Grants Commission - NET",
     shortName: "UGC-NET",
     description: "National Eligibility Test preparation",
-    subjects: ["ict", "general-studies", "economics"],
+    subjects: ["teaching-aptitude", "ict", "general-studies", "economics"],
     color: "hsl(38 92% 50%)",
     icon: "🎓",
   },
@@ -125,6 +125,7 @@ export const subjects: Subject[] = [
     questionCount: 250, 
     color: "hsl(199 89% 48%)",
     subtopics: [
+       { id: "teaching-aptitude", name: "Teaching Aptitude -Part1", questionCount: 30 },
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
       { id: "gs-indian-constitution", name: "Indian Constitution", questionCount: 50 },
       { id: "gs-governance", name: "Governance & Public Policy", questionCount: 40 },
@@ -258,6 +259,17 @@ export const subjects: Subject[] = [
       { id: "eng-vocabulary", name: "Vocabulary", questionCount: 40 },
       { id: "eng-comprehension", name: "Reading Comprehension", questionCount: 40 },
       { id: "eng-idioms", name: "Idioms & Phrases", questionCount: 40 },
+    ]
+  },
+    { 
+    id: "teaching-aptitude", 
+    name: "Teaching Aptitude", 
+    icon: "📝", 
+    questionCount: 30, 
+    color: "hsl(220 70% 50%)",
+    subtopics: [
+      { id: "eng-grammar", name: "Teaching Aptitude - Part 1", questionCount: 30 },
+ 
     ]
   },
 { 
@@ -628,145 +640,511 @@ export const sampleQuestions: Record<string, Question[]> = {
 "ict-part1": [
   {
     id: "q1",
-    question: "Who controls the movement of signals between CPU and I/O?",
+    question: "1. Who controls the movement of signals between CPU and I/O?",
     options: ["ALU", "Control Unit", "Memory Unit", "Secondary stores"],
     correctAnswer: 1,
     explanation: "The Control Unit coordinates and controls signal flow between the CPU, memory, and input/output devices."
   },
   {
     id: "q2",
-    question: "Which of the following CPU registers is used by ALU to store operands?",
+    question: "2. Which of the following CPU registers is used by ALU to store operands?",
     options: ["Both program counter and accumulator", "Program counter", "Accumulator", "Address register"],
     correctAnswer: 2,
     explanation: "The accumulator stores intermediate arithmetic and logical values used by the ALU."
   },
   {
     id: "q3",
-    question: "In a microprogrammed control unit, subsequent instruction words are fetched into the ________.",
+    question: "3. In a microprogrammed control unit, subsequent instruction words are fetched into the ________.",
     options: ["Instruction Register", "Transistor", "CMOS battery", "Program Counter"],
     correctAnswer: 0,
     explanation: "In microprogrammed control units, instruction words are fetched into the Instruction Register before execution."
   },
   {
     id: "q4",
-    question: "Computer systems that store instructions and data in the same memory unit are based on which structure?",
+    question: "4. Computer systems that store instructions and data in the same memory unit are based on which structure?",
     options: ["Harvard", "Babbage", "Knuth", "Von-Neumann"],
     correctAnswer: 3,
     explanation: "Von-Neumann architecture uses a single shared memory for both data and instructions."
   },
   {
     id: "q5",
-    question: "Which part of the CPU selects, interprets, and monitors execution of program instructions?",
+    question: "5. Which part of the CPU selects, interprets, and monitors execution of program instructions?",
     options: ["Memory", "Register Unit", "Control Unit", "ALU"],
     correctAnswer: 2,
     explanation: "The Control Unit fetches, decodes, and controls the execution of instructions."
   },
   {
     id: "q6",
-    question: "Which bus specifies memory locations for data transfer?",
+    question: "6. Which bus specifies memory locations for data transfer?",
     options: ["Control bus", "Data bus", "Address bus", "I/O bus"],
     correctAnswer: 2,
     explanation: "The address bus carries memory addresses from the CPU to memory or I/O devices."
   },
   {
     id: "q7",
-    question: "What is the full form of VLSI?",
+    question: "7. What is the full form of VLSI?",
     options: ["Varied Large Scale Integration", "Very Large-Scale Integration", "Varied Large-Scale Interrogation", "Very Large-Scale Interface"],
     correctAnswer: 1,
     explanation: "VLSI stands for Very Large-Scale Integration, used to place millions of transistors on a single chip."
   },
   {
     id: "q8",
-    question: "Which bus transmits control signals between components of a computer system?",
+    question: "8. Which bus transmits control signals between components of a computer system?",
     options: ["Data Bus", "Address Bus", "Both Data Bus and Address Bus", "Control Bus"],
     correctAnswer: 3,
     explanation: "The control bus carries command and timing signals to coordinate operations."
   },
   {
     id: "q9",
-    question: "What is the full form of CPU?",
+    question: "9. What is the full form of CPU?",
     options: ["Central Programming Unit", "Control Processing Unit", "Computer Processing Unit", "Central Processing Unit"],
     correctAnswer: 3,
     explanation: "CPU stands for Central Processing Unit, which performs processing and control operations."
   },
   {
     id: "q10",
-    question: "Program instructions are stored in which unit from where CPU fetches and executes them?",
+    question: "10. Program instructions are stored in which unit from where CPU fetches and executes them?",
     options: ["Memory", "Memory and chip", "Chip", "Control unit"],
     correctAnswer: 0,
     explanation: "Memory stores program instructions and data for quick access by the CPU."
   },
   {
     id: "q11",
-    question: "Control Unit is called the ______ of a computer.",
+    question: "11. Control Unit is called the ______ of a computer.",
     options: ["Heart", "Nerve center or brain", "Kidney", "All options are correct"],
     correctAnswer: 1,
     explanation: "The Control Unit directs and coordinates all operations of the computer, so it is called the nerve center or brain."
   },
   {
     id: "q12",
-    question: "An ALU typically uses an accumulator to store operands and results. What is the accumulator?",
+    question: "12. An ALU typically uses an accumulator to store operands and results. What is the accumulator?",
     options: ["Register", "Main Memory", "Processing Unit", "Secondary Memory"],
     correctAnswer: 0,
     explanation: "The accumulator is a register inside the CPU used for temporary storage during processing."
   },
   {
     id: "q13",
-    question: "Which hardware component is considered a storage unit with very small capacity?",
+    question: "13. Which hardware component is considered a storage unit with very small capacity?",
     options: ["Register", "Control Unit", "Data Bus", "ALU"],
     correctAnswer: 0,
     explanation: "Registers are fast memory units with very small storage capacity."
   },
   {
     id: "q14",
-    question: "Which shows how operational attributes are linked together to realize the computer?",
+    question: "14. Which shows how operational attributes are linked together to realize the computer?",
     options: ["Component design", "Computer architecture", "Computer working", "Computer organization"],
     correctAnswer: 3,
     explanation: "Computer organization explains how hardware components are interconnected and operate together."
   },
   {
     id: "q15",
-    question: "What is the conceptual design and fundamental operational structure of a computer system?",
+    question: "15. What is the conceptual design and fundamental operational structure of a computer system?",
     options: ["Computer organization", "Component design", "Computer working", "Computer architecture"],
     correctAnswer: 3,
     explanation: "Computer architecture defines the conceptual design and operational structure."
   },
   {
     id: "q16",
-    question: "Which unit tells memory, ALU, and I/O devices how to respond to instructions?",
+    question: "16. Which unit tells memory, ALU, and I/O devices how to respond to instructions?",
     options: ["Storage Unit", "Input Device", "Control Unit", "Logic Unit"],
     correctAnswer: 2,
     explanation: "The Control Unit directs all components on how to execute instructions."
   },
   {
     id: "q17",
-    question: "Which material is used to manufacture computer chips?",
+    question: "17. Which material is used to manufacture computer chips?",
     options: ["Silver", "Iron", "Gold", "Semiconductor"],
     correctAnswer: 3,
     explanation: "Silicon is a semiconductor widely used in chip manufacturing."
   },
   {
     id: "q18",
-    question: "Which among the following is a type of microcontroller in embedded systems?",
+    question: "18. Which among the following is a type of microcontroller in embedded systems?",
     options: ["Neither A nor B", "Only B", "Only A", "Both A and B"],
     correctAnswer: 2,
     explanation: "ARM microcontrollers are widely used in embedded systems."
   },
   {
     id: "q19",
-    question: "PIC stands for ______.",
+    question: "19. PIC stands for ______.",
     options: ["Prefaced Internet Controller", "Prefaced Interface Controller", "Peripheral Internet Controller", "Peripheral Interface Controller"],
     correctAnswer: 3,
     explanation: "PIC stands for Peripheral Interface Controller."
   },
   {
     id: "q20",
-    question: "BUS in a computer refers to ______.",
+    question: "20. BUS in a computer refers to ______.",
     options: ["Indicates a data item", "A set of physical wires for information transmission", "Indicates an address item", "A file in the operating system"],
     correctAnswer: 1,
     explanation: "A bus is a communication pathway used to transmit data and control signals."
   }
   ],
+
+  // Teaching Aptitude:
+"teaching-aptitude": [
+  {
+    id: "q1",
+    question: "1. A science teacher gives students a brief demonstration showing how perception of colour changes with the intensity of a light source and then asks them to design their own experiment to further explore this relationship. This is an example of:",
+    options: [
+      "Expository teaching",
+      "Problem-based learning",
+      "Direct instruction",
+      "Rote learning"
+    ],
+    correctAnswer: 1,
+    explanation: "Problem-based learning presents learners with a situation and encourages them to investigate and find solutions independently or collaboratively. Here, the teacher initiates learning with a demonstration and then shifts responsibility to students to design experiments, promoting inquiry, critical thinking, and exploration. This goes beyond direct instruction or rote learning."
+  },
+  {
+    id: "q2",
+    question: "2. The knowledge gained through personal experience, such as seeing colour, is described as:",
+    options: [
+      "Intuitive",
+      "Reasoned",
+      "Experiential",
+      "Logical"
+    ],
+    correctAnswer: 2,
+    explanation: "Experiential knowledge is acquired through direct personal experience and interaction with the environment. Seeing colours or observing phenomena involves learning through experience. Intuitive, reasoned, and logical knowledge rely on instinct or thinking processes, whereas experiential knowledge is rooted in direct sensory experience."
+  },
+  {
+    id: "q3",
+    question: "3. As per NCFSE 2023, which of the following learning standards are more specific statements that give direction to curriculum development and implementation?",
+    options: [
+      "Curricular Aims",
+      "Curricular Goals",
+      "Competencies",
+      "Learning Outcomes"
+    ],
+    correctAnswer: 3,
+    explanation: "Learning outcomes are clear, specific, and measurable statements describing what learners should know and be able to do after instruction. NCFSE 2023 emphasizes learning outcomes as they directly guide teaching, assessment, and curriculum implementation, unlike broader aims, goals, or competencies."
+  },
+  {
+    id: "q4",
+    question: "4. In a constructivist classroom, the teacher's primary role is to:",
+    options: [
+      "Deliver lectures and provide notes",
+      "Maintain silence and discipline in the classroom",
+      "Encourage students to question and facilitate their learning",
+      "Evaluate students through standardized tests only"
+    ],
+    correctAnswer: 2,
+    explanation: "Constructivism views learning as an active process where learners build knowledge through experience. The teacher acts as a facilitator who encourages questioning, discussion, and inquiry. Rather than merely delivering content, the teacher supports learners in constructing their own understanding."
+  },
+  {
+    id: "q5",
+    question: "5. Learners read a text on mammals and watch a video showing mammals in different environments. Match the activities with the learning processes they best illustrate.",
+    options: [
+      "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
+      "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
+      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
+      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)"
+    ],
+    correctAnswer: 0,
+    explanation: "Analysing evidence to verify hypotheses reflects interpretation construction. Making notes of behaviours involves observation. Relating analysis to the text shows contextualisation. Working in groups demonstrates collaboration. These processes align with constructivist learning, where knowledge is built through observation, interpretation, context, and social interaction."
+  },
+  {
+    id: "q6",
+    question: "6. Which among the following is true in the context of Sigmund Freud?",
+    options: [
+      "Only (a) and (b)",
+      "Only (c) and (d)",
+      "Only (a), (b) and (c)",
+      "Only (a), (b) and (d)"
+    ],
+    correctAnswer: 3,
+    explanation: "Freud founded psychoanalysis and proposed the structural model of personality consisting of Id, Ego, and Super Ego. He strongly believed that instincts drive human behaviour and identified two major instincts: life (Eros) and death (Thanatos). Therefore, statements (a), (b), and (d) are correct."
+  },
+  {
+    id: "q7",
+    question: "7. Which of the following statement(s) is/are true?\nStatement I: Aptitude refers to special abilities in a particular field of activity.\nStatement II: Interest is a preference for a particular activity.",
+    options: [
+      "Only Statement I",
+      "Only Statement II",
+      "Statement I and Statement II",
+      "Neither Statement I nor Statement II"
+    ],
+    correctAnswer: 2,
+    explanation: "Aptitude refers to an individual's potential or special ability in a specific area, while interest refers to preference or liking for an activity. Both statements correctly define key concepts used in educational psychology. Hence, both statements are true."
+  },
+  {
+    id: "q8",
+    question: "8. Which one of the following is essential for a learner to develop conceptual understanding?",
+    options: [
+      "Connecting concepts and reflecting on prior knowledge",
+      "Practicing recall of facts through repetition",
+      "Learning large volumes of unrelated information",
+      "Being told the principles directly by the teacher"
+    ],
+    correctAnswer: 0,
+    explanation: "Conceptual understanding develops when learners actively connect new information with existing knowledge. Reflection helps reorganize and deepen understanding. Rote repetition or passive reception of information does not promote meaningful learning or conceptual clarity."
+  },
+  {
+    id: "q9",
+    question: "9. Which of the following is not a pathway that leads to growth and development of competence in professional domains as described in the NPST 2023?",
+    options: [
+      "Experience",
+      "Incentives",
+      "Exposure and interaction",
+      "Continuous professional development"
+    ],
+    correctAnswer: 1,
+    explanation: "NPST 2023 emphasizes growth through experience, exposure, interaction, and continuous professional development. These pathways enhance skills and professional practice. Incentives may motivate externally but do not directly contribute to building professional competence."
+  },
+
+  {
+    id: "q10",
+    question: "10. The key function of instruction in the process of education is to:",
+    options: [
+      "Guide learners through meaningful experiences that promote understanding",
+      "Not involve ideas and values",
+      "Involve unscientific methods of communication",
+      "Manage the classroom by making children sit passively"
+    ],
+    correctAnswer: 0,
+    explanation: "Instruction plays a central role in helping learners understand concepts through meaningful and purposeful experiences. Effective instruction connects ideas, values, and real-life applications. It encourages thinking, interaction, and engagement. Instruction is not about passive classroom control or unscientific communication."
+  },
+  {
+    id: "q11",
+    question: "11. Given below are two statements in the context of Gardner’s Theory of Multiple Intelligences:\nStatement I: It defines intelligence as distinct sets of processing operations that allow individuals to solve problems, create products, and discover new knowledge in culturally valued activities.\nStatement II: According to the theory, each intelligence has a unique biological basis, a distinct developmental course, and different forms of expert or end-state performance.",
+    options: [
+      "Only Statement I",
+      "Only Statement II",
+      "Statement I and Statement II",
+      "Neither Statement I nor Statement II"
+    ],
+    correctAnswer: 2,
+    explanation: "Howard Gardner’s theory defines intelligence as multiple, distinct abilities rather than a single general intelligence. Statement I correctly explains intelligence in terms of problem-solving and culturally valued activities. Statement II accurately reflects Gardner’s belief that each intelligence has its own biological foundation and developmental path."
+  },
+  {
+    id: "q12",
+    question: "12. Which of the following aspects violates the non-negotiable principles of pedagogy that inform classroom planning as outlined in NCFSE 2023?",
+    options: [
+      "Punishment and fear help to improve learning in the classroom",
+      "Inequity in the classroom based on socio-economic conditions and student performance is unacceptable",
+      "Memorisation must be the primary form of learning",
+      "Students must not be seen as active agents in their own education"
+    ],
+    correctAnswer: 0,
+    explanation: "NCFSE 2023 emphasizes child-friendly, safe, and supportive learning environments. Fear and punishment contradict principles of dignity, well-being, and positive engagement. Students are active participants, and inequity is explicitly rejected."
+  },
+  {
+    id: "q13",
+    question: "13. As per NCFSE 2023, which of the following is not part of the curriculum-associated category of school processes?",
+    options: [
+      "Health and hygiene",
+      "Meal-time",
+      "School timetable",
+      "Teacher professional development"
+    ],
+    correctAnswer: 3,
+    explanation: "Curriculum-associated school processes directly affect students’ daily learning experiences, such as health, hygiene, meal-time, and the school timetable. Teacher professional development is part of systemic support processes, not curriculum-associated processes."
+  },
+  {
+    id: "q14",
+    question: "14. What roles do emotions play in children’s learning?\n(a) Emotions enhance attention and memory\n(b) Negative emotions always improve focus\n(c) Positive emotions encourage exploration\n(d) Emotions and learning are unrelated\n(e) Positive relationships nurture positive emotions",
+    options: [
+      "Only (a), (c), and (e)",
+      "Only (b)",
+      "Only (d)",
+      "Only (c) and (e)"
+    ],
+    correctAnswer: 0,
+    explanation: "Positive emotions enhance attention, motivation, and memory, while supportive relationships foster emotional well-being. Positive emotions encourage curiosity and exploration. Negative emotions do not always improve focus. Learning and emotions are interconnected."
+  },
+  {
+    id: "q15",
+    question: "15. As per the National Curriculum Framework for School Education (NCFSE) 2023, homework:",
+    options: [
+      "Is not an extension of the learning process",
+      "Is a consolidation of work done in school",
+      "Is intended merely to repeat what has been learnt",
+      "Does not include application of concepts"
+    ],
+    correctAnswer: 1,
+    explanation: "Homework reinforces classroom learning. It helps students consolidate concepts already introduced. It should encourage reflection, practice, and application, not rote repetition or mechanical tasks."
+  },
+  {
+    id: "q16",
+    question: "16. Textbook-centricity in education refers to:",
+    options: [
+      "Inclusive notions of thinking",
+      "High quality of textbooks",
+      "Over-dependence on textbooks",
+      "Availability of books"
+    ],
+    correctAnswer: 2,
+    explanation: "Textbook-centricity is excessive reliance on textbooks as the sole source of teaching and learning. It limits creativity, critical thinking, and experiential learning. Modern frameworks promote diverse resources and learner engagement."
+  },
+  {
+    id: "q17",
+    question: "17. The 'Pillar Framework' challenges the dichotomy in traditional educational paradigms by:",
+    options: [
+      "Focusing solely on ancient practices in modern curricula",
+      "Equating physical education with emotional intelligence",
+      "Ignoring modern educational needs",
+      "Offering a body–mind–spirit continuum for holistic practice"
+    ],
+    correctAnswer: 3,
+    explanation: "The Pillar Framework emphasizes holistic education integrating physical, cognitive, emotional, and spiritual dimensions. It challenges traditional separation between mind and body and supports balanced development through unified learning."
+  },
+  {
+    id: "q18",
+    question: "18. A major criticism of Piaget’s theory of cognitive development is that:",
+    options: [
+      "He overemphasized the role of language and environment in cognition",
+      "He did not recognize stages of development",
+      "He overlooked the influence of social and cultural environments",
+      "He believed cognition is a function of both social and cultural forces"
+    ],
+    correctAnswer: 2,
+    explanation: "Piaget emphasized individual cognitive construction and biological maturation. A major criticism is that he underplayed the role of social and cultural factors. Later theorists, especially Vygotsky, highlighted social interaction and cultural context."
+  },
+
+  {
+    id: "q19",
+    question: "19. A teacher designs a plan by reviewing the students’ prior knowledge and then selecting appropriate learning materials and methods. Which components of the teaching plan does this reflect?",
+    options: [
+      "Only (a) and (b)",
+      "Only (c) and (d)",
+      "Only (a), (b), and (c)",
+      "Only (b), (c), and (d)"
+    ],
+    correctAnswer: 1,
+    explanation: "Reviewing students’ prior knowledge helps in understanding learners’ existing levels. Based on this, the teacher makes pedagogical choices (c) and selects appropriate teaching-learning materials (d). Assessment strategies, competencies, and home assignments are not the primary focus here."
+  },
+  {
+    id: "q20",
+    question: "20. The inference of 'knowing through circumstantial implication' in Pramana-Shastra is known as which of the following?",
+    options: [
+      "Anumana",
+      "Anupalabdi",
+      "Arthapatti",
+      "Upamana"
+    ],
+    correctAnswer: 2,
+    explanation: "Arthapatti refers to knowledge gained through circumstantial implication, where a conclusion is drawn to explain an apparent contradiction. Anumana is inference, Anupalabdi is knowledge through non-perception, and Upamana is comparison-based knowledge."
+  },
+  {
+    id: "q21",
+    question: "21. A teacher wants to help students master a skill effectively. Which one of the following approaches aligns comprehensively with constructivist-based pedagogy?",
+    options: [
+      "Repeating the same exercise daily until students remember it by heart",
+      "Encouraging students to practice meaningfully with variety, feedback, and reflection",
+      "Asking students to memorise all steps and reproduce them during assessments",
+      "Giving homework assignments that repeat classwork without discussion or explanation"
+    ],
+    correctAnswer: 1,
+    explanation: "Constructivist pedagogy emphasizes active learning. Variety in practice helps learners apply skills in different contexts, feedback allows improvement, and reflection encourages deeper thinking. Other options focus on rote learning without understanding."
+  },
+  {
+    id: "q22",
+    question: "22. Which of the following are the key aspects of an inclusive classroom?",
+    options: [
+      "Only (a), (b), and (c)",
+      "Only (a), (c), and (d)",
+      "Only (b) and (d)",
+      "Only (c) and (d)"
+    ],
+    correctAnswer: 1,
+    explanation: "Inclusive classrooms respect cultural diversity, value students’ voices, share activities and learning materials, and promote openness and acceptance. Providing identical instruction to all ignores individual differences, which goes against inclusion."
+  },
+  {
+    id: "q23",
+    question: "23. Children process and interpret new knowledge by:\n(a) Recording experiences exactly as they happen\n(b) Fitting new experiences into existing knowledge\n(c) Revising existing understanding based on new input\n(d) Rejecting experiences that do not fit prior knowledge\n(e) Building knowledge through interaction and reflection",
+    options: [
+      "Only (a), (c), and (e)",
+      "Only (b), (c), and (e)",
+      "Only (b), (d), and (e)",
+      "Only (a), (b), and (c)"
+    ],
+    correctAnswer: 1,
+    explanation: "Children actively construct knowledge by relating new experiences to prior knowledge, revising understanding, and learning through interaction and reflection. They do not merely record experiences or reject unfamiliar experiences outright."
+  },
+  {
+    id: "q24",
+    question: "24. As per the NCFSE 2023, how should subject offerings in interdisciplinary and vocational areas be primarily determined?",
+    options: [
+      "Based on student preferences for contemporary trends",
+      "Based only on alignment with traditional academic disciplines",
+      "Based on practical applicability and the ability to enter specific work domains or practices",
+      "Based on availability of trained faculty in schools"
+    ],
+    correctAnswer: 2,
+    explanation: "NCFSE 2023 emphasizes real-world learning and employability. Subject offerings should develop practical skills relevant to work domains, focusing on applicability and professional preparation."
+  },
+  {
+    id: "q25",
+    question: "25. The foundational principle of creating respectful and inclusive classrooms is:",
+    options: [
+      "Focusing only on students who demonstrate appropriate behaviour and academic excellence",
+      "Grouping students based on similar learning abilities and using the same methods and materials for all",
+      "Providing equal opportunities regardless of background, and promoting care, empathy, and equity",
+      "Ignoring students’ emotions and moods to help them settle and learn better"
+    ],
+    correctAnswer: 2,
+    explanation: "Inclusive classrooms are built on fairness, empathy, and equity. Every learner should receive equal opportunities, and diversity should be valued. Focusing only on high achievers or ignoring emotions contradicts inclusive practices."
+  },
+  {
+    id: "q26",
+    question: "26. Which among the following is true in the context of pedagogy?",
+    options: [
+      "It refers to the art and science of teaching",
+      "It is just about teaching the subject content",
+      "It is just about examinations",
+      "It is just about memorization of lessons"
+    ],
+    correctAnswer: 0,
+    explanation: "Pedagogy includes teaching methods, learning processes, classroom practices, assessment, and interaction. It combines theoretical knowledge (science) and practical application (art), not just content delivery or exams."
+  },
+  {
+    id: "q27",
+    question: "27. Research from across the world has provided ideas about how children learn that have practical implications for teaching. Which among the following is true?",
+    options: [
+      "In children, the brain has little role in learning",
+      "Learning is based on the associations and connections that children make",
+      "In children, emotions are not connected to learning",
+      "Social and cultural environments have no role in children’s learning"
+    ],
+    correctAnswer: 1,
+    explanation: "Learning occurs when children form connections between new information and prior knowledge. Brain function, emotions, and social-cultural environments are central to learning. Hence, option 2 is correct."
+  },
+  {
+    id: "q28",
+    question: "28. Which instructional approach is most likely to promote conceptual understanding in a constructivist setting?",
+    options: [
+      "Direct instruction with repetitive practice",
+      "Inquiry-based learning with real-life scenarios",
+      "Dictating notes from the blackboard",
+      "Weekly standardized testing"
+    ],
+    correctAnswer: 1,
+    explanation: "Constructivist learning emphasizes active participation, exploration, and meaning-making. Inquiry-based learning allows students to investigate problems and connect concepts to real-life situations, promoting conceptual understanding."
+  },
+  {
+    id: "q29",
+    question: "29. What is the correct sequence of the five steps in the Panchpadi learning process in Indian tradition?",
+    options: [
+      "Aditi – Abhyas – Bodh – Prasar – Prayog",
+      "Aditi – Bodh – Prasar – Abhyas – Prayog",
+      "Prayog – Abhyas – Aditi – Bodh – Prasar",
+      "Aditi – Bodh – Abhyas – Prayog – Prasar"
+    ],
+    correctAnswer: 3,
+    explanation: "Panchpadi learning: Aditi (readiness), Bodh (understanding), Abhyas (practice), Prayog (application), Prasar (extension). This sequence progresses naturally from readiness to understanding, practice, application, and dissemination of learning."
+  },
+  {
+    id: "q30",
+    question: "30. Collaborative learning enhances understanding by:",
+    options: [
+      "Allowing students to compete and show authoritarian leadership",
+      "Restricting students to work independently",
+      "Increasing involvement and promoting shared thinking and reflection",
+      "Discouraging individuals from taking varied roles such as observers, mediators, and note-takers"
+    ],
+    correctAnswer: 2,
+    explanation: "Collaborative learning promotes active idea-sharing, questioning assumptions, and collective reflection. It deepens understanding, encourages multiple perspectives, and strengthens responsibility by assigning varied roles in groups."
+  },
+],
 
 };
 
