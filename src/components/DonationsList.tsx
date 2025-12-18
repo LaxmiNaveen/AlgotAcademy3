@@ -9,6 +9,13 @@ interface Donation {
 }
 
 const donations: Donation[] = [
+    {
+    id: "9",
+    name: "K. Lavanya, Lect. in Political Sci",
+    place: "Jankampet, Nizamabad Dist",
+    amount: "₹100",
+    message: "Thank you for supporting orphan children. May God bless you!"
+  },
   {
     id: "1",
     name: "Ramesh Kumar",
