@@ -44,8 +44,64 @@ const pdfTopics: PDFTopic[] = [
    {
     code: "CS-ICT-01",
     subject: "Computer Knowledge(ICT)",
-    topic: "Architecture of Computer (No.of Questions 78)- Available @ Just Rs. 7/-",
-    price: "₹7",
+    topic: "CH1:Architecture of Computer (No.of Questions 78)- Available @ Just Rs. 8/-",
+    price: "₹8",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CS-ICT-02",
+    subject: "Computer Knowledge(ICT)",
+    topic: "CH2:Input & Output Devices (No.of Questions 85)- Available @ Just Rs. 8/-",
+    price: "₹8",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+    {
+    code: "CS-ICT-03",
+    subject: "Computer Knowledge(ICT)",
+    topic: "CH3:Storage Devices (No.of Questions 102)- Available @ Just Rs. 8/-",
+    price: "₹8",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CS-ICT-04",
+    subject: "Computer Knowledge(ICT)",
+    topic: "CH4:Networking (No.of Questions 100)- Available @ Just Rs. 8/-",
+    price: "₹8",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CS-ICT-05",
+    subject: "Computer Knowledge(ICT)",
+    topic: "CH5:Operating System (No.of Questions 200)- Available @ Just Rs. 10/-",
+    price: "₹10",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CS-ICT-06",
+    subject: "Computer Knowledge(ICT)",
+    topic: "CH6:Microsoft Office (No.of Questions 250)- Available @ Just Rs. 10/-",
+    price: "₹10",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CS-ICT-07",
+    subject: "Computer Knowledge(ICT)",
+    topic: "CH7:Internet and E-Mail (No.of Questions 120)- Available @ Just Rs. 10/-",
+    price: "₹10",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CS-ICT-08",
+    subject: "Computer Knowledge(ICT)",
+    topic: "CH8:Website & Web Browswers (No.of Questions 150)- Available @ Just Rs. 10/-",
+    price: "₹10",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CS-ICT-09",
+    subject: "Computer Knowledge(ICT)",
+    topic: "CH9:Computer Virus (No.of Questions 100)- Available @ Just Rs. 8/-",
+    price: "₹8",
     formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
   },
   {
@@ -172,7 +228,7 @@ const PDFs = () => {
                 rel="noopener noreferrer"
                 className="block mt-3 text-base font-bold underline text-yellow-300 animate-blink hover:text-yellow-100 transition-colors"
               >
-                👉 Click Here to Donate Now 👈
+                {/*👉 Click Here to Donate Now 👈*/}
               </a>
             </div>
           </div>
@@ -249,7 +305,7 @@ const PDFs = () => {
                             <FileText className="w-3 h-3" />
                             Buy PDF
                           </span>
-                          <span className="text-[10px] font-bold text-yellow-200">Rs.200/-</span>
+                          {/*<span className="text-[10px] font-bold text-yellow-200">Rs.200/-</span>*/}
                         </Button>
                       </a>
                     </TableCell>
