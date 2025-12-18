@@ -13,36 +13,57 @@ const donations: Donation[] = [
     id: "1",
     name: "Ramesh Kumar",
     place: "Hyderabad",
-    amount: "₹5,000",
+    amount: "₹50",
     message: "Thank you for supporting orphan children. May God bless you!"
   },
   {
     id: "2",
-    name: "Priya Sharma",
-    place: "Mumbai",
-    amount: "₹2,500",
+    name: "M. Vamshi",
+    place: "Hyderabad",
+    amount: "₹100",
     message: "Your kindness makes a difference. We appreciate your generosity!"
   },
   {
     id: "3",
-    name: "Suresh Reddy",
-    place: "Vijayawada",
-    amount: "₹10,000",
+    name: "K. Naveen",
+    place: "Hyderabad",
+    amount: "₹100",
     message: "Thank you for your big heart! Your donation will help many children."
   },
   {
     id: "4",
-    name: "Lakshmi Devi",
-    place: "Chennai",
-    amount: "₹3,000",
+    name: "R. Sateesh",
+    place: "Morthad, Nizamabad Dist",
+    amount: "₹100",
     message: "God bless you for caring about orphan children. Thank you!"
   },
   {
     id: "5",
     name: "Mohammad Ali",
-    place: "Bangalore",
-    amount: "₹7,500",
+    place: "Kammarpally, Nizamabad Dist",
+    amount: "₹150",
     message: "Your contribution is truly appreciated. May you be blessed abundantly!"
+  },
+    {
+    id: "6",
+    name: "Maggidi Harish",
+    place: "Nirmal",
+    amount: "₹150",
+    message: "Your contribution is truly appreciated. May you be blessed abundantly!"
+  },
+    {
+    id: "7",
+    name: "A. Laxmi",
+    place: "Balkonda, Nizamabad Dist",
+    amount: "₹75",
+    message: "God bless you for caring about orphan children. Thank you!"
+  },
+   {
+    id: "8",
+    name: "N. Srikanth",
+    place: "Armoor, Nizamabad Dist",
+    amount: "₹500",
+    message: "Thank you for your big heart! Your donation will help many children."
   },
 ];
 
