@@ -104,6 +104,7 @@ const pdfTopics: PDFTopic[] = [
     price: "₹8",
     formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
   },
+  {/*
   {
     code: "AA-MAT-01",
     subject: "Mathematics",
@@ -166,7 +167,7 @@ const pdfTopics: PDFTopic[] = [
     topic: "General Science - Currently Not Available",
     price: "₹10",
     formUrl: "https://docs.google.com/forms/d/e/1FAIpQLSexample-sci01/viewform",
-  },
+  },*/}
 ];
 
 const PDFs = () => {
@@ -273,6 +274,7 @@ const PDFs = () => {
         <div className="bg-card rounded-xl p-4 border border-border mb-6">
           <h3 className="text-sm font-semibold text-foreground mb-3">Subject Codes</h3>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+            <span className="text-muted-foreground"><span className="font-medium text-foreground">ICT</span> – Computer Knowledge</span>
             <span className="text-muted-foreground"><span className="font-medium text-foreground">MAT</span> – Mathematics</span>
             <span className="text-muted-foreground"><span className="font-medium text-foreground">POL</span> – Polity</span>
             <span className="text-muted-foreground"><span className="font-medium text-foreground">HIS</span> – History</span>
