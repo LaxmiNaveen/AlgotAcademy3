@@ -125,8 +125,8 @@ export const subjects: Subject[] = [
     questionCount: 250, 
     color: "hsl(199 89% 48%)",
     subtopics: [
-       { id: "teaching-aptitude", name: "Teaching Aptitude -Part1", questionCount: 30 },
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
+      { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
       { id: "gs-indian-constitution", name: "Indian Constitution", questionCount: 50 },
       { id: "gs-governance", name: "Governance & Public Policy", questionCount: 40 },
       { id: "gs-social-justice", name: "Social Justice", questionCount: 35 },
@@ -149,6 +149,19 @@ export const subjects: Subject[] = [
       { id: "ip-judiciary", name: "Judiciary", questionCount: 30 },
       { id: "ip-local-government", name: "Local Government", questionCount: 25 },
       { id: "ip-constitutional-bodies", name: "Constitutional Bodies", questionCount: 25 },
+    ]
+  },
+  { 
+    id: "ict", 
+    name: "Computer Knowledge (ICT)", 
+    icon: "📝", 
+    questionCount: 35, 
+    color: "hsl(220 70% 50%)",
+    subtopics: [
+      { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
+      { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2 - Coming Soon", questionCount: 15 },
+      { id: "ict-part3", name: "Information and Communication Technology (ICT) -Part3 - Coming Soon", questionCount: 40 },
+      { id: "ict-part4", name: "Information and Communication Technology (ICT) -Part4 - Coming Soon", questionCount: 40 },
     ]
   },
   { 
@@ -272,19 +285,7 @@ export const subjects: Subject[] = [
  
     ]
   },
-{ 
-    id: "ict", 
-    name: "Computer Knowledge (ICT)", 
-    icon: "📝", 
-    questionCount: 20, 
-    color: "hsl(220 70% 50%)",
-    subtopics: [
-      { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
-      { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2 - Coming Soon", questionCount: 40 },
-      { id: "ict-part3", name: "Information and Communication Technology (ICT) -Part3 - Coming Soon", questionCount: 40 },
-      { id: "ict-part4", name: "Information and Communication Technology (ICT) -Part4 - Coming Soon", questionCount: 40 },
-    ]
-  },
+
 
 ];
 
@@ -636,7 +637,117 @@ export const sampleQuestions: Record<string, Question[]> = {
     },
   ],
 
-//Infromation and Communication Technology
+
+  //Infromation and Communication Technology
+  
+"ict-part2": [
+  {
+    id: "c1",
+    question: "1. Which of the following is an example of an output device in a computer system?",
+    options: ["Scanner", "Webcam", "Plotter", "Microphone"],
+    correctAnswer: 2,  // 0=A, 1=B, 2=C, 3=D
+    explanation: "An output device displays or produces information processed by a computer. A plotter produces large-scale printed graphics, while scanner, webcam, and microphone are input devices."
+  },
+  {
+    id: "c2",
+    question: "27. Which of the following relatively accurately describes ChatGPT?",
+    options: ["An AI-powered virtual assistant", "A hardware device", "A knowledge database", "A social networking platform"],
+    correctAnswer: 0,
+    explanation: "ChatGPT is an AI-powered virtual assistant using machine learning and natural language processing to interact with users. It is not a physical device, database, or social platform."
+  },
+  {
+    id: "c3",
+    question: "3. Which of the following is the correct cloud storage service developed by Google?",
+    options: ["Google Drive", "Google Chrome", "OneDrive", "iCloud"],
+    correctAnswer: 0,
+    explanation: "Google Drive is a cloud storage service by Google for storing, accessing, and sharing files online. Google Chrome is a browser, OneDrive is Microsoft’s service, and iCloud is Apple’s service."
+  },
+  {
+    id: "c4",
+    question: "4. In the context of computer memory, which of the following correctly represents the full form of the unit GB?",
+    options: ["Graybyte", "Gridbit", "Graybit", "Gigabyte"],
+    correctAnswer: 3,
+    explanation: "GB stands for Gigabyte, a standard unit of digital storage equal to 1024 Megabytes."
+  },
+  {
+    id: "c5",
+    question: "5. A UPS provides automatic backup power to a computer system. In the full form of UPS, what does the letter ‘U’ stand for?",
+    options: ["Unceasing", "Unremitting", "Unbreakable", "Uninterruptible"],
+    correctAnswer: 3,
+    explanation: "UPS stands for Uninterruptible Power Supply. 'Uninterruptible' means continuous power without breaks."
+  },
+  {
+    id: "c6",
+    question: "6. Which of the following is not a valid email address?",
+    options: ["myname#country@gmail.com", "myname_country@mymail.in", "myname.country@mymail.in", "myname-country@mymail.com"],
+    correctAnswer: 0,
+    explanation: "A valid email address can include letters, numbers, dots, hyphens, and underscores. The hash (#) symbol is invalid in the username."
+  },
+  {
+    id: "c7",
+    question: "7. Which type of wired network is commonly used to share a printer among computers in an office room?",
+    options: ["LAN", "MAN", "PAN", "WAN"],
+    correctAnswer: 0,
+    explanation: "LAN (Local Area Network) connects computers within a small area like an office and allows sharing of printers and files."
+  },
+  {
+    id: "c8",
+    question: "8. Which protocol is commonly used to send and receive emails on the internet?",
+    options: ["FTP", "SMTP", "HTTPS", "WWW"],
+    correctAnswer: 1,
+    explanation: "SMTP (Simple Mail Transfer Protocol) is used to send emails. FTP is for file transfer, HTTPS is for secure browsing, and WWW is not a protocol."
+  },
+  {
+    id: "c9",
+    question: "9. Which of the following is not an example of application software?",
+    options: ["Microsoft Defender", "Microsoft Access", "Microsoft Word", "Microsoft Edge"],
+    correctAnswer: 0,
+    explanation: "Application software performs specific tasks for users. Microsoft Word, Access, and Edge are applications; Microsoft Defender is security/system software."
+  },
+  {
+    id: "c10",
+    question: "10. Which of the following is an open-source spreadsheet software?",
+    options: ["Microsoft Excel", "Google Sheets", "LibreOffice Calc", "Apple Numbers"],
+    correctAnswer: 2,
+    explanation: "LibreOffice Calc is open-source software. Excel, Google Sheets, and Apple Numbers are proprietary."
+  },
+  {
+    id: "c11",
+    question: "11. Which of the following keyboard shortcut combinations is commonly used to perform the “Select All” operation in Microsoft Windows?",
+    options: ["Ctrl + C", "Ctrl + V", "Ctrl + A", "Ctrl + X"],
+    correctAnswer: 2,
+    explanation: "Ctrl + A selects all text, files, or items in a document or window. Ctrl+C is copy, Ctrl+V is paste, Ctrl+X is cut."
+  },
+  {
+    id: "c12",
+    question: "12. Which of the following is a search engine developed by Microsoft?",
+    options: ["Microsoft Access", "Microsoft 365", "Microsoft Edge", "Microsoft Bing"],
+    correctAnswer: 3,
+    explanation: "Microsoft Bing is a web search engine. Edge is a browser, Access is a database tool, and Microsoft 365 is a software suite."
+  },
+  {
+    id: "c13",
+    question: "13. Which of the following file extensions is commonly used for storing video files?",
+    options: [".pdf", ".wav", ".avi", ".tiff"],
+    correctAnswer: 2,
+    explanation: "AVI (Audio Video Interleave) is a video file format. PDF is for documents, WAV for audio, and TIFF for images."
+  },
+  {
+    id: "c14",
+    question: "14. The file extension .docx is the default extension for which type of file?",
+    options: ["Microsoft Word file", "Database file", "DB2 file", "Microsoft Defender file"],
+    correctAnswer: 0,
+    explanation: ".docx is the default format for Microsoft Word documents. Other options are incorrect."
+  },
+  {
+    id: "c15",
+    question: "15. Which of the following is not a primary and direct characteristic of a digital signature?",
+    options: ["Integrity", "Authenticity", "Confidentiality", "Non-repudiation"],
+    correctAnswer: 2,
+    explanation: "Digital signatures ensure integrity, authenticity, and non-repudiation. Confidentiality relates to encryption, not signatures."
+  }
+],
+
 "ict-part1": [
   {
     id: "q1",
