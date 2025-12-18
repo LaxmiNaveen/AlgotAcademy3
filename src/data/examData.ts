@@ -159,7 +159,7 @@ export const subjects: Subject[] = [
     color: "hsl(220 70% 50%)",
     subtopics: [
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
-      { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2 - Coming Soon", questionCount: 15 },
+      { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
       { id: "ict-part3", name: "Information and Communication Technology (ICT) -Part3 - Coming Soon", questionCount: 40 },
       { id: "ict-part4", name: "Information and Communication Technology (ICT) -Part4 - Coming Soon", questionCount: 40 },
     ]
@@ -274,14 +274,14 @@ export const subjects: Subject[] = [
       { id: "eng-idioms", name: "Idioms & Phrases", questionCount: 40 },
     ]
   },
-    { 
+  { 
     id: "teaching-aptitude", 
     name: "Teaching Aptitude", 
     icon: "📝", 
     questionCount: 30, 
     color: "hsl(220 70% 50%)",
     subtopics: [
-      { id: "eng-grammar", name: "Teaching Aptitude - Part 1", questionCount: 30 },
+      { id: "teaching-aptitude", name: "Teaching Aptitude - Part 1", questionCount: 30 },
  
     ]
   },
