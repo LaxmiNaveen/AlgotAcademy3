@@ -57,7 +57,7 @@ export const exams: Exam[] = [
     name: "Telangana Public Service Commission",
     shortName: "TGPSC",
     description: "Prepare for TGPSC Group 1, 2, 3 & 4 exams",
-    subjects: ["general-studies", "indian-polity", "history", "ict", "current-affairs"],
+    subjects: ["general-studies", "indian-polity", "history", "ict", "current-affairs1"],
     color: "hsl(199 89% 48%)",
     icon: "🏛️",
   },
@@ -138,7 +138,7 @@ export const subjects: Subject[] = [
     ]
   },
     { 
-    id: "current-affairs", 
+    id: "current-affairs1", 
     name: "Current Affairs", 
     icon: "🏛️", 
     questionCount: 30, 
