@@ -125,7 +125,7 @@ export const subjects: Subject[] = [
     questionCount: 65, 
     color: "hsl(199 89% 48%)",
     subtopics: [
-      { id: "awards-honours, name: "Awards and Honours 2025-Part1", questionCount: 30 },
+      { id: "awards-honours", name: "Awards and Honours 2025-Part1", questionCount: 30 },
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
       { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
       { id: "gs-indian-constitution", name: "Indian Constitution", questionCount: 50 },
