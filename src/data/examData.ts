@@ -315,7 +315,7 @@ export const subjects: Subject[] = [
 // ============================================
 export const sampleQuestions: Record<string, Question[]> = {
   //Current Affairs 2025:
-"current-affairs": [
+"awards-honours": [
   {
     id: "ca1",
     question: "1. Who has been awarded the Nobel Prize in Economics for 2025?",
@@ -551,10 +551,10 @@ export const sampleQuestions: Record<string, Question[]> = {
     correctAnswer: 1,
     explanation: "Aditi Rao Hydari received the Diversity in Cinema Award at the Indian Film Festival of Melbourne 2025, recognizing her contributions to inclusive storytelling and representation of diverse voices in cinema."
   }
-];
+]
 
   // General Studies Questions
-  "general-studies": [
+  {/*  "general-studies": [
     {
       id: "gs-1",
       question: "Which Article of the Indian Constitution deals with the Right to Education?",
@@ -855,7 +855,7 @@ export const sampleQuestions: Record<string, Question[]> = {
       correctAnswer: 2,
       explanation: "Mitochondria is known as the powerhouse of the cell because it produces ATP (energy currency).",
     },
-  ],
+  ], 
   
   // Current Affairs Subtopics
   "ca-national": [
@@ -886,7 +886,7 @@ export const sampleQuestions: Record<string, Question[]> = {
       correctAnswer: 1,
       explanation: "Ephemeral means lasting for a very short time; short-lived.",
     },
-  ],
+  ], */}
 
 
   //Infromation and Communication Technology
