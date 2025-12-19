@@ -129,6 +129,7 @@ export const subjects: Subject[] = [
       { id: "awards-honours2", name: "Awards and Honours 2025-Part2", questionCount: 30 },
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
       { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
+      { id: "ict-part3", name: "Information and Communication Technology (ICT) -Part3", questionCount: 50 },
       { id: "gs-indian-constitution", name: "Indian Constitution", questionCount: 50 },
       { id: "gs-governance", name: "Governance & Public Policy", questionCount: 40 },
       { id: "gs-social-justice", name: "Social Justice", questionCount: 35 },
@@ -173,7 +174,7 @@ export const subjects: Subject[] = [
     subtopics: [
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
       { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
-      { id: "ict-part3", name: "Information and Communication Technology (ICT) -Part3 - Coming Soon", questionCount: 40 },
+      { id: "ict-part3", name: "Information and Communication Technology (ICT) -Part3", questionCount: 50 },
       { id: "ict-part4", name: "Information and Communication Technology (ICT) -Part4 - Coming Soon", questionCount: 40 },
     ]
   },
@@ -633,7 +634,385 @@ export const sampleQuestions: Record<string, Question[]> = {
 
 
   //Infromation and Communication Technology
-  
+
+"ict-part3": [
+  {
+    id: "q1",
+    question: "1. An 'Optical Character Reader' is an example of:",
+    options: ["Control Unit", "Input Unit", "Arithmetic and Logic Unit", "Output Unit"],
+    correctAnswer: 1,
+    explanation: "OCR (Optical Character Recognition) is an input device that converts printed or handwritten text into machine-readable digital data."
+  },
+  {
+    id: "q2",
+    question: "2. A device that is connected to a computer but is NOT part of the core computer architecture is known as:",
+    options: ["Processing Device", "Memory Device", "Peripheral Device", "On-board Device"],
+    correctAnswer: 2,
+    explanation: "Peripheral devices provide input, output, or storage but are not part of the CPU or core architecture."
+  },
+  {
+    id: "q3",
+    question: "3. Which input device consists of a hand-held stick that rotates to move the screen cursor?",
+    options: ["Microphone", "MICR", "Biometric", "Joystick"],
+    correctAnswer: 3,
+    explanation: "A joystick is a pointing input device commonly used in games and simulators."
+  },
+  {
+    id: "q4",
+    question: "4. Which type of mouse uses laser rays for cursor movement?",
+    options: ["Optical", "Electrical", "Gyroscopic", "Mechanical"],
+    correctAnswer: 0,
+    explanation: "An optical mouse uses LED or laser light to track movement instead of a ball."
+  },
+  {
+    id: "q5",
+    question: "5. Which mouse action is commonly used to start a program or open a file?",
+    options: ["Right click", "Double Click", "Left click", "Drag and drop"],
+    correctAnswer: 1,
+    explanation: "Double-clicking opens files or starts programs."
+  },
+  {
+    id: "q6",
+    question: "6. Select the odd option:",
+    options: ["Joystick", "Printer", "Keyboard", "Mouse"],
+    correctAnswer: 1,
+    explanation: "Printer is an output device, while the others are input devices."
+  },
+  {
+    id: "q7",
+    question: "7. All of the following are input devices EXCEPT:",
+    options: ["Speakers", "Keyboard", "Mouse", "Optical Scanner"],
+    correctAnswer: 0,
+    explanation: "Speakers are output devices."
+  },
+  {
+    id: "q8",
+    question: "8. The coordination of two running programs with the I/O stream is called:",
+    options: ["Cache", "Pipe", "Buffer", "Thread"],
+    correctAnswer: 1,
+    explanation: "A pipe connects the output of one program to the input of another."
+  },
+  {
+    id: "q9",
+    question: "9. Which statement about input devices is incorrect?",
+    options: [
+      "They convert input data into digital form",
+      "Data entered via keyboard goes directly to MDR",
+      "Mouse is an input device",
+      "They send data to the computer"
+    ],
+    correctAnswer: 1,
+    explanation: "Keyboard input does not go directly to the MDR; it is first processed and buffered."
+  },
+  {
+    id: "q10",
+    question: "10. Which of the following is an input device?",
+    options: ["Optical Character Reader", "Projector", "Headphones", "Inkjet Printer"],
+    correctAnswer: 0,
+    explanation: "OCR is an input device; others are output devices."
+  },
+  {
+    id: "q11",
+    question: "11. Which device sends information to a computer system for processing?",
+    options: ["Monitor", "Printing", "Input", "Output"],
+    correctAnswer: 2,
+    explanation: "Input devices send data to the computer for processing."
+  },
+  {
+    id: "q12",
+    question: "12. The device that converts a physical image into a digital one is called:",
+    options: ["Scanner", "Image Converter", "Printer", "Recorder"],
+    correctAnswer: 0,
+    explanation: "A scanner digitizes physical documents and images."
+  },
+  {
+    id: "q13",
+    question: "13. Which of the following is not an output device?",
+    options: ["Printer", "Plotter", "Scanner", "Speaker"],
+    correctAnswer: 2,
+    explanation: "Scanner is an input device."
+  },
+  {
+    id: "q14",
+    question: "14. Which of the following is not a part of input stage?",
+    options: ["Data Capture", "Performance of Instructions", "Data Collection", "Encoding"],
+    correctAnswer: 1,
+    explanation: "Performance of instructions belongs to the processing stage."
+  },
+  {
+    id: "q15",
+    question: "15. The Insert key on the keyboard is used to toggle between the ________ and _________ modes during data entry.",
+    options: ["Insert, Overwrite", "Backspace, Overwrite", "Delete, Insert", "Delete, Overwrite"],
+    correctAnswer: 0,
+    explanation: "Insert key switches between insert and overwrite modes."
+  },
+  {
+    id: "q16",
+    question: "16. The default layout of most keyboards is called:",
+    options: ["Alphabet", "QWERTY", "ASCII", "IEEE"],
+    correctAnswer: 1,
+    explanation: "QWERTY is the standard keyboard layout."
+  },
+  {
+    id: "q17",
+    question: "17. A device that allows you to give instructions to a computer is a/an ______ device.",
+    options: ["Storage", "Process", "Input", "Output"],
+    correctAnswer: 2,
+    explanation: "Input devices provide instructions and data to the computer."
+  },
+  {
+    id: "q18",
+    question: "18. Which of the following is an Input device?",
+    options: ["Joystick", "Plotter", "Coder", "Printer"],
+    correctAnswer: 0,
+    explanation: "Joystick is an input device."
+  },
+  {
+    id: "q19",
+    question: "19. Which input device consists of a stick that pivots on a base and reports its direction to the CPU?",
+    options: ["Microphone", "Light pen", "Keyboard", "Joystick"],
+    correctAnswer: 3,
+    explanation: "Joystick detects angle and direction of movement."
+  },
+  {
+    id: "q20",
+    question: "20. Light pen and Joystick are _______.",
+    options: ["Storage devices", "Input devices", "Algorithms", "Output devices"],
+    correctAnswer: 1,
+    explanation: "Both are input devices."
+  },
+  {
+    id: "q21",
+    question: "21. Which of the given options is odd?",
+    options: ["Trackball", "Keyboard", "Antivirus", "Mouse"],
+    correctAnswer: 2,
+    explanation: "Antivirus is software; others are hardware devices."
+  },
+  {
+    id: "q22",
+    question: "22. A mouse, trackball and joystick are examples of:",
+    options: ["Pointing devices", "Pen input devices", "Data collection devices", "Multimedia devices"],
+    correctAnswer: 0,
+    explanation: "They are pointing devices used to control the cursor."
+  },
+  {
+    id: "q23",
+    question: "23. Touchpad is a good alternative to the mouse, it is an example of:",
+    options: ["Software device", "Printing device", "Pointing device", "Temporary device"],
+    correctAnswer: 2,
+    explanation: "Touchpad is a pointing input device."
+  },
+  {
+    id: "q24",
+    question: "24. Which of the following statements is wrong?",
+    options: ["Only (ii)", "Both (i) and (ii)", "Neither (i) nor (ii)", "Only (i)"],
+    correctAnswer: 2,
+    explanation: "Both statements about cordless mouse are correct."
+  },
+  {
+    id: "q25",
+    question: "25. The technology of scanning that recognizes handwritten and printed text is:",
+    options: ["MICR", "OMR", "OCR", "BCR"],
+    correctAnswer: 2,
+    explanation: "OCR recognizes printed and handwritten text."
+  },
+  {
+    id: "q26",
+    question: "26. The technology of scanning that reads checkboxes inside a predefined space is:",
+    options: ["BCR", "OCR", "OMR", "MICR"],
+    correctAnswer: 2,
+    explanation: "OMR reads marked answers in predefined locations."
+  },
+  {
+    id: "q27",
+    question: "27. For reading MCQ answers, which input device is generally used?",
+    options: ["Magnetic Ink Card Reader", "Optical Character Reader", "Optical Mark Reader", "Bar Code Reader"],
+    correctAnswer: 2,
+    explanation: "OMR is used to read multiple-choice answers."
+  },
+  {
+    id: "q28",
+    question: "28. Which mouse property is used to swap the functions of the right and left mouse buttons?",
+    options: ["Pointer Options", "ClickLock", "Double-click speed", "Button configuration"],
+    correctAnswer: 3,
+    explanation: "Button configuration allows swapping mouse buttons."
+  },
+  {
+    id: "q29",
+    question: "29. Which statement is true about changing mouse properties in Windows 10?",
+    options: ["Only (ii)", "Neither (i) nor (ii)", "Both (i) and (ii)", "Only (i)"],
+    correctAnswer: 0,
+    explanation: "Pointer size can be changed; left button function can also be customized."
+  },
+  {
+    id: "q30",
+    question: "30. Which statement is correct about changing mouse properties in Windows 10?",
+    options: ["Both (i) and (ii)", "Only (i)", "Only (ii)", "Neither (i) nor (ii)"],
+    correctAnswer: 2,
+    explanation: "Cursor speed and button functions can be customized."
+  },
+  {
+    id: "q31",
+    question: "31. The ClickLock property of the mouse:",
+    options: [
+      "None of these",
+      "Allows to prevent items from getting clicked",
+      "Allows to set password for items",
+      "Allows to drag without holding mouse button"
+    ],
+    correctAnswer: 3,
+    explanation: "ClickLock enables dragging without holding the mouse button."
+  },
+  {
+    id: "q32",
+    question: "32. Microphone is a/an ______ device.",
+    options: ["Signal Digitizing", "Audio signal collection", "Audio signal processing", "Input"],
+    correctAnswer: 3,
+    explanation: "Microphone is an input device."
+  },
+  {
+    id: "q33",
+    question: "33. Which input device converts analog information into digital form for drawing?",
+    options: ["Microphone", "Bar Code Reader", "Digitizer", "Graphic Plotter"],
+    correctAnswer: 2,
+    explanation: "Digitizer converts analog drawings into digital data."
+  },
+  {
+    id: "q34",
+    question: "34. Which of the following is not an input device?",
+    options: ["Track Ball", "Plotter", "Light Pen", "Magnetic Scanner"],
+    correctAnswer: 1,
+    explanation: "Plotter is an output device."
+  },
+  {
+    id: "q35",
+    question: "35. A keyboard is used:",
+    options: [
+      "To enter text and numbers and send commands",
+      "To create new keys",
+      "To open the computer",
+      "For all of these"
+    ],
+    correctAnswer: 0,
+    explanation: "Keyboard is used to input text, numbers, and commands."
+  },
+  {
+    id: "q36",
+    question: "36. Which of the following is a toggle key on a keyboard?",
+    options: ["Alt", "Shift", "Scroll lock", "Ctrl"],
+    correctAnswer: 2,
+    explanation: "Scroll Lock is a toggle key."
+  },
+  {
+    id: "q37",
+    question: "37. Parallel ports usually are not used to connect:",
+    options: ["Modem", "Scanner", "Printer", "CD Writer"],
+    correctAnswer: 0,
+    explanation: "Modems generally use serial ports."
+  },
+  {
+    id: "q38",
+    question: "38. A combination of the keyboard and the visual display unit is called a:",
+    options: ["Mouse", "Port", "Terminal", "Cable"],
+    correctAnswer: 2,
+    explanation: "A terminal consists of a keyboard and display unit."
+  },
+  {
+    id: "q39",
+    question: "39. QWERTY keyboard design was originally intended to:",
+    options: [
+      "Make typing harder and inefficient",
+      "Improve typing accuracy",
+      "Make typing more efficient",
+      "Improve typing speed"
+    ],
+    correctAnswer: 0,
+    explanation: "QWERTY was designed to reduce typewriter jams."
+  },
+  {
+    id: "q40",
+    question: "40. QWERTY refers to:",
+    options: [
+      "Arrangement of hardware parts",
+      "Arrangement of keys on a standard keyboard",
+      "Arrangement of only function keys",
+      "Arrangement of only numeric keys"
+    ],
+    correctAnswer: 1,
+    explanation: "QWERTY is the standard keyboard layout."
+  },
+  {
+    id: "q41",
+    question: "41. The wildcard character for matching any number of characters is:",
+    options: ["Hyphen Sign", "Ampersand Sign", "Asterisk Sign", "Dollar Sign"],
+    correctAnswer: 2,
+    explanation: "Asterisk (*) represents any number of characters."
+  },
+  {
+    id: "q42",
+    question: "42. Shift key and Print Screen key are known as:",
+    options: ["Special purpose keys", "Standard keys", "Navigation keys", "Function keys"],
+    correctAnswer: 0,
+    explanation: "They perform special functions."
+  },
+  {
+    id: "q43",
+    question: "43. Which key deletes the character to the left of the cursor?",
+    options: ["End", "Backspace", "Home", "Delete"],
+    correctAnswer: 1,
+    explanation: "Backspace deletes the character to the left."
+  },
+  {
+    id: "q44",
+    question: "44. Arrow keys, Home, End, Page Up and Page Down are:",
+    options: ["Function keys", "Special purpose keys", "Standard keys", "Navigation keys"],
+    correctAnswer: 3,
+    explanation: "They are used for navigation."
+  },
+  {
+    id: "q45",
+    question: "45. Ctrl, Shift and Alt are called:",
+    options: ["Adjustment keys", "Function keys", "Modifier keys", "Alphanumeric keys"],
+    correctAnswer: 2,
+    explanation: "They modify the function of other keys."
+  },
+  {
+    id: "q46",
+    question: "46. Which of the following keys work in toggle mode?",
+    options: ["Shift", "Caps lock", "Enter", "Ctrl"],
+    correctAnswer: 1,
+    explanation: "Caps Lock is a toggle key."
+  },
+  {
+    id: "q47",
+    question: "47. A computer keyboard generally has _____ function keys.",
+    options: ["11", "10", "16", "12"],
+    correctAnswer: 3,
+    explanation: "Standard keyboards have 12 function keys (F1–F12)."
+  },
+  {
+    id: "q48",
+    question: "48. Which is not an option in the Buttons tab of mouse properties?",
+    options: ["ClickLock", "Button configuration", "Single Click speed", "Double-click speed"],
+    correctAnswer: 2,
+    explanation: "Single-click speed is not available."
+  },
+  {
+    id: "q49",
+    question: "49. The blinking symbol on the computer screen is called:",
+    options: ["Mouse", "Hand", "Cursor", "Logo"],
+    correctAnswer: 2,
+    explanation: "Cursor shows the current input position."
+  },
+  {
+    id: "q50",
+    question: "50. Which is used to read handwritten or printed text to make a digital image?",
+    options: ["Printer", "Laser beam", "Scanner", "Touchpad"],
+    correctAnswer: 2,
+    explanation: "Scanner converts printed or handwritten text into digital form."
+  },
+],
+
 "ict-part2": [
   {
     id: "c1",
