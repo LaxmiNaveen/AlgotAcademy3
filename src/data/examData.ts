@@ -314,7 +314,64 @@ export const subjects: Subject[] = [
 // }
 // ============================================
 export const sampleQuestions: Record<string, Question[]> = {
-  //Current Affairs 2025:
+
+  // General Studies Questions
+  "general-studies": [
+    {
+      id: "gs-1",
+      question: "Which Article of the Indian Constitution deals with the Right to Education?",
+      options: ["Article 19", "Article 21", "Article 21A", "Article 32"],
+      correctAnswer: 2,
+      explanation: "Article 21A was inserted by the 86th Constitutional Amendment Act, 2002. It provides free and compulsory education to all children between 6 to 14 years of age as a Fundamental Right.",
+    },
+    {
+      id: "gs-2",
+      question: "The Preamble to the Indian Constitution was amended by which Constitutional Amendment?",
+      options: ["42nd Amendment", "44th Amendment", "52nd Amendment", "73rd Amendment"],
+      correctAnswer: 0,
+      explanation: "The 42nd Constitutional Amendment Act, 1976 added the words 'Socialist', 'Secular' and 'Integrity' to the Preamble. This amendment is also known as the 'Mini Constitution'.",
+    },
+    {
+      id: "gs-3",
+      question: "Who was the first Speaker of the Lok Sabha?",
+      options: ["Hukam Singh", "G.V. Mavalankar", "M.A. Ayyangar", "Neelam Sanjiva Reddy"],
+      correctAnswer: 1,
+      explanation: "G.V. Mavalankar was the first Speaker of the Lok Sabha, serving from 1952 to 1956. He is often referred to as the 'Father of the Lok Sabha'.",
+    },
+    {
+      id: "gs-4",
+      question: "Which of the following is NOT a Fundamental Right under the Indian Constitution?",
+      options: ["Right to Property", "Right to Equality", "Right against Exploitation", "Right to Freedom of Religion"],
+      correctAnswer: 0,
+      explanation: "Right to Property was originally a Fundamental Right under Article 31, but it was removed by the 44th Constitutional Amendment Act, 1978. It is now a legal right under Article 300A.",
+    },
+    {
+      id: "gs-5",
+      question: "The concept of 'Basic Structure' of the Constitution was propounded in which case?",
+      options: ["Golaknath Case", "Kesavananda Bharati Case", "Minerva Mills Case", "Maneka Gandhi Case"],
+      correctAnswer: 1,
+      explanation: "The Basic Structure doctrine was established in the Kesavananda Bharati v. State of Kerala case (1973). The Supreme Court held that Parliament cannot amend the basic structure of the Constitution.",
+    },
+  ],
+    
+  // General Studies Subtopics
+  "gs-indian-constitution": [
+    {
+      id: "gsc-1",
+      question: "The Constitution of India was adopted on which date?",
+      options: ["15th August 1947", "26th January 1950", "26th November 1949", "15th August 1950"],
+      correctAnswer: 2,
+      explanation: "The Constitution of India was adopted by the Constituent Assembly on 26th November 1949 and came into effect on 26th January 1950.",
+    },
+    {
+      id: "gsc-2",
+      question: "Who is known as the Father of the Indian Constitution?",
+      options: ["Jawaharlal Nehru", "Mahatma Gandhi", "B.R. Ambedkar", "Sardar Patel"],
+      correctAnswer: 2,
+      explanation: "Dr. B.R. Ambedkar is known as the Father of the Indian Constitution. He was the Chairman of the Drafting Committee.",
+    },
+  ],
+    //Current Affairs 2025:
 "awards-honours": [
   {
     id: "ca1",
@@ -552,63 +609,6 @@ export const sampleQuestions: Record<string, Question[]> = {
     explanation: "Aditi Rao Hydari received the Diversity in Cinema Award at the Indian Film Festival of Melbourne 2025, recognizing her contributions to inclusive storytelling and representation of diverse voices in cinema."
   }
 ],
- 
-  // General Studies Questions
-  "general-studies": [
-    {
-      id: "gs-1",
-      question: "Which Article of the Indian Constitution deals with the Right to Education?",
-      options: ["Article 19", "Article 21", "Article 21A", "Article 32"],
-      correctAnswer: 2,
-      explanation: "Article 21A was inserted by the 86th Constitutional Amendment Act, 2002. It provides free and compulsory education to all children between 6 to 14 years of age as a Fundamental Right.",
-    },
-    {
-      id: "gs-2",
-      question: "The Preamble to the Indian Constitution was amended by which Constitutional Amendment?",
-      options: ["42nd Amendment", "44th Amendment", "52nd Amendment", "73rd Amendment"],
-      correctAnswer: 0,
-      explanation: "The 42nd Constitutional Amendment Act, 1976 added the words 'Socialist', 'Secular' and 'Integrity' to the Preamble. This amendment is also known as the 'Mini Constitution'.",
-    },
-    {
-      id: "gs-3",
-      question: "Who was the first Speaker of the Lok Sabha?",
-      options: ["Hukam Singh", "G.V. Mavalankar", "M.A. Ayyangar", "Neelam Sanjiva Reddy"],
-      correctAnswer: 1,
-      explanation: "G.V. Mavalankar was the first Speaker of the Lok Sabha, serving from 1952 to 1956. He is often referred to as the 'Father of the Lok Sabha'.",
-    },
-    {
-      id: "gs-4",
-      question: "Which of the following is NOT a Fundamental Right under the Indian Constitution?",
-      options: ["Right to Property", "Right to Equality", "Right against Exploitation", "Right to Freedom of Religion"],
-      correctAnswer: 0,
-      explanation: "Right to Property was originally a Fundamental Right under Article 31, but it was removed by the 44th Constitutional Amendment Act, 1978. It is now a legal right under Article 300A.",
-    },
-    {
-      id: "gs-5",
-      question: "The concept of 'Basic Structure' of the Constitution was propounded in which case?",
-      options: ["Golaknath Case", "Kesavananda Bharati Case", "Minerva Mills Case", "Maneka Gandhi Case"],
-      correctAnswer: 1,
-      explanation: "The Basic Structure doctrine was established in the Kesavananda Bharati v. State of Kerala case (1973). The Supreme Court held that Parliament cannot amend the basic structure of the Constitution.",
-    },
-  ],
-    
-  // General Studies Subtopics
-  "gs-indian-constitution": [
-    {
-      id: "gsc-1",
-      question: "The Constitution of India was adopted on which date?",
-      options: ["15th August 1947", "26th January 1950", "26th November 1949", "15th August 1950"],
-      correctAnswer: 2,
-      explanation: "The Constitution of India was adopted by the Constituent Assembly on 26th November 1949 and came into effect on 26th January 1950.",
-    },
-    {
-      id: "gsc-2",
-      question: "Who is known as the Father of the Indian Constitution?",
-      options: ["Jawaharlal Nehru", "Mahatma Gandhi", "B.R. Ambedkar", "Sardar Patel"],
-      correctAnswer: 2,
-      explanation: "Dr. B.R. Ambedkar is known as the Father of the Indian Constitution. He was the Chairman of the Drafting Committee.",
-    },
-  ],
   "gs-governance": [
     {
       id: "gsg-1",
