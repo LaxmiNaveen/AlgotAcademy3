@@ -552,7 +552,7 @@ export const sampleQuestions: Record<string, Question[]> = {
     explanation: "Aditi Rao Hydari received the Diversity in Cinema Award at the Indian Film Festival of Melbourne 2025, recognizing her contributions to inclusive storytelling and representation of diverse voices in cinema."
   }
 ],
- {/* 
+ 
   // General Studies Questions
   "general-studies": [
     {
@@ -887,7 +887,6 @@ export const sampleQuestions: Record<string, Question[]> = {
       explanation: "Ephemeral means lasting for a very short time; short-lived.",
     },
   ], 
-  */}
 
 
   //Infromation and Communication Technology
