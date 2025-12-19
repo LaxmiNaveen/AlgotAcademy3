@@ -148,6 +148,7 @@ export const subjects: Subject[] = [
     subtopics: [
       { id: "awards-honours1", name: "Awards and Honours 2025-Part-1", questionCount: 30 },
       { id: "awards-honours2", name: "Awards and Honours 2025-Part-2", questionCount: 30 },
+       { id: "summits-conferences", name: "Important Summits and Conferences", questionCount: 70 },
     ]
   },
   { 
@@ -1264,6 +1265,527 @@ export const sampleQuestions: Record<string, Question[]> = {
   }
   ],
   //Current Affairs:
+  
+"summits-conferences": [
+  {
+    id: "q1",
+    question: "1. Which player won the IPL 2025 Most Valuable Player (MVP) award?",
+    options: ["Virat Kohli", "Shubman Gill", "Suryakumar Yadav", "Rohit Sharma"],
+    correctAnswer: 2,
+    explanation: "Suryakumar Yadav won the IPL 2025 MVP award for his consistent and impactful performances throughout the season, contributing significantly to his team’s success."
+  },
+  {
+    id: "q2",
+    question: "2. Dr. Ravi Kannan R. received the Padma Shri 2025 for contribution in which field?",
+    options: ["Education", "Social Work", "Medicine", "Science and Technology"],
+    correctAnswer: 2,
+    explanation: "Dr. Ravi Kannan R., a renowned surgical oncologist, was awarded the Padma Shri for his exceptional service in the field of medicine, especially cancer care in Northeast India."
+  },
+  {
+    id: "q3",
+    question: "3. Which country hosted the 55th World Economic Forum Annual Meeting?",
+    options: ["France", "Switzerland", "USA", "Germany"],
+    correctAnswer: 1,
+    explanation: "The World Economic Forum Annual Meeting is traditionally held in Davos, Switzerland, bringing together global political and business leaders."
+  },
+  {
+    id: "q4",
+    question: "4. Where was the 8th Indian Ocean Conference held?",
+    options: ["Colombo", "Muscat", "Dubai", "Male"],
+    correctAnswer: 1,
+    explanation: "The 8th Indian Ocean Conference was held in Muscat, Oman, focusing on regional maritime security and cooperation."
+  },
+  {
+    id: "q5",
+    question: "5. Which city hosted the WAVES Summit 2025?",
+    options: ["New Delhi", "Mumbai", "Pune", "Hyderabad"],
+    correctAnswer: 1,
+    explanation: "Mumbai hosted the WAVES Summit 2025, emphasizing India’s growing role in global media, entertainment, and creative industries."
+  },
+
+  {
+    id: "q6",
+    question: "6. What was the theme of the 10th NITI Aayog Governing Council Meeting?",
+    options: [
+      "Inclusive Growth for All",
+      "Digital India Vision",
+      "Viksit Rajya for Viksit Bharat@2047",
+      "Innovation India"
+    ],
+    correctAnswer: 2,
+    explanation: "The theme focused on cooperative federalism and the role of states in achieving a developed India by 2047."
+  },
+  {
+    id: "q7",
+    question: "7. Where was Aero India 2025 organized?",
+    options: ["Hyderabad", "Chennai", "Bengaluru", "Pune"],
+    correctAnswer: 2,
+    explanation: "Aero India 2025 was held at Yelahanka Air Force Station, Bengaluru, showcasing global aerospace and defense capabilities."
+  },
+  {
+    id: "q8",
+    question: "8. Which country hosted COP29 UN Climate Change Conference?",
+    options: ["UAE", "France", "Azerbaijan", "UK"],
+    correctAnswer: 2,
+    explanation: "COP29 was held in Baku, Azerbaijan, focusing on climate finance and global emission reduction commitments."
+  },
+  {
+    id: "q9",
+    question: "9. Where was the first Asian Buddhist Summit held?",
+    options: ["Colombo", "Bangkok", "New Delhi", "Kathmandu"],
+    correctAnswer: 2,
+    explanation: "India hosted the first Asian Buddhist Summit in New Delhi to promote cultural diplomacy and Buddhist heritage."
+  },
+  {
+    id: "q10",
+    question: "10. Which city hosted the World Hydrogen Summit 2025?",
+    options: ["Paris", "Rotterdam", "Berlin", "New Delhi"],
+    correctAnswer: 1,
+    explanation: "Rotterdam hosted the summit due to its leadership role in green hydrogen infrastructure and energy transition."
+  },
+
+  {
+    id: "q11",
+    question: "11. Where was the STREE Summit 2025 organized?",
+    options: ["Jaipur", "Hyderabad", "Kolkata", "Pune"],
+    correctAnswer: 1,
+    explanation: "Hyderabad hosted the STREE Summit focusing on women’s safety, empowerment, and inclusive development."
+  },
+  {
+    id: "q12",
+    question: "12. Where was the 7th International Solar Alliance Assembly held?",
+    options: ["Paris", "Nairobi", "Abu Dhabi", "New Delhi"],
+    correctAnswer: 3,
+    explanation: "The ISA Assembly was held in New Delhi, as India hosts the headquarters of the International Solar Alliance."
+  },
+  {
+    id: "q13",
+    question: "13. Which country hosted the G20 Summit 2024?",
+    options: ["India", "Brazil", "South Africa", "Indonesia"],
+    correctAnswer: 1,
+    explanation: "Brazil hosted the G20 Summit 2024 in Rio de Janeiro under its G20 presidency."
+  },
+  {
+    id: "q14",
+    question: "14. Where was the Asia Clean Energy Summit 2024 held?",
+    options: ["Tokyo", "Singapore", "Jakarta", "Seoul"],
+    correctAnswer: 1,
+    explanation: "Singapore hosted the Asia Clean Energy Summit focusing on renewable energy and sustainability."
+  },
+  {
+    id: "q15",
+    question: "15. Where was MILAN 2025 naval exercise organized?",
+    options: ["Visakhapatnam", "Kochi", "Mumbai", "New Delhi"],
+    correctAnswer: 3,
+    explanation: "MILAN 2025 was organized in New Delhi, strengthening maritime cooperation among navies."
+  },
+
+  {
+    id: "q16",
+    question: "16. Which country will host the G20 Summit 2025?",
+    options: ["India", "Brazil", "South Africa", "Italy"],
+    correctAnswer: 2,
+    explanation: "South Africa will host the G20 Summit 2025 after assuming the presidency."
+  },
+  {
+    id: "q17",
+    question: "17. Where was the Prakriti 2025 Carbon Markets Conference held?",
+    options: ["Mumbai", "Hyderabad", "New Delhi", "Pune"],
+    correctAnswer: 2,
+    explanation: "The conference was held in New Delhi to discuss carbon markets and climate finance."
+  },
+  {
+    id: "q18",
+    question: "18. Where was the World Sustainable Development Summit 2025 organized?",
+    options: ["Bengaluru", "New Delhi", "Chennai", "Mumbai"],
+    correctAnswer: 1,
+    explanation: "TERI organized the summit in New Delhi, focusing on sustainable development goals."
+  },
+  {
+    id: "q19",
+    question: "19. Where was the Global Space Exploration Conference 2025 held?",
+    options: ["Dubai", "Washington D.C.", "New Delhi", "Dhaka"],
+    correctAnswer: 2,
+    explanation: "India hosted the conference in New Delhi, highlighting advancements in space technology."
+  },
+  {
+    id: "q20",
+    question: "20. Where was the 28th National E-Governance Conference held?",
+    options: ["Jaipur", "Bhopal", "Visakhapatnam", "Bhubaneswar"],
+    correctAnswer: 2,
+    explanation: "The conference in Visakhapatnam focused on digital governance and citizen services."
+  },
+
+  {
+    id: "q21",
+    question: "21. Which state hosted the International Youth Conference 2025?",
+    options: ["Assam", "Sikkim", "Manipur", "Himachal Pradesh"],
+    correctAnswer: 1,
+    explanation: "Sikkim hosted the International Youth Conference to promote youth leadership."
+  },
+  {
+    id: "q22",
+    question: "22. Where was the 11th BRICS Labour Ministers’ Meeting held?",
+    options: ["India", "Russia", "Brazil", "China"],
+    correctAnswer: 2,
+    explanation: "Brazil hosted the meeting as part of its BRICS presidency."
+  },
+  {
+    id: "q23",
+    question: "23. Where was the 9th BRICS Industry Ministers’ Meeting held?",
+    options: ["Moscow", "Beijing", "New Delhi", "Brasilia"],
+    correctAnswer: 3,
+    explanation: "The meeting was held in Brasilia, Brazil, under its BRICS leadership."
+  },
+  {
+    id: "q24",
+    question: "24. Where was the India–Bangladesh Joint River Commission meeting held?",
+    options: ["Dhaka", "Delhi", "Kolkata", "Guwahati"],
+    correctAnswer: 2,
+    explanation: "The meeting in Kolkata focused on river water sharing and flood management."
+  },
+  {
+    id: "q25",
+    question: "25. Where was the Inclusion Summit 2025 organized?",
+    options: ["Mumbai", "Hyderabad", "New Delhi", "Chennai"],
+    correctAnswer: 2,
+    explanation: "The summit in New Delhi emphasized inclusive growth and social equity."
+  },
+
+  {
+    id: "q26",
+    question: "26. Where was the 3rd BIMSTEC Agriculture Conference held?",
+    options: ["Dhaka", "Kathmandu", "Colombo", "Thimphu"],
+    correctAnswer: 1,
+    explanation: "Kathmandu hosted the conference focusing on sustainable agriculture in BIMSTEC nations."
+  },
+  {
+    id: "q27",
+    question: "27. Where was the International Conference on Glaciers’ Preservation held?",
+    options: ["Thimphu", "Kathmandu", "Dushanbe", "Islamabad"],
+    correctAnswer: 2,
+    explanation: "Tajikistan hosted the conference in Dushanbe to address glacier preservation."
+  },
+  {
+    id: "q28",
+    question: "28. Where was the 58th Asian Development Bank Annual Meeting held?",
+    options: ["Japan", "Philippines", "Italy", "India"],
+    correctAnswer: 2,
+    explanation: "Italy hosted the ADB Annual Meeting focusing on global economic recovery."
+  },
+  {
+    id: "q29",
+    question: "29. Which city hosted the 1st Regional Dialogue on Social Justice?",
+    options: ["Mumbai", "Patna", "New Delhi", "Surat"],
+    correctAnswer: 2,
+    explanation: "New Delhi hosted the dialogue to promote inclusive and fair development."
+  },
+  {
+    id: "q30",
+    question: "30. Which countries partnered with India for the Second Blue Talks?",
+    options: [
+      "Japan and Australia",
+      "France and Costa Rica",
+      "USA and Canada",
+      "Germany and Brazil"
+    ],
+    correctAnswer: 1,
+    explanation: "France and Costa Rica partnered with India due to their leadership in ocean sustainability."
+  },
+
+  {
+    id: "q31",
+    question: "31. Which city hosted the 1st Regional Dialogue on Social Justice 2025?",
+    options: ["Surat", "Patna", "New Delhi", "Mumbai"],
+    correctAnswer: 2,
+    explanation: "The first Regional Dialogue on Social Justice was organized in New Delhi to deliberate on inclusive development, labour rights, and social equity across the South Asian region."
+  },
+  {
+    id: "q32",
+    question: "32. Which countries collaborated with India to host the Second Blue Talks in 2025?",
+    options: ["Japan and Australia", "France and Costa Rica", "United States and Canada", "Germany and Brazil"],
+    correctAnswer: 1,
+    explanation: "France and Costa Rica partnered with India for the Second Blue Talks due to their strong global leadership in ocean governance and marine conservation."
+  },
+  {
+    id: "q33",
+    question: "33. Om Birla addressed the 149th Inter-Parliamentary Union Assembly in which city?",
+    options: ["Geneva", "New York", "Paris", "London"],
+    correctAnswer: 0,
+    explanation: "The Inter-Parliamentary Union Assembly was held in Geneva, Switzerland, where Lok Sabha Speaker Om Birla highlighted India’s democratic traditions."
+  },
+  {
+    id: "q34",
+    question: "34. In which state was the BIMSTEC Youth Summit 2025 organized?",
+    options: ["Gandhinagar, Gujarat", "Bhopal, Madhya Pradesh", "Lucknow, Uttar Pradesh", "Patna, Bihar"],
+    correctAnswer: 0,
+    explanation: "The BIMSTEC Youth Summit 2025 was held in Gandhinagar, Gujarat, to promote youth engagement in regional cooperation."
+  },
+  {
+    id: "q35",
+    question: "35. Where was the 55th World Economic Forum Annual Meeting held?",
+    options: ["Davos", "Geneva", "New York", "Paris"],
+    correctAnswer: 0,
+    explanation: "The World Economic Forum Annual Meeting is traditionally held in Davos, Switzerland, bringing together global political and business leaders."
+  },
+  {
+    id: "q36",
+    question: "36. Which country will host the 28th Commonwealth Presidents’ Conference in 2026?",
+    options: ["India", "United Kingdom", "Canada", "Australia"],
+    correctAnswer: 0,
+    explanation: "India will host the 28th Commonwealth Presidents’ Conference, reflecting its growing leadership role within the Commonwealth nations."
+  },
+  {
+    id: "q37",
+    question: "37. Where was the Global Justice, Love and Peace Summit 2025 held?",
+    options: ["New Delhi", "Dubai", "London", "Abu Dhabi"],
+    correctAnswer: 0,
+    explanation: "The Global Justice, Love and Peace Summit 2025 was held in New Delhi, focusing on peacebuilding, harmony, and global justice."
+  },
+  {
+    id: "q38",
+    question: "38. India participated virtually in the 24th Indian Ocean Rim Association meeting organized by which country?",
+    options: ["Maldives", "Sri Lanka", "Seychelles", "Indonesia"],
+    correctAnswer: 1,
+    explanation: "Sri Lanka organized the 24th IORA meeting, with India participating virtually to strengthen maritime cooperation in the region."
+  },
+  {
+    id: "q39",
+    question: "39. Which country hosted the 23rd SCO Heads of Government Summit 2024?",
+    options: ["India", "China", "United Kingdom", "Pakistan"],
+    correctAnswer: 3,
+    explanation: "Pakistan hosted the 23rd Shanghai Cooperation Organisation Heads of Government Summit in 2024."
+  },
+  {
+    id: "q40",
+    question: "40. Representatives of which countries will participate in the Bodhi Yatra?",
+    options: [
+      "India, Nepal, Bhutan, Sri Lanka, Myanmar",
+      "Thailand, Cambodia, Lao PDR, Vietnam, Myanmar",
+      "China, Mongolia, Vietnam, Lao PDR, Myanmar",
+      "Japan, South Korea, Malaysia, Thailand, Cambodia"
+    ],
+    correctAnswer: 1,
+    explanation: "The Bodhi Yatra involves representatives from Thailand, Cambodia, Lao PDR, Vietnam, and Myanmar to promote Buddhist cultural exchange."
+  },
+  {
+    id: "q41",
+    question: "41. Where was Aero India 2025 organized?",
+    options: ["Hyderabad", "Bengaluru", "Chennai", "Kochi"],
+    correctAnswer: 1,
+    explanation: "Aero India 2025 was held at Yelahanka Air Force Station, Bengaluru, which is the permanent venue of India’s premier air show."
+  },
+  {
+    id: "q42",
+    question: "42. Where was the WAVES Summit 2025 inaugurated?",
+    options: ["New Delhi", "Mumbai", "Ahmedabad", "Pune"],
+    correctAnswer: 1,
+    explanation: "The WAVES Summit 2025 was inaugurated in Mumbai, focusing on global media, entertainment, and creative industries."
+  },
+  {
+    id: "q43",
+    question: "43. Where was the 8th Indian Ocean Conference held?",
+    options: ["Muscat", "Colombo", "Dubai", "Maldives"],
+    correctAnswer: 0,
+    explanation: "The 8th Indian Ocean Conference was held in Muscat, Oman, to strengthen maritime diplomacy and regional cooperation."
+  },
+  {
+    id: "q44",
+    question: "44. What was the theme of the 10th NITI Aayog Governing Council Meeting?",
+    options: [
+      "Digital India for a New Era",
+      "Sustainable Development for All",
+      "Viksit Rajya for Viksit Bharat@2047",
+      "Innovation and Inclusion India@100"
+    ],
+    correctAnswer: 2,
+    explanation: "The theme focused on cooperative federalism to achieve the goal of a developed India by 2047."
+  },
+  {
+    id: "q45",
+    question: "45. Where was the Inclusion Summit 2025 held?",
+    options: ["Mumbai", "Hyderabad", "Kolkata", "New Delhi"],
+    correctAnswer: 3,
+    explanation: "The Inclusion Summit 2025 was held in New Delhi to promote inclusive growth and social equity."
+  },
+  {
+    id: "q46",
+    question: "46. Where was the UN Climate Change Conference 2024 held?",
+    options: ["Abu Dhabi", "Geneva", "Paris", "Baku"],
+    correctAnswer: 3,
+    explanation: "The UN Climate Change Conference (COP29) was hosted by Azerbaijan in Baku in November 2024."
+  },
+  {
+    id: "q47",
+    question: "47. Where was the 3rd BIMSTEC Agriculture Conference held?",
+    options: ["Dhaka", "Kathmandu", "Colombo", "Thimphu"],
+    correctAnswer: 1,
+    explanation: "The 3rd BIMSTEC Agriculture Conference was held in Kathmandu, Nepal, focusing on sustainable agricultural practices."
+  },
+  {
+    id: "q48",
+    question: "48. Where was the first Asian Buddhist Summit held?",
+    options: ["New Delhi", "Kathmandu", "Colombo", "Bangkok"],
+    correctAnswer: 0,
+    explanation: "The first Asian Buddhist Summit was held in New Delhi to promote Buddhist heritage and cultural diplomacy."
+  },
+  {
+    id: "q49",
+    question: "49. Which country hosted the 81st IATA Annual General Meeting?",
+    options: ["Indonesia", "Japan", "China", "India"],
+    correctAnswer: 3,
+    explanation: "India hosted the 81st IATA AGM, showcasing its rapidly growing aviation sector."
+  },
+  {
+    id: "q50",
+    question: "50. Where was the World Hydrogen Summit 2025 held?",
+    options: ["New Delhi", "Rotterdam", "Geneva", "Paris"],
+    correctAnswer: 1,
+    explanation: "The World Hydrogen Summit 2025 was held in Rotterdam, Netherlands, a major hub for green hydrogen initiatives."
+  },
+  {
+    id: "q51",
+    question: "51. Which city hosted the STREE Summit 2025?",
+    options: ["Hyderabad", "Pune", "Kolkata", "Jaipur"],
+    correctAnswer: 0,
+    explanation: "The STREE Summit 2025 was held in Hyderabad, focusing on women’s safety and empowerment."
+  },
+  {
+    id: "q52",
+    question: "52. Where was the 10th NITI Aayog Governing Council Meeting held in May?",
+    options: ["Mumbai", "New Delhi", "Gandhinagar", "Bhopal"],
+    correctAnswer: 1,
+    explanation: "The meeting was held in New Delhi at Bharat Mandapam under the chairmanship of the Prime Minister."
+  },
+  {
+    id: "q53",
+    question: "53. Where was the 7th International Solar Alliance Assembly held?",
+    options: ["Paris", "New Delhi", "Abu Dhabi", "Nairobi"],
+    correctAnswer: 1,
+    explanation: "The 7th ISA Assembly was held in New Delhi, where the headquarters of the International Solar Alliance is located."
+  },
+  {
+    id: "q54",
+    question: "54. Where was the G20 Summit 2024 held?",
+    options: ["New Delhi", "Johannesburg", "Rio de Janeiro", "Osaka"],
+    correctAnswer: 2,
+    explanation: "Brazil hosted the G20 Summit 2024 in Rio de Janeiro in November."
+  },
+  {
+    id: "q55",
+    question: "55. Who inaugurated the 2nd International Conference on Green Hydrogen?",
+    options: ["Nitin Gadkari", "Rajnath Singh", "Narendra Modi", "Dharmendra Pradhan"],
+    correctAnswer: 2,
+    explanation: "Prime Minister Narendra Modi inaugurated the conference to promote India’s green energy transition."
+  },
+  {
+    id: "q56",
+    question: "56. Where was the Asia Clean Energy Summit 2024 held?",
+    options: ["Singapore", "Tokyo", "Kuala Lumpur", "Jakarta"],
+    correctAnswer: 0,
+    explanation: "The Asia Clean Energy Summit 2024 was held in Singapore, focusing on renewable and clean energy solutions."
+  },
+  {
+    id: "q57",
+    question: "57. Where was MILAN 2025 organized?",
+    options: ["Visakhapatnam", "Mumbai", "New Delhi", "Kochi"],
+    correctAnswer: 2,
+    explanation: "MILAN 2025, a multinational naval exercise, was organized by the Indian Navy in New Delhi."
+  },
+  {
+    id: "q58",
+    question: "58. Which country will host the G20 Summit 2025?",
+    options: ["Brazil", "South Africa", "India", "Indonesia"],
+    correctAnswer: 1,
+    explanation: "South Africa will host the G20 Summit in 2025 as part of its presidency."
+  },
+  {
+    id: "q59",
+    question: "59. Where was the National Environment Conference 2025 inaugurated?",
+    options: ["Hyderabad", "New Delhi", "Jaipur", "Bhopal"],
+    correctAnswer: 1,
+    explanation: "The National Environment Conference 2025 was inaugurated in New Delhi by President Droupadi Murmu."
+  },
+  {
+    id: "q60",
+    question: "60. Where was the International Conference on Glaciers’ Preservation held?",
+    options: ["Kathmandu", "Dushanbe", "Islamabad", "Thimphu"],
+    correctAnswer: 1,
+    explanation: "The conference was held in Dushanbe, Tajikistan, to address climate change impacts on glaciers."
+  },
+  {
+    id: "q61",
+    question: "61. Where was the 28th National E-Governance Conference held?",
+    options: ["Bhopal", "Jaipur", "Bhubaneswar", "Visakhapatnam"],
+    correctAnswer: 3,
+    explanation: "The conference was held in Visakhapatnam to discuss reforms and innovations in digital governance."
+  },
+  {
+    id: "q62",
+    question: "62. Which state hosted the International Youth Conference 2025?",
+    options: ["Sikkim", "Manipur", "Himachal Pradesh", "Assam"],
+    correctAnswer: 0,
+    explanation: "Sikkim hosted the International Youth Conference 2025, emphasizing youth leadership and sustainability."
+  },
+  {
+    id: "q63",
+    question: "63. Where was the 11th BRICS Labour Ministers’ Meeting held?",
+    options: ["Brazil", "Russia", "India", "China"],
+    correctAnswer: 0,
+    explanation: "The meeting was held in Brazil as part of its BRICS chairmanship."
+  },
+  {
+    id: "q64",
+    question: "64. Which country hosted the Asian Summit 2025?",
+    options: ["Thailand", "India", "China", "Malaysia"],
+    correctAnswer: 3,
+    explanation: "Malaysia hosted the Asian Summit 2025 to strengthen regional cooperation."
+  },
+  {
+    id: "q65",
+    question: "65. Where was the 9th BRICS Industry Ministers’ Meeting held?",
+    options: ["Beijing", "New Delhi", "Moscow", "Brasilia"],
+    correctAnswer: 3,
+    explanation: "The meeting was held in Brasilia, Brazil, under its BRICS presidency."
+  },
+  {
+    id: "q66",
+    question: "66. Where was the 86th India-Bangladesh Joint River Commission Meeting held?",
+    options: ["Kolkata", "Dhaka", "Guwahati", "Delhi"],
+    correctAnswer: 0,
+    explanation: "The meeting was held in Kolkata to discuss river water sharing and flood management."
+  },
+  {
+    id: "q67",
+    question: "67. Where was Prakriti 2025 Carbon Markets Conference held?",
+    options: ["Mumbai", "Hyderabad", "New Delhi", "Pune"],
+    correctAnswer: 2,
+    explanation: "Prakriti 2025 was held in New Delhi focusing on carbon markets and climate finance mechanisms."
+  },
+  {
+    id: "q68",
+    question: "68. Where was the 58th Asian Development Bank Annual Meeting held?",
+    options: ["India", "Philippines", "Italy", "Japan"],
+    correctAnswer: 2,
+    explanation: "Italy hosted the 58th ADB Annual Meeting focusing on global economic recovery."
+  },
+  {
+    id: "q69",
+    question: "69. Where was the World Sustainable Development Summit 2025 held?",
+    options: ["Mumbai", "New Delhi", "Chennai", "Bengaluru"],
+    correctAnswer: 1,
+    explanation: "The summit was organized by TERI in New Delhi to discuss sustainability challenges."
+  },
+  {
+    id: "q70",
+    question: "70. Where was the 12th Global Space Exploration Conference 2025 held?",
+    options: ["Dhaka", "Dubai", "Washington D.C.", "New Delhi"],
+    correctAnswer: 3,
+    explanation: "India hosted the Global Space Exploration Conference 2025 in New Delhi, showcasing advances in space technology."
+  },
+
+],
+
 "awards-honours1": [
   {
     id: "ca1",
