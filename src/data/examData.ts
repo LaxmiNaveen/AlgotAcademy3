@@ -57,7 +57,7 @@ export const exams: Exam[] = [
     name: "Telangana Public Service Commission",
     shortName: "TGPSC",
     description: "Prepare for TGPSC Group 1, 2, 3 & 4 exams",
-    subjects: ["general-studies", "indian-polity", "history", "ict","current-affairs"],
+    subjects: ["general-studies", "indian-polity", "history", "ict", "current-affairs"],
     color: "hsl(199 89% 48%)",
     icon: "🏛️",
   },
@@ -125,7 +125,7 @@ export const subjects: Subject[] = [
     questionCount: 65, 
     color: "hsl(199 89% 48%)",
     subtopics: [
-      { id: "ca-awards and honours", name: "Awards and Honours 2025-Part1", questionCount: 30 },
+      { id: "awards-honours, name: "Awards and Honours 2025-Part1", questionCount: 30 },
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
       { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
       { id: "gs-indian-constitution", name: "Indian Constitution", questionCount: 50 },
@@ -883,7 +883,7 @@ export const sampleQuestions: Record<string, Question[]> = {
   }
   ],
   //Current Affairs:
-"current-affairs": [
+"awards-honours": [
   {
     id: "ca1",
     question: "1. Who has been awarded the Nobel Prize in Economics for 2025?",
