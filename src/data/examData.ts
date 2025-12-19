@@ -57,7 +57,7 @@ export const exams: Exam[] = [
     name: "Telangana Public Service Commission",
     shortName: "TGPSC",
     description: "Prepare for TGPSC Group 1, 2, 3 & 4 exams",
-    subjects: ["general-studies", "indian-polity", "history", "ict"],
+    subjects: ["current-affairs", "general-studies", "indian-polity", "history", "ict"],
     color: "hsl(199 89% 48%)",
     icon: "🏛️",
   },
@@ -122,9 +122,10 @@ export const subjects: Subject[] = [
     id: "general-studies", 
     name: "General Studies", 
     icon: "📚", 
-    questionCount: 250, 
+    questionCount: 65, 
     color: "hsl(199 89% 48%)",
     subtopics: [
+      { id: "ca-awards and honours", name: "Awards and Honours 2025-Part1", questionCount: 30 },
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
       { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
       { id: "gs-indian-constitution", name: "Indian Constitution", questionCount: 50 },
@@ -134,6 +135,16 @@ export const subjects: Subject[] = [
       { id: "gs-environment", name: "Environment & Ecology", questionCount: 40 },
       { id: "gs-ethics", name: "Ethics & Integrity", questionCount: 40 },
      
+    ]
+  },
+    { 
+    id: "current-affairs", 
+    name: "Current Affairs", 
+    icon: "🏛️", 
+    questionCount: 30, 
+    color: "hsl(167 72% 40%)",
+    subtopics: [
+      { id: "awards-honours", name: "Awards and Honours 2025", questionCount: 30 },
     ]
   },
   { 
@@ -303,6 +314,245 @@ export const subjects: Subject[] = [
 // }
 // ============================================
 export const sampleQuestions: Record<string, Question[]> = {
+  //Current Affairs 2025:
+"current-affairs": [
+  {
+    id: "ca1",
+    question: "1. Who has been awarded the Nobel Prize in Economics for 2025?",
+    options: [
+      "Peter Howitt, Esther Duflo, and Michael Kremer",
+      "Joel Mokyr, Philippe Aghion, and Peter Howitt",
+      "Angus Deaton, Paul Krugman, and Robert Shiller",
+      "Philippe Aghion, Joseph Stiglitz, and Robert Mundell"
+    ],
+    correctAnswer: 1,
+    explanation: "The 2025 Nobel Prize in Economics was awarded to Joel Mokyr, Philippe Aghion, and Peter Howitt for their significant contributions to understanding economic growth, innovation, and the dynamics of technological progress."
+  },
+  {
+    id: "ca2",
+    question: "2. Who has been awarded the Nobel Prize in Literature for 2025?",
+    options: ["Olga Tokarczuk", "László Krasznahorkai", "Orhan Pamuk", "Salman Rushdie"],
+    correctAnswer: 1,
+    explanation: "László Krasznahorkai, the Hungarian novelist known for his complex, dense prose and profound literary works, was awarded the Nobel Prize in Literature 2025 for his unique contributions to contemporary literature."
+  },
+  {
+    id: "ca3",
+    question: "3. Who won the Nobel Peace Prize 2025?",
+    options: ["Malala Yousafzai", "Maria Corina Machado", "Greta Thunberg", "Ales Bialiatski"],
+    correctAnswer: 1,
+    explanation: "Maria Corina Machado was awarded the Nobel Peace Prize 2025 for her courageous efforts and advocacy for democracy, human rights, and social justice in Venezuela, inspiring peaceful activism globally."
+  },
+  {
+    id: "ca4",
+    question: "4. Who were awarded the 2025 Nobel Prize in Chemistry?",
+    options: [
+      "Marie Curie, Albert Einstein & Linus Pauling",
+      "Susumu Kitagawa, Richard Robson & Omar Yaghi",
+      "Ahmed Zewail, Venkatraman Ramakrishnan & Thomas Steitz",
+      "Frances Arnold, George Smith & Gregory Winter"
+    ],
+    correctAnswer: 1,
+    explanation: "The 2025 Nobel Prize in Chemistry was awarded to Susumu Kitagawa, Richard Robson, and Omar Yaghi for their groundbreaking research in the design and synthesis of metal-organic frameworks, enabling new applications in material science and catalysis."
+  },
+  {
+    id: "ca5",
+    question: "5. Who were awarded the 2025 Nobel Prize in Physics?",
+    options: [
+      "Albert Einstein, Niels Bohr, and Richard Feynman",
+      "John Clarke, Michel H. Devoret, and John M. Martinis",
+      "Marie Curie, Enrico Fermi, and Paul Dirac",
+      "Stephen Hawking, Kip Thorne, and Roger Penrose"
+    ],
+    correctAnswer: 1,
+    explanation: "John Clarke, Michel H. Devoret, and John M. Martinis received the 2025 Nobel Prize in Physics for their pioneering work on quantum information and superconducting qubits, which have propelled advances in quantum computing."
+  },
+  {
+    id: "ca6",
+    question: "6. What is the name of the 2025 Nobel Prize in Physiology or Medicine awardees for their work on peripheral immune tolerance?",
+    options: [
+      "James Allison, Tasuku Honjo, and Gregg Semenza",
+      "Mary E. Brunkow, Fred Ramsdell, and Shimon Sakaguchi",
+      "Jennifer Doudna, Emmanuelle Charpentier, and Feng Zhang",
+      "William Kaelin, Gregg Semenza, and Peter Ratcliffe"
+    ],
+    correctAnswer: 1,
+    explanation: "Mary E. Brunkow, Fred Ramsdell, and Shimon Sakaguchi were awarded for their research on peripheral immune tolerance, which provides critical insights into how the immune system avoids attacking the body's own tissues, with implications for autoimmune diseases and immunotherapy."
+  },
+  {
+    id: "ca7",
+    question: "7. As of Oct 2025 which Malayalam actor was recently honoured with the prestigious Dadasaheb Phalke Award?",
+    options: ["Mammootty", "Mohanlal", "Fahadh Faasil", "Dulquer Salmaan"],
+    correctAnswer: 1,
+    explanation: "Mohanlal, a legendary actor in Malayalam cinema with a career spanning decades and numerous iconic performances, was honoured with the Dadasaheb Phalke Award in recognition of his outstanding contribution to Indian cinema."
+  },
+  {
+    id: "ca8",
+    question: "8. Which Indian archer won her maiden gold medal at the World Archery Para Championships 2025?",
+    options: ["Jyoti Baliyan", "Deepika Kumari", "Sheetal Devi", "Laxmirani Majhi"],
+    correctAnswer: 2,
+    explanation: "Sheetal Devi achieved her first gold medal at the World Archery Para Championships 2025, marking a significant milestone in her career and showcasing her talent on the international para-archery stage."
+  },
+  {
+    id: "ca9",
+    question: "9. Who recently won a silver medal and set two national records at the World Weightlifting Championships 2025?",
+    options: ["Saikhom Mirabai Chanu", "Karnam Malleswari", "Bindyarani Devi", "H. R. Sunita"],
+    correctAnswer: 0,
+    explanation: "Saikhom Mirabai Chanu continued her dominance in weightlifting by winning a silver medal and breaking two national records at the 2025 World Weightlifting Championships, cementing her status as one of India's top athletes."
+  },
+  {
+    id: "ca10",
+    question: "10. India was recently honoured with the ISSA Award for its efforts in which area?",
+    options: ["Financial inclusion", "Expanding social security coverage", "Rural employment generation", "Women empowerment"],
+    correctAnswer: 1,
+    explanation: "India received the ISSA Award for expanding social security coverage, recognizing its efforts to improve welfare, social protection programs, and access to social benefits for citizens across the country."
+  },
+  {
+    id: "ca11",
+    question: "11. Which hotel won the Best 5-Star Hotel Award in 2025?",
+    options: [
+      "Taj Falaknuma Palace, Hyderabad",
+      "Novotel Vijayawada Varun",
+      "The Leela Palace, Bangalore",
+      "ITC Grand Chola, Chennai"
+    ],
+    correctAnswer: 1,
+    explanation: "Novotel Vijayawada Varun was awarded the Best 5-Star Hotel Award in 2025 for its outstanding hospitality, luxury services, and excellence in guest experience in the highly competitive Indian hotel industry."
+  },
+  {
+    id: "ca12",
+    question: "12. Which state won the Global Tourism Award 2025 for its outstanding contribution to tourism?",
+    options: ["Kerala", "Rajasthan", "Andhra Pradesh", "Goa"],
+    correctAnswer: 2,
+    explanation: "Andhra Pradesh received the Global Tourism Award 2025 for its innovative tourism initiatives, development of heritage sites, and promotion of cultural and eco-tourism, contributing significantly to global tourism."
+  },
+  {
+    id: "ca13",
+    question: "13. Which organization became the first Indian NGO to win the 2025 Magsaysay Award?",
+    options: ["Educate Girls", "Pratham", "Smile Foundation", "Teach For India"],
+    correctAnswer: 0,
+    explanation: "Educate Girls became the first Indian NGO to receive the prestigious Magsaysay Award in 2025 for its exceptional work in improving education access and learning outcomes for girls in India."
+  },
+  {
+    id: "ca14",
+    question: "14. Who has been selected to receive the Prof. V.K. Gokak Award in Bengaluru?",
+    options: ["Girish Karnad", "U.R. Ananthamurthy", "Anand V. Patil", "Shashi Deshpande"],
+    correctAnswer: 2,
+    explanation: "Anand V. Patil was selected for the Prof. V.K. Gokak Award 2025 in recognition of his outstanding contributions to Kannada literature and for promoting literary culture in Karnataka."
+  },
+  {
+    id: "ca15",
+    question: "15. Younus Ahamed, Executive Director of Middle East Dotspace Coworking, has been honoured with which award by Arabian World Records in 2025?",
+    options: ["Golden Falcon Award", "Global Excellence Award", "Camel International Award", "Desert Visionary Award"],
+    correctAnswer: 2,
+    explanation: "Younus Ahamed received the Camel International Award from Arabian World Records in 2025 for his exceptional leadership and contributions to business innovation and coworking spaces in the Middle East."
+  },
+  {
+    id: "ca16",
+    question: "16. Which honour was awarded to British Prime Minister Keir Starmer in September 2025 for promoting closer India-UK relations?",
+    options: ["UK-India Friendship Award", "Queen's Award for Enterprise", "Living Bridge Award", "Global Trade Excellence Award"],
+    correctAnswer: 2,
+    explanation: "Keir Starmer was conferred the Living Bridge Award in 2025 for strengthening diplomatic, cultural, and trade ties between India and the United Kingdom through his proactive engagement."
+  },
+  {
+    id: "ca17",
+    question: "17. Which former US president won his third Emmy Award for the Netflix documentary 'Our Oceans'?",
+    options: ["Donald Trump", "Barack Obama", "Justin Trudeau", "George W. Bush"],
+    correctAnswer: 1,
+    explanation: "Barack Obama won his third Emmy Award for his Netflix documentary 'Our Oceans,' which highlights global marine conservation challenges and the importance of protecting ocean ecosystems."
+  },
+  {
+    id: "ca18",
+    question: "18. Who was awarded the PV Narasimha Rao Award?",
+    options: ["Dr. Manmohan Singh", "Narendra Modi", "CP Radhakrishnan", "Draupadi Murmu"],
+    correctAnswer: 0,
+    explanation: "Former Prime Minister Dr. Manmohan Singh received the PV Narasimha Rao Award in 2025 in recognition of his visionary economic reforms and contributions to India's development."
+  },
+  {
+    id: "ca19",
+    question: "19. Asian Shooting Championship 2025 held in which country where 'Manu Bhaker' won bronze medal in women's 10m air pistol event?",
+    options: ["Kazakhstan", "Thailand", "China", "India"],
+    correctAnswer: 0,
+    explanation: "The 2025 Asian Shooting Championship was hosted by Kazakhstan, where Manu Bhaker won a bronze medal in the women's 10m air pistol event, showcasing her consistent international performance."
+  },
+  {
+    id: "ca20",
+    question: "20. Who has been chosen as 'TIME's Kid Of The Year 2025' by the world-famous Time Magazine?",
+    options: ["Vaibhav Suryavanshi", "Anish Sarkar", "Tejasvi Manoj", "D Gukesh"],
+    correctAnswer: 2,
+    explanation: "Tejasvi Manoj was named TIME's Kid Of The Year 2025 for his inspiring achievements, leadership, and contributions that positively impacted society at a young age."
+  },
+  {
+    id: "ca21",
+    question: "21. Who received the Lifetime Achievement Award under the National Geoscience Award 2024?",
+    options: ["Prof. Devesh Chaturvedi", "Prof. Shyam Sundar Rai", "S. Singhal", "Sushobhan Neogi"],
+    correctAnswer: 1,
+    explanation: "Prof. Shyam Sundar Rai was honoured with the Lifetime Achievement Award under the National Geoscience Award 2024 for his pioneering work and lifelong contributions in geosciences research and education in India."
+  },
+  {
+    id: "ca22",
+    question: "22. Who were the Champions in the recent Durand Cup final 2025?",
+    options: ["NorthEast United FC", "Diamond Harbour FC", "Bengaluru FC", "Kerala Blasters"],
+    correctAnswer: 0,
+    explanation: "NorthEast United FC won the Durand Cup 2025, demonstrating exceptional teamwork and skill to secure the championship in one of India's oldest and most prestigious football tournaments."
+  },
+  {
+    id: "ca23",
+    question: "23. Who won the 2025 Krishi Media Award for outstanding contributions to agricultural journalism and farmer awareness?",
+    options: ["Shivam Reddy", "Harinikumar Hombale", "Ramesh Chandra", "Amshi Prasannakumar"],
+    correctAnswer: 3,
+    explanation: "Amshi Prasannakumar was honoured with the 2025 Krishi Media Award for his outstanding contributions to agricultural journalism, raising awareness on farming practices, innovations, and rural development."
+  },
+  {
+    id: "ca24",
+    question: "24. Which film won the Best Feature Film at the 71st National Film Awards?",
+    options: ["Jawan", "12th Fail", "Kathal", "The Kerala Story"],
+    correctAnswer: 1,
+    explanation: "The film '12th Fail' won the Best Feature Film award at the 71st National Film Awards, recognized for its compelling storytelling, strong performances, and social relevance."
+  },
+  {
+    id: "ca25",
+    question: "25. Who recently won the PFA Player of the Year Award for the third time, making history?",
+    options: ["Erling Haaland", "Kevin De Bruyne", "Mohamed Salah", "Harry Kane"],
+    correctAnswer: 2,
+    explanation: "Mohamed Salah made history by winning the PFA Player of the Year Award for the third time, highlighting his consistent outstanding performance in club football and contributions to the sport."
+  },
+  {
+    id: "ca26",
+    question: "26. Who was honoured with the 43rd Lokmanya Tilak National Award 2025?",
+    options: ["Nitin Gadkari", "Rajnath Singh", "Piyush Goyal", "Amit Shah"],
+    correctAnswer: 0,
+    explanation: "Nitin Gadkari received the 43rd Lokmanya Tilak National Award in 2025 in recognition of his exceptional work in infrastructure development, policy initiatives, and contributions to national growth."
+  },
+  {
+    id: "ca27",
+    question: "27. Who from The Hindu was selected for the 'Tribal Photo of the Year Award – 2025'?",
+    options: ["Aditya Singh", "Vudimudi Peddi Raju", "Ravi Kumar", "Sunil Sharma"],
+    correctAnswer: 1,
+    explanation: "Vudimudi Peddi Raju from The Hindu won the 'Tribal Photo of the Year Award – 2025' for his remarkable photography capturing the life, culture, and resilience of tribal communities."
+  },
+  {
+    id: "ca28",
+    question: "28. Who launched the Global M.S. Swaminathan Award for Food and Peace?",
+    options: ["Dr. S. Jaishankar", "PM Narendra Modi", "President Draupadi Murmu", "Union Agriculture Minister"],
+    correctAnswer: 1,
+    explanation: "PM Narendra Modi launched the Global M.S. Swaminathan Award for Food and Peace, honoring innovations in sustainable agriculture and efforts to ensure food security and peace through scientific research."
+  },
+  {
+    id: "ca29",
+    question: "29. Who is the filmmaker of the short film 'Vasu' recently selected as a finalist at the Student Academy Awards 2025?",
+    options: ["Adoor Gopalakrishnan", "Sidharth Harikumar", "Anurag Kashyap", "Kabir Khan"],
+    correctAnswer: 1,
+    explanation: "Sidharth Harikumar directed the short film 'Vasu,' which was selected as a finalist at the 2025 Student Academy Awards for its creative storytelling, technical excellence, and impactful narrative."
+  },
+  {
+    id: "ca30",
+    question: "30. Who is awarded with the Diversity in Cinema Award at the Indian Film Festival of Melbourne 2025?",
+    options: ["Deepika Padukone", "Aditi Rao Hydari", "Alia Bhatt", "Taapsee Pannu"],
+    correctAnswer: 1,
+    explanation: "Aditi Rao Hydari received the Diversity in Cinema Award at the Indian Film Festival of Melbourne 2025, recognizing her contributions to inclusive storytelling and representation of diverse voices in cinema."
+  }
+];
+
   // General Studies Questions
   "general-studies": [
     {
@@ -341,6 +591,7 @@ export const sampleQuestions: Record<string, Question[]> = {
       explanation: "The Basic Structure doctrine was established in the Kesavananda Bharati v. State of Kerala case (1973). The Supreme Court held that Parliament cannot amend the basic structure of the Constitution.",
     },
   ],
+    
   // General Studies Subtopics
   "gs-indian-constitution": [
     {
@@ -650,7 +901,7 @@ export const sampleQuestions: Record<string, Question[]> = {
   },
   {
     id: "c2",
-    question: "27. Which of the following relatively accurately describes ChatGPT?",
+    question: "2. Which of the following relatively accurately describes ChatGPT?",
     options: ["An AI-powered virtual assistant", "A hardware device", "A knowledge database", "A social networking platform"],
     correctAnswer: 0,
     explanation: "ChatGPT is an AI-powered virtual assistant using machine learning and natural language processing to interact with users. It is not a physical device, database, or social platform."
@@ -943,27 +1194,33 @@ export const sampleQuestions: Record<string, Question[]> = {
   },
   {
     id: "q5",
-    question: "5. Learners read a text on mammals and watch a video showing mammals in different environments. Match the activities with the learning processes they best illustrate.",
+    question: "5. Match the following activities (Column A) with the learning processes (Column B):\n\nColumn A:\n(a) Learners analyse and generate evidence to verify hypotheses\n(b) Learners make notes of key events or behaviours\n(c) Learners relate their analysis to the given text\n(d) Learners form groups to work on the task\n\nColumn B:\n(i) Interpretation construction\n(ii) Observation\n(iii) Contextualisation\n(iv) Collaboration",
     options: [
       "(a)-(i), (b)-(ii), (c)-(iii), (d)-(iv)",
       "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)",
-      "(a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)",
-      "(a)-(i), (b)-(iii), (c)-(ii), (d)-(iv)"
+      "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)",
+      "(a)-(iv), (b)-(iii), (c)-(ii), (d)-(i)"
     ],
-    correctAnswer: 0,
-    explanation: "Analysing evidence to verify hypotheses reflects interpretation construction. Making notes of behaviours involves observation. Relating analysis to the text shows contextualisation. Working in groups demonstrates collaboration. These processes align with constructivist learning, where knowledge is built through observation, interpretation, context, and social interaction."
+    correctAnswer: 0, // Option A
+    explanation: "Analysing evidence corresponds to interpretation construction. Making notes involves observation. Relating analysis to the text reflects contextualisation. Group work represents collaboration."
   },
   {
     id: "q6",
-    question: "6. Which among the following is true in the context of Sigmund Freud?",
+    question:
+      "6. Which among the following is true in the context of Sigmund Freud?\n\n" +
+      "(a) Psychoanalysis as a system of school of psychology was his brainchild\n" +
+      "(b) He used id, ego and super ego for explaining the structure of the psyche\n" +
+      "(c) He does not believe in the role of instinct in driving human behaviour\n" +
+      "(d) He postulated two main instincts namely the life instinct and the death instinct",
     options: [
       "Only (a) and (b)",
       "Only (c) and (d)",
       "Only (a), (b) and (c)",
       "Only (a), (b) and (d)"
     ],
-    correctAnswer: 3,
-    explanation: "Freud founded psychoanalysis and proposed the structural model of personality consisting of Id, Ego, and Super Ego. He strongly believed that instincts drive human behaviour and identified two major instincts: life (Eros) and death (Thanatos). Therefore, statements (a), (b), and (d) are correct."
+    correctAnswer: 3, // Option 4
+    explanation:
+      "Sigmund Freud founded psychoanalysis and explained the psyche using id, ego and super ego. He strongly believed that instincts drive human behaviour and proposed two main instincts: life instinct (Eros) and death instinct (Thanatos). Hence, statements (a), (b) and (d) are correct, while (c) is incorrect."
   },
   {
     id: "q7",
@@ -1113,14 +1370,20 @@ export const sampleQuestions: Record<string, Question[]> = {
 
   {
     id: "q19",
-    question: "19. A teacher designs a plan by reviewing the students’ prior knowledge and then selecting appropriate learning materials and methods. Which components of the teaching plan does this reflect?",
+   question:
+      "19. A teacher designs a plan by reviewing the students’ prior knowledge and then by selecting appropriate learning materials and methods. Which components from the teaching plan does this reflect?\n\n" +
+      "(a) Assessment strategies\n" +
+      "(b) Competencies to be achieved\n" +
+      "(c) Pedagogical choices based on student understanding\n" +
+      "(d) Content and teaching-learning materials' selection\n" +
+      "(e) Home assignments",
     options: [
       "Only (a) and (b)",
       "Only (c) and (d)",
-      "Only (a), (b), and (c)",
-      "Only (b), (c), and (d)"
+      "Only (a), (b) and (c)",
+      "Only (b), (c) and (d)"
     ],
-    correctAnswer: 1,
+    correctAnswer: 1, // Option 2
     explanation: "Reviewing students’ prior knowledge helps in understanding learners’ existing levels. Based on this, the teacher makes pedagogical choices (c) and selects appropriate teaching-learning materials (d). Assessment strategies, competencies, and home assignments are not the primary focus here."
   },
   {
@@ -1149,14 +1412,20 @@ export const sampleQuestions: Record<string, Question[]> = {
   },
   {
     id: "q22",
-    question: "22. Which of the following are the key aspects of an inclusive classroom?",
+    question:
+      "14. The key aspects of an inclusive classroom are:\n\n" +
+      "(a) Valuing cultural diversity and students’ voices\n" +
+      "(b) Providing identical instruction to all students\n" +
+      "(c) Sharing activities and learning materials\n" +
+      "(d) Promoting openness and acceptance\n\n" +
+      "Choose the correct option:",
     options: [
-      "Only (a), (b), and (c)",
-      "Only (a), (c), and (d)",
+      "Only (a), (b) and (c)",
+      "Only (a), (c) and (d)",
       "Only (b) and (d)",
       "Only (c) and (d)"
     ],
-    correctAnswer: 1,
+    correctAnswer: 1, // Option 2
     explanation: "Inclusive classrooms respect cultural diversity, value students’ voices, share activities and learning materials, and promote openness and acceptance. Providing identical instruction to all ignores individual differences, which goes against inclusion."
   },
   {
