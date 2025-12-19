@@ -41,6 +41,20 @@ const subjects = [
 ];
 
 const pdfTopics: PDFTopic[] = [
+  {
+    code: "CA-CA-01",
+    subject: "Current Affairs-2025",
+    topic: "Awards & Honours (No. of Questions 162) @ Just Rs. 10/-",
+    price: "₹8",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CA-CA-02",
+    subject: "Current Affairs-2025",
+    topic: "Important Summits and Conferences (No.of Questions 70)- Available @ Just Rs. 5/-",
+    price: "₹5",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
    {
     code: "CS-ICT-01",
     subject: "Computer Knowledge(ICT)",
