@@ -551,10 +551,10 @@ export const sampleQuestions: Record<string, Question[]> = {
     correctAnswer: 1,
     explanation: "Aditi Rao Hydari received the Diversity in Cinema Award at the Indian Film Festival of Melbourne 2025, recognizing her contributions to inclusive storytelling and representation of diverse voices in cinema."
   }
-]
-
+],
+ {/* 
   // General Studies Questions
-  {/*  "general-studies": [
+  "general-studies": [
     {
       id: "gs-1",
       question: "Which Article of the Indian Constitution deals with the Right to Education?",
@@ -886,7 +886,8 @@ export const sampleQuestions: Record<string, Question[]> = {
       correctAnswer: 1,
       explanation: "Ephemeral means lasting for a very short time; short-lived.",
     },
-  ], */}
+  ], 
+  */}
 
 
   //Infromation and Communication Technology
