@@ -125,7 +125,8 @@ export const subjects: Subject[] = [
     questionCount: 65, 
     color: "hsl(199 89% 48%)",
     subtopics: [
-      { id: "awards-honours", name: "Awards and Honours 2025-Part1", questionCount: 30 },
+      { id: "awards-honours1", name: "Awards and Honours 2025-Part1", questionCount: 30 },
+      { id: "awards-honours2", name: "Awards and Honours 2025-Part2", questionCount: 30 },
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
       { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
       { id: "gs-indian-constitution", name: "Indian Constitution", questionCount: 50 },
@@ -144,7 +145,8 @@ export const subjects: Subject[] = [
     questionCount: 30, 
     color: "hsl(167 72% 40%)",
     subtopics: [
-      { id: "awards-honours", name: "Awards and Honours 2025", questionCount: 30 },
+      { id: "awards-honours1", name: "Awards and Honours 2025-Part-1", questionCount: 30 },
+      { id: "awards-honours2", name: "Awards and Honours 2025-Part-2", questionCount: 30 },
     ]
   },
   { 
@@ -883,7 +885,7 @@ export const sampleQuestions: Record<string, Question[]> = {
   }
   ],
   //Current Affairs:
-"awards-honours": [
+"awards-honours1": [
   {
     id: "ca1",
     question: "1. Who has been awarded the Nobel Prize in Economics for 2025?",
@@ -1120,7 +1122,939 @@ export const sampleQuestions: Record<string, Question[]> = {
     explanation: "Aditi Rao Hydari received the Diversity in Cinema Award at the Indian Film Festival of Melbourne 2025, recognizing her contributions to inclusive storytelling and representation of diverse voices in cinema."
   }
 ],
+"awards-honours2":[
+  {
+    id: "ca31",
+    question: "31. How many personnel were honoured by the Government of India with Gallantry and Service Medals on Independence Day 2025?",
+    options: ["1,000", "1,090", "900", "1,200"],
+    correctAnswer: 1,
+    explanation: "On Independence Day 2025, the Government of India honoured 1,090 personnel with Gallantry and Service Medals. These awards recognize extraordinary bravery, distinguished service, and exceptional contribution by members of the armed forces, paramilitary, and civilian personnel."
+  },
+  {
+    id: "ca32",
+    question: "32. Recently who received the Vir Chakra posthumously?",
+    options: ["Sanjay Jasjit Singh", "Mohammad Imtiaz", "Nagesh Kapoor", "Deepak Chingkham"],
+    correctAnswer: 1,
+    explanation: "Mohammad Imtiaz was posthumously awarded the Vir Chakra for his exceptional courage and sacrifice in the line of duty. The Vir Chakra is India's third-highest military decoration awarded for acts of gallantry in the presence of the enemy."
+  },
+  {
+    id: "ca33",
+    question: "33. Who was crowned Miss Universe India 2025?",
+    options: ["Manika Sheokand", "Harnaaz Sandhu", "Manika Vishwakarma", "Sini Shetty"],
+    correctAnswer: 2,
+    explanation: "Manika Vishwakarma was crowned Miss Universe India 2025, recognized for her elegance, poise, and advocacy for social causes. She will represent India at the international Miss Universe pageant."
+  },
+  {
+    id: "ca34",
+    question: "34. Who became the first Indian to win the 'Oscar for Magicians' at FISM 2025?",
+    options: ["P.C. Sorcar", "Gopinath Muthukad", "Suhani Shah", "Karan Singh"],
+    correctAnswer: 2,
+    explanation: "Suhani Shah became the first Indian magician to win the 'Oscar for Magicians' at the FISM 2025 World Championship of Magic. This achievement highlighted her innovative performances and international recognition in the field of magic."
+  },
+  {
+    id: "ca35",
+    question: "35. Which app won the WSIS Champion Award 2025 for excellence in digital governance?",
+    options: ["Aarogya Setu", "Meri Panchayat", "DigiLocker", "Umang"],
+    correctAnswer: 1,
+    explanation: "The 'Meri Panchayat' app won the WSIS Champion Award 2025 for its innovative use of digital governance in empowering local government bodies. It promotes transparency, citizen engagement, and accessibility of public services at the grassroots level."
+  },
+  {
+    id: "ca36",
+    question: "36. Who won the Long Jump title at the Portugal Sports Meet?",
+    options: ["Neeraj Chopra", "Murali Sreeshankar", "Ankit Sharma", "M. Sreeshankar"],
+    correctAnswer: 1,
+    explanation: "Murali Sreeshankar won the Long Jump title at the Portugal Sports Meet, demonstrating his exceptional athletic ability and consistency in international track and field competitions."
+  },
+  {
+    id: "ca37",
+    question: "37. Who won the men's singles title at the Japan Open 2025?",
+    options: ["Alex Lanier", "Shi Yuqi", "Kunlavut Vitidsarn", "Jonatan Christie"],
+    correctAnswer: 1,
+    explanation: "Shi Yuqi claimed the men's singles title at the Japan Open 2025, showcasing his skill and dominance in badminton. The win added an important international title to his career achievements."
+  },
+  {
+    id: "ca38",
+    question: "38. Who was conferred with the 'Hem Bahadur Malla Award' for outstanding contributions in Nepal's judicial sector in 2025?",
+    options: ["Kedar Bhakta Mathema", "Dr. Bhesh Bahadur Thapa", "Kalyan Shrestha", "Dr. Gauri Shankar Lal Das"],
+    correctAnswer: 2,
+    explanation: "Kalyan Shrestha received the 'Hem Bahadur Malla Award' for his exceptional contributions to Nepal's judiciary. His work strengthened the legal system and promoted justice and fairness within the country."
+  },
+  {
+    id: "ca39",
+    question: "39. At which edition of the International Chemistry Olympiad did India win two gold and two silver medals?",
+    options: ["54th", "55th", "56th", "57th"],
+    correctAnswer: 3,
+    explanation: "India achieved remarkable success at the 57th International Chemistry Olympiad by winning two gold and two silver medals. This reflects the high level of preparation, talent, and dedication of Indian students in chemistry."
+  },
+  {
+    id: "ca40",
+    question: "40. Who was recently awarded the Kalinga Ratna Award 2024?",
+    options: ["Narendra Modi", "Dharmendra Pradhan", "Amit Shah", "Rajnath Singh"],
+    correctAnswer: 1,
+    explanation: "Dharmendra Pradhan was conferred the Kalinga Ratna Award 2024 in recognition of his significant contributions to education, industry, and social development, emphasizing his role in national progress."
+  },
+  {
+    id: "ca41",
+    question: "41. Who won the 2025 PEN Pinter Prize for her powerful storytelling rooted in Sudanese culture and global themes?",
+    options: ["Chimamanda Ngozi Adichie", "Leila Aboulela", "Arundhati Roy", "Zadie Smith"],
+    correctAnswer: 1,
+    explanation: "Leila Aboulela received the 2025 PEN Pinter Prize for her compelling narratives that intertwine Sudanese cultural heritage with global perspectives, showcasing her mastery in literature and storytelling."
+  },
+  {
+    id: "ca42",
+    question: "42. In which national cleanliness survey did Vijayawada receive a top award in 2024-25?",
+    options: ["National Urban Sanitation Ranking", "Swachh Survekshan", "Smart City Award", "Green City Challenge"],
+    correctAnswer: 1,
+    explanation: "Vijayawada received the top award in the Swachh Survekshan 2024-25 for exemplary cleanliness and sanitation practices, highlighting the city's commitment to hygiene, waste management, and citizen participation."
+  },
+  {
+    id: "ca43",
+    question: "43. Who is the 87th Grandmaster of India in chess, as of July 2025?",
+    options: ["Harikrishnan A Ra", "R Praggnanandhaa", "Gukesh D", "Arjun Erigaisi"],
+    correctAnswer: 0,
+    explanation: "Harikrishnan A Ra became India's 87th Grandmaster in July 2025, a prestigious title awarded by FIDE to players demonstrating exceptional skill, strategy, and consistency in international chess tournaments."
+  },
+  {
+    id: "ca44",
+    question: "44. Who became the Indian Navy's first woman fighter pilot and received the prestigious 'Wings of Gold' in July 2025?",
+    options: ["Bhawana Kanth", "Avani Chaturvedi", "Aastha Poonia", "Sofiya Qureshi"],
+    correctAnswer: 2,
+    explanation: "Aastha Poonia became the Indian Navy's first woman fighter pilot and was awarded the 'Wings of Gold' in July 2025, marking a historic achievement in Indian military aviation and gender inclusion."
+  },
+  {
+    id: "ca45",
+    question: "45. Who won the 2025 British Grand Prix held at Silverstone?",
+    options: ["Max Verstappen", "Oscar Piastri", "Lando Norris", "Nico Hülkenberg"],
+    correctAnswer: 2,
+    explanation: "Lando Norris won the 2025 British Grand Prix at Silverstone, demonstrating skillful driving, strategic excellence, and endurance to secure victory in one of Formula 1's most prestigious events."
+  },
+  {
+    id: "ca46",
+    question: "46. Prime Minister Narendra Modi received the Grand Collar of the National Order of the Southern Cross from which country?",
+    options: ["Argentina", "Brazil", "South Africa", "Portugal"],
+    correctAnswer: 1,
+    explanation: "PM Narendra Modi received Brazil's Grand Collar of the National Order of the Southern Cross, the highest honour awarded to foreign dignitaries, recognizing his role in strengthening India-Brazil bilateral relations."
+  },
+  {
+    id: "ca47",
+    question: "47. Which country defeated the United States 2-1 to win their record-extending 10th CONCACAF Gold Cup title in 2025?",
+    options: ["Canada", "Mexico", "Costa Rica", "Jamaica"],
+    correctAnswer: 1,
+    explanation: "Mexico defeated the United States 2-1 in the 2025 CONCACAF Gold Cup final, securing their record-extending 10th title and reaffirming their dominance in North American football tournaments."
+  },
+  {
+    id: "ca48",
+    question: "48. Who were the recipients of the 21st P. Kesavadev Awards announced in 2025?",
+    options: ["Shashi Tharoor and Dr. Banshi Saboo", "Shashi Tharoor and Barkha Dutt", "Ravish Kumar and Dr. Banshi Saboo", "Shashi Tharoor and Amitabh Kant"],
+    correctAnswer: 0,
+    explanation: "Shashi Tharoor and Dr. Banshi Saboo were awarded the 21st P. Kesavadev Awards in 2025 in recognition of their contributions to literature, public discourse, and societal development."
+  },
+  {
+    id: "ca49",
+    question: "49. Which country achieved a historic Test victory at Edgbaston on July 6, 2025, beating England by 336 runs?",
+    options: ["Australia", "India", "South Africa", "New Zealand"],
+    correctAnswer: 1,
+    explanation: "India achieved a historic Test victory at Edgbaston, defeating England by 336 runs. This win was celebrated for outstanding team performance, strategic gameplay, and key individual contributions."
+  },
+  {
+    id: "ca50",
+    question: "50. Which district won the Kerala Fisheries Department Excellence Award 2025 for outstanding achievements in aquaculture?",
+    options: ["Alappuzha", "Kollam", "Kasaragod", "Ernakulam"],
+    correctAnswer: 2,
+    explanation: "Kasaragod district was awarded the Kerala Fisheries Department Excellence Award 2025 for its exceptional achievements in sustainable aquaculture, innovative practices, and contribution to the state's fisheries development."
+  },
+  {
+    id: "ca51",
+    question: "51. Which country won a record 11 medals, including 3 gold, 5 silver, and 3 bronze, at the World Boxing Cup 2025 held in Astana, Kazakhstan?",
+    options: ["Brazil", "India", "Kazakhstan", "Uzbekistan"],
+    correctAnswer: 1,
+    explanation: "India achieved a historic medal haul at the World Boxing Cup 2025, winning 11 medals in total. This performance demonstrated the growing strength and international competitiveness of Indian boxing."
+  },
+  {
+    id: "ca52",
+    question: "52. Who won the 2025 Shakti Bhatt Prize?",
+    options: ["Kynpham Sing Nongkynrih", "Zara Chowdhary", "Mridula Koshy", "Tony Joseph"],
+    correctAnswer: 1,
+    explanation: "Zara Chowdhary won the 2025 Shakti Bhatt Prize for her exceptional writing and storytelling abilities, recognized for literary excellence and contribution to contemporary Indian literature."
+  },
+  {
+    id: "ca53",
+    question: "53. Which country conferred the 'Order of the Star' honour on Prime Minister Narendra Modi in 2025?",
+    options: ["Nigeria", "Ghana", "Kenya", "South Africa"],
+    correctAnswer: 1,
+    explanation: "Ghana conferred the 'Order of the Star' on PM Narendra Modi in 2025, one of its highest civilian honours, recognizing his efforts to strengthen bilateral relations, trade, and cultural ties between India and Ghana."
+  },
+  {
+    id: "ca54",
+    question: "54. Who has been honoured with the GP BIRLA MEMORIAL AWARD?",
+    options: ["Dr. K Sivan", "Dr. A S Kiran Kumar", "Dr. Tessy Thomas", "Dr. V. Narayanan"],
+    correctAnswer: 3,
+    explanation: "Dr. V. Narayanan was honoured with the GP Birla Memorial Award for his significant contributions to science, engineering, and technology, highlighting innovation and leadership in his field."
+  },
+  {
+    id: "ca55",
+    question: "55. Who won the Kerala Sahitya Akademi Award for Best Novel in 2024?",
+    options: ["G.R. Indugopan", "Sasidharan Naduvil", "K.R. Ajayan", "V. Shinilal"],
+    correctAnswer: 0,
+    explanation: "G.R. Indugopan won the Kerala Sahitya Akademi Award for Best Novel 2024 for his outstanding literary work, reflecting depth, creativity, and significant contribution to Malayalam literature."
+  },
+  {
+    id: "ca56",
+    question: "56. Who has been awarded the Mental Health Award 2025?",
+    options: ["Abhishek Jain", "Rohit Yadav", "Katherene Delina", "Saima Wazed"],
+    correctAnswer: 3,
+    explanation: "Saima Wazed received the Mental Health Award 2025 in recognition of her work in mental health advocacy, awareness, and policy initiatives, particularly in improving mental health services globally."
+  },
+  {
+    id: "ca57",
+    question: "57. Who became the first Turkish player in the Open Era to reach the third round of a Grand Slam tournament at Wimbledon 2025?",
+    options: ["Çağla Büyükakçay", "Ipek Soylu", "Zeynep Sönmez", "Marsel İlhan"],
+    correctAnswer: 2,
+    explanation: "Zeynep Sönmez made history by becoming the first Turkish player in the Open Era to reach the third round of a Grand Slam at Wimbledon 2025, marking a major milestone for Turkish tennis on the global stage."
+  },
+  {
+    id: "ca58",
+    question: "58. Which state won the women's Hockey India Masters Cup 2025?",
+    options: ["Punjab", "Bihar", "Odisha", "Maharashtra"],
+    correctAnswer: 2,
+    explanation: "Odisha won the Women's Hockey India Masters Cup 2025, demonstrating strong performance, teamwork, and dominance in national-level hockey competitions."
+  },
+  {
+    id: "ca59",
+    question: "59. Which airline is named the World's Best Airline at the 2025 Skytrax World Airline Awards?",
+    options: ["Emirates", "Singapore Airlines", "Qatar Airways", "Cathay Pacific Airways"],
+    correctAnswer: 2,
+    explanation: "Qatar Airways was named the World's Best Airline at the 2025 Skytrax World Airline Awards, recognized for excellence in service, safety, passenger comfort, and global operations."
+  },
+  {
+    id: "ca60",
+    question: "60. The ICC World Test Championship (WTC) 2025 was won by which country?",
+    options: ["India", "Australia", "South Africa", "England"],
+    correctAnswer: 2,
+    explanation: "South Africa won the ICC World Test Championship 2025, demonstrating consistent excellence in the longest format of cricket with strong team performance, strategy, and key individual contributions."
+  },
 
+  {
+    id: "ca61",
+    question: "61. Which film has become the first Indian animation film to win the Jury Award for Best Commissioned Film?",
+    options: ["All We Imagine as Light", "White Elephant", "Hukuhama", "Desi Oon"],
+    correctAnswer: 3,  // D
+    explanation: "“Desi Oon” became the first Indian animated film to win the Jury Award for Best Commissioned Film, marking a milestone in India’s animation industry. The award recognizes excellence in storytelling, animation quality, and creativity, highlighting India’s growing presence in international animation festivals."
+  },
+  {
+    id: "ca62",
+    question: "62. How many authors were honoured with the Bal Sahitya Puraskar 2025?",
+    options: ["10", "15", "24", "30"],
+    correctAnswer: 2,  // C
+    explanation: "In 2025, 24 authors were honoured with the Bal Sahitya Puraskar, recognizing writers who contribute significantly to children's literature in India. The award encourages creativity, educational value, and literary quality in works aimed at young readers."
+  },
+  {
+    id: "ca63",
+    question: "63. Indian tennis player Ankita Raina recently won her 32nd career doubles title at the Guimaraes ITF tournament in Portugal. Who was her doubles partner?",
+    options: ["Prarthana Thombare", "Sania Mirza", "Alice Robbe", "Kristina Mladenovic"],
+    correctAnswer: 2,  // C
+    explanation: "Ankita Raina won her 32nd doubles title partnering with Alice Robbe. Their teamwork, coordination, and strategies on the court helped them secure the title at the Guimaraes ITF tournament, marking another milestone in Ankita’s doubles career."
+  },
+  {
+    id: "ca64",
+    question: "64. Recently, Prime Minister Narendra Modi was conferred with Cyprus's highest civilian honour. What is the name of this honour?",
+    options: ["Order of the Golden Fleece", "Order of Makarios III", "Order of the Phoenix", "Order of the Lion"],
+    correctAnswer: 1,  // B
+    explanation: "PM Narendra Modi was awarded the Order of Makarios III, Cyprus's highest civilian honour. This recognition was for his contribution to strengthening bilateral relations, fostering cultural ties, and promoting collaboration between India and Cyprus."
+  },
+  {
+    id: "ca65",
+    question: "65. Who won the 2025 Stuttgart Open men's singles title by defeating Alexander Zverev in straight sets?",
+    options: ["Novak Djokovic", "Taylor Fritz", "Daniil Medvedev", "Carlos Alcaraz"],
+    correctAnswer: 1,  // B
+    explanation: "Taylor Fritz won the 2025 Stuttgart Open men's singles title by defeating Alexander Zverev in straight sets. His victory demonstrated superior skill, mental toughness, and consistent performance, adding another prestigious ATP title to his career."
+  },
+  {
+    id: "ca66",
+    question: "66. Which media organization was named Champion of Digital Media Awards South Asia 2025?",
+    options: ["The Times of India", "The Hindu", "The Quint", "Hindustan Times"],
+    correctAnswer: 1,  // B
+    explanation: "The Hindu was named Champion at the Digital Media Awards South Asia 2025 for excellence in digital journalism. The award recognized its innovative reporting, impactful storytelling, and effective use of digital platforms to engage audiences."
+  },
+  {
+    id: "ca67",
+    question: "67. Who won the men's javelin throw event at the Paris Diamond League 2025?",
+    options: ["Anderson Peters", "Julian Weber", "Neeraj Chopra", "Luiz Mauricio da Silva"],
+    correctAnswer: 2,  // C
+    explanation: "Neeraj Chopra won the men's javelin throw at the Paris Diamond League 2025, showcasing exceptional athletic skill, technique, and consistency. His win reflects India’s rising prominence in international athletics, particularly in field events."
+  },
+  {
+    id: "ca68",
+    question: "68. Which country hosted the U23 Asian Wrestling Championships 2025?",
+    options: ["India", "China", "Vietnam", "Japan"],
+    correctAnswer: 2,  // C
+    explanation: "Vietnam hosted the U23 Asian Wrestling Championships 2025, bringing together emerging wrestling talent from across Asia. The championship provided a platform for young athletes to compete at an international level and gain experience."
+  },
+  {
+    id: "ca69",
+    question: "69. Who won the mixed doubles title in the 2nd Asian Squash Doubles Championship 2025?",
+    options: ["Anahat Singh and Abhay Singh", "Anahat Singh and Velavan Senthilkumar", "Aina Amani and Yi Jing Yi", "Abhay Singh and Joshna Chinappa"],
+    correctAnswer: 0,  // A
+    explanation: "Anahat Singh and Abhay Singh won the mixed doubles title in the 2nd Asian Squash Doubles Championship 2025. Their teamwork, agility, and tactical gameplay helped them overcome other top pairs, highlighting India's growing presence in international squash competitions."
+  },
+  {
+    id: "ca70",
+    question: "70. How many medals did Indian archers win in the Archery Asia Cup 2025 Singapore leg 2?",
+    options: ["6 medals", "8 medals", "2 medals", "10 medals"],
+    correctAnswer: 1,  // B
+    explanation: "Indian archers won a total of 8 medals in the Archery Asia Cup 2025, Singapore leg 2, demonstrating their dominance and consistency in the sport. This achievement reflects effective training programs, talent development, and India’s commitment to excelling in archery internationally."
+  },
+  {
+    id: "ca71",
+    question: "71. Which city is hosting the inaugural Hockey India Masters Cup, starting from June 18, 2025?",
+    options: ["Mumbai", "New Delhi", "Chennai", "Bengaluru"],
+    correctAnswer: 2,  // C
+    explanation: "Chennai hosted the inaugural Hockey India Masters Cup starting June 18, 2025. The city provided world-class facilities and infrastructure to ensure smooth conduct of the tournament. Hosting the event promotes hockey at regional levels and inspires emerging athletes."
+  },
+  {
+    id: "ca72",
+    question: "72. Which city is the venue of World Para Athletics Championship 2025?",
+    options: ["New Delhi", "Bhopal", "Chennai", "Hyderabad"],
+    correctAnswer: 0,  // A
+    explanation: "New Delhi was the venue for the World Para Athletics Championship 2025. The championship highlighted inclusivity in sports, providing a platform for differently-abled athletes to showcase their talent and compete at an international level, bringing recognition to para-sports in India."
+  },
+  {
+    id: "ca73",
+    question: "73. Who won the 2025 Queen's Club Championships men's singles title?",
+    options: ["Novak Djokovic", "Jiri Lehecka", "Carlos Alcaraz", "Daniil Medvedev"],
+    correctAnswer: 2,  // C
+    explanation: "Carlos Alcaraz won the 2025 Queen’s Club Championships men’s singles title with outstanding performance and consistency. The victory is a testament to his skill, stamina, and ability to perform under pressure in prestigious ATP tournaments."
+  },
+  {
+    id: "ca74",
+    question: "74. Who recently won the UzChess Cup and became India's top-ranked chess player?",
+    options: ["Viswanathan Anand", "Pentala Harikrishna", "R. Praggnanandhaa", "Vidit Gujrathi"],
+    correctAnswer: 2,  // C
+    explanation: "R. Praggnanandhaa won the UzChess Cup and became India’s top-ranked chess player. His win highlights his strategic brilliance, international experience, and rapid rise in the global chess ranking, reflecting India’s growing chess prominence."
+  },
+  {
+    id: "ca75",
+    question: "75. Which Indian cricket player has been inducted into the ICC Hall of Fame in June 2025?",
+    options: ["Ishant Sharma", "Virat Kohli", "Rahul Dravid", "Mahendra Singh Dhoni"],
+    correctAnswer: 3,  // D
+    explanation: "Mahendra Singh Dhoni was inducted into the ICC Hall of Fame in June 2025, recognizing his exceptional career, leadership, and contribution to Indian cricket. His achievements, including World Cups and captaincy milestones, have left a lasting legacy in the sport."
+  },
+  {
+    id: "ca76",
+    question: "76. Who Became India's 89th Chess Grandmaster?",
+    options: ["R Praggnanandhaa", "Gukesh D.", "Rohith Krishna S.", "Fulwati Sadhukha"],
+    correctAnswer: 2,  // C
+    explanation: "Rohith Krishna S. became India’s 89th Chess Grandmaster, showcasing exceptional talent, dedication, and success in international chess tournaments. Achieving the GM title is one of the highest honors in chess and reflects India’s growing influence in the sport."
+  },
+  {
+    id: "ca77",
+    question: "77. Who is set to award David Beckham a knighthood?",
+    options: ["Queen Elizabeth II", "King Charles III", "Prince William", "Prime Minister Keir Starmer"],
+    correctAnswer: 1,  // B
+    explanation: "King Charles III is set to award David Beckham a knighthood, recognizing his contribution to football, philanthropy, and global influence. The honour reflects Beckham’s achievements both on and off the field, including charitable work and sports promotion."
+  },
+  {
+    id: "ca78",
+    question: "78. Javed Akhtar was awarded the Dostoevsky Star Award in 2025 for:",
+    options: ["His achievements in Indian cinema direction", "His remarkable influence on cultural heritage and literary dialogue", "His contributions to science and technology", "His philanthropic work in education"],
+    correctAnswer: 1,  // B
+    explanation: "Javed Akhtar received the Dostoevsky Star Award in 2025 for his influential work in literature and culture. His poetry, songwriting, and essays have contributed significantly to Indian literary discourse and global appreciation of cultural heritage."
+  },
+  {
+    id: "ca79",
+    question: "79. Who has been conferred with the Srimanta Sankardeva Award in June 2025?",
+    options: ["Guru A. Madhav Chakyar", "Pandit Birju Maharaj", "Dr. Sonal Mansingh", "Malini Awasthi"],
+    correctAnswer: 2,  // C
+    explanation: "Dr. Sonal Mansingh received the Srimanta Sankardeva Award in June 2025 for her outstanding contribution to classical dance and Indian cultural heritage. Her dedication to promoting traditional arts has enriched the cultural landscape of India."
+  },
+  {
+    id: "ca80",
+    question: "80. Who won the 'Most Impactful Environmentalist' award in 2025?",
+    options: ["Vandana Shiva", "Acharya Prashant", "Sunita Narain", "Jackie Shroff"],
+    correctAnswer: 1,  // B
+    explanation: "Acharya Prashant won the ‘Most Impactful Environmentalist’ award in 2025 for his significant work in environmental awareness and sustainable living practices. His initiatives promote ecological balance, climate consciousness, and community engagement."
+  },
+  {
+    id: "ca81",
+    question: "81. Who was awarded the 2024 Mathrubhumi Literary Award?",
+    options: ["Benyamin", "K. Satchidanandan", "Sugathakumari", "Sarah Joseph"],
+    correctAnswer: 3,  // D
+    explanation: "Sarah Joseph received the 2024 Mathrubhumi Literary Award for her outstanding contributions to Malayalam literature. Her novels, essays, and short stories reflect social issues, feminism, and literary excellence, earning her national recognition."
+  },
+  {
+    id: "ca82",
+    question: "82. How many medals did India win in the Taiwan Athletics Open (World Athletics Continental Tour bronze event)?",
+    options: ["10 medals", "16 medals", "15 medals", "12 medals"],
+    correctAnswer: 1,  // B
+    explanation: "India won 16 medals at the Taiwan Athletics Open, showcasing the depth and talent of Indian athletes. The achievement highlights India’s growing competitiveness in athletics on the international stage."
+  },
+  {
+    id: "ca83",
+    question: "83. At which event did Priyanka Goswami win her gold medal?",
+    options: ["20 km race walk", "5 km race walk", "10 km race walk", "50 km race walk"],
+    correctAnswer: 2,  // C
+    explanation: "Priyanka Goswami won the gold medal in the 10 km race walk, demonstrating endurance, technique, and consistency. Her victory strengthens India’s position in race walking at international competitions."
+  },
+  {
+    id: "ca84",
+    question: "84. Who Became the First-Ever Indian Player to Win Prestigious Poligras Magic Skill Award?",
+    options: ["Deepika Sehrawat", "Shakil Khanna", "Shital Chunnari", "Vandana Katariya"],
+    correctAnswer: 0,  // A
+    explanation: "Deepika Sehrawat became the first Indian to win the Poligras Magic Skill Award, marking a historic achievement. The award recognizes her skill, innovation, and excellence in field hockey."
+  },
+  {
+    id: "ca85",
+    question: "85. Which Gram Panchayat is the Gold Prize winner in the National e-Governance Awards 2025?",
+    options: ["Rohini Gram Panchayat", "Palsana Gram Panchayat", "Suakati Gram Panchayat", "West Majlishpur Gram Panchayat"],
+    correctAnswer: 0,  // A
+    explanation: "Rohini Gram Panchayat won the Gold Prize in the National e-Governance Awards 2025 for excellence in digital governance, citizen services, and innovative use of technology at the grassroots level."
+  },
+  {
+    id: "ca86",
+    question: "86. Who is set to receive the Justice K.S. Hegde Award in 2025?",
+    options: ["Sudha Murthy", "Rani Machaiah", "S.L. Bhyrappa", "Debdutt Baidya"],
+    correctAnswer: 0,  // A
+    explanation: "Sudha Murthy is set to receive the Justice K.S. Hegde Award in 2025 for her contributions to social service, philanthropy, and education. Her initiatives have positively impacted society, especially in rural and educational development."
+  },
+  {
+    id: "ca87",
+    question: "87. Who is the first woman Navy officer to be appointed as Aide-de-Camp to the President of India?",
+    options: ["Lieutenant Commander Prerna Deosthalee", "Lieutenant Commander Yashasvi Solanki", "Lieutenant Commander Vartika Joshi", "Lieutenant Commander Shubhangi Swaroop"],
+    correctAnswer: 1,  // B
+    explanation: "Lieutenant Commander Yashasvi Solanki became the first woman Navy officer to serve as Aide-de-Camp to the President of India, a prestigious ceremonial role. Her appointment signifies recognition of her professional excellence and leadership in the Navy."
+  },
+  {
+    id: "ca88",
+    question: "88. Who was awarded the 2025 Princess of Asturias Award for Sports?",
+    options: ["Serena Williams", "Rafael Nadal", "Carolina Marín", "Eliud Kipchoge"],
+    correctAnswer: 0,  // A
+    explanation: "Serena Williams received the 2025 Princess of Asturias Award for Sports in recognition of her remarkable tennis career and global influence. Her achievements have inspired millions and set new benchmarks in women’s sports worldwide."
+  },
+  {
+    id: "ca89",
+    question: "89. Who won the 2025 UN Population Award?",
+    options: ["Medha Patkar", "Varsha Deshpande", "Prakhar Sinha", "Medha Sattyam"],
+    correctAnswer: 1,  // B
+    explanation: "Varsha Deshpande won the 2025 UN Population Award for her outstanding contribution to population studies, policy advocacy, and sustainable development initiatives. Her work addresses demographic challenges and promotes community health and awareness."
+  },
+  {
+    id: "ca90",
+    question: "90. Who among the following was awarded the USISPF Global Leadership Award in 2025?",
+    options: ["Nandan Nilekani", "Ratan Tata", "Kumar Mangalam Birla", "Mukesh Ambani"],
+    correctAnswer: 2,  // C
+    explanation: "Kumar Mangalam Birla was awarded the USISPF Global Leadership Award in 2025 for his exemplary contributions to business, leadership, and fostering India-US economic ties. The award recognizes his strategic vision, innovation, and global influence."
+  },
+
+
+  {
+    id: "ca91",
+    question: "91. Who won the 72nd Miss World title held in Hyderabad, India?",
+    options: ["Hasset Dereje Admassu", "Maja Klajda", "Opal Suchata Chuangsri", "Nandini Gupta"],
+    correctAnswer: 2,  // C
+    explanation: "Opal Suchata Chuangsri won the 72nd Miss World title held in Hyderabad, India. Her victory represents Thailand on the global stage and highlights her poise, talent, and advocacy, which impressed the international panel of judges."
+  },
+  {
+    id: "ca92",
+    question: "92. Which film won the best film award at 2025 IIFA awards?",
+    options: ["Good News", "Kick", "Stree 2", "Laapataa Ladies"],
+    correctAnswer: 3,  // D
+    explanation: "Laapataa Ladies won the best film award at the 2025 IIFA Awards for its compelling story, direction, and performances. The film stood out for its innovative narrative and social relevance, receiving acclaim from critics and audiences alike."
+  },
+  {
+    id: "ca93",
+    question: "93. Which of the following Indian chess players recently won over former World No. 1 Magnus Carlsen in Round 6 of ongoing Norway Chess 2025 tournament?",
+    options: ["R. Praggnanandhaa", "Arjun Erigaisi", "D. Gukesh", "None of these"],
+    correctAnswer: 2,  // C
+    explanation: "D. Gukesh defeated Magnus Carlsen in Round 6 of the Norway Chess 2025 tournament. This win demonstrates Gukesh's exceptional skill, strategy, and composure under pressure, marking a major milestone in his international chess career."
+  },
+  {
+    id: "ca94",
+    question: "94. Who has been honoured with the LATA DEENANATH MANGESHKAR AWARD 2025?",
+    options: ["Kumar Mangalam Birla", "Jay Shah", "Narayana Sinha", "Adar Poonawala"],
+    correctAnswer: 0,  // A
+    explanation: "Kumar Mangalam Birla was honoured with the Lata Deenanath Mangeshkar Award 2025 for his contributions to arts, culture, and philanthropy. The award recognizes his support in promoting music, cultural initiatives, and social causes in India."
+  },
+  {
+    id: "ca95",
+    question: "95. Which country hosted the Ulaanbaatar Open 2025 wrestling ranking series?",
+    options: ["Maldives", "Thailand", "Nepal", "Mongolia"],
+    correctAnswer: 3,  // D
+    explanation: "Mongolia hosted the Ulaanbaatar Open 2025 wrestling ranking series, bringing together top wrestlers from around the world. The event provided crucial ranking points for athletes and strengthened Mongolia's reputation in international wrestling."
+  },
+  {
+    id: "ca96",
+    question: "96. Which football club has won the 2024-25 UEFA Champions League?",
+    options: ["Real Madrid", "Paris Saint-Germain (PSG)", "Manchester City", "Internazionale Milan"],
+    correctAnswer: 1,  // B
+    explanation: "Paris Saint-Germain (PSG) won the 2024-25 UEFA Champions League, demonstrating their dominance in European football. Key tactical planning, strong squad performance, and decisive victories in knockout stages contributed to their historic win."
+  },
+  {
+    id: "ca97",
+    question: "97. Who won the 2025 Spanish Grand Prix and is currently leading the championship?",
+    options: ["Oscar Piastri", "Max Verstappen", "Charles Leclerc", "Lando Norris"],
+    correctAnswer: 0,  // A
+    explanation: "Oscar Piastri won the 2025 Spanish Grand Prix and is currently leading the championship. His consistent performance, race strategy, and precision driving helped him secure a decisive victory at one of the season’s most challenging tracks."
+  },
+  {
+    id: "ca98",
+    question: "98. Which tournament did Novak Djokovic win to claim his 100th singles title?",
+    options: ["Australian Open", "Geneva Open", "Wimbledon", "US Open"],
+    correctAnswer: 1,  // B
+    explanation: "Novak Djokovic won the Geneva Open to claim his 100th singles title, joining an elite group of players with triple-digit career wins. His victory is a testament to his enduring skill, physical fitness, and experience on the ATP tour."
+  },
+  {
+    id: "ca99",
+    question: "99. Who is the recipient of the 2025 Genesis Prize?",
+    options: ["Michael Bloomberg", "Steven Spielberg", "Javier Milei", "Barbra Streisand"],
+    correctAnswer: 2,  // C
+    explanation: "Javier Milei received the 2025 Genesis Prize for his exceptional contributions in public life. The award recognizes individuals who promote excellence, innovation, and leadership on a global scale."
+  },
+  {
+    id: "ca100",
+    question: "100. Who Became The First Black Woman To Be Crowned Mrs. World 2025?",
+    options: ["Umanni Gayle", "Diman Heitmyer", "Tshego Gaelae", "Kolaniya Glenn"],
+    correctAnswer: 2,  // C
+    explanation: "Tshego Gaelae became the first Black woman to be crowned Mrs. World 2025, breaking barriers in international pageantry. Her victory emphasizes diversity, empowerment, and representation on the global stage."
+  },
+  {
+    id: "ca101",
+    question: "101. Which Indian city will host the 2026 Asian Weightlifting Championship?",
+    options: ["Bhubaneswar", "Ahmedabad", "Indore", "Lucknow"],
+    correctAnswer: 1,  // B
+    explanation: "Ahmedabad has been selected to host the 2026 Asian Weightlifting Championship. The city will provide world-class facilities and infrastructure to athletes, further promoting weightlifting and sports development in India."
+  },
+  {
+    id: "ca102",
+    question: "102. Who won the 2025 Monaco Grand Prix?",
+    options: ["Max Verstappen", "Charles Leclerc", "Lando Norris", "Oscar Piastri"],
+    correctAnswer: 2,  // C
+    explanation: "Lando Norris won the 2025 Monaco Grand Prix, one of the most prestigious races in Formula 1. His exceptional driving, strategy, and consistency on the challenging Monaco circuit secured his victory."
+  },
+  {
+    id: "ca103",
+    question: "103. Who was conferred with the 'Global Indian of the Year' award by the Canada India Foundation?",
+    options: ["Dr. Manmohan Singh", "Sadhguru", "Indra Nooyi", "Ratan Tata"],
+    correctAnswer: 1,  // B
+    explanation: "Sadhguru was awarded the 'Global Indian of the Year' by the Canada India Foundation in recognition of his spiritual, social, and environmental initiatives that have had a significant global impact."
+  },
+  {
+    id: "ca104",
+    question: "104. Who recently presented the 'National Florence Nightingale Awards' 2025?",
+    options: ["Prime Minister Narendra Modi", "Health Minister Mansukh Mandaviya", "President Droupadi Murmu", "Vice President Jagdeep Dhankhar"],
+    correctAnswer: 2,  // C
+    explanation: "President Droupadi Murmu presented the National Florence Nightingale Awards 2025, recognizing outstanding contributions of nurses in India towards healthcare, patient welfare, and dedication in the medical field."
+  },
+  {
+    id: "ca105",
+    question: "105. Which Iranian filmmaker won the prestigious Palme d'Or at the 2025 Cannes Film Festival for his film It Was Just an Accident?",
+    options: ["Asghar Farhadi", "Abbas Kiarostami", "Jafar Panahi", "Mohammad Rasoulof"],
+    correctAnswer: 2,  // C
+    explanation: "Jafar Panahi won the Palme d'Or at the 2025 Cannes Film Festival for 'It Was Just an Accident.' The award recognizes his exceptional direction, storytelling, and contribution to global cinema despite facing significant challenges in Iran."
+  },
+  {
+    id: "ca106",
+    question: "106. Which team did Arsenal defeat to win the 2024-25 UEFA Women's Champions League title?",
+    options: ["Chelsea", "Barcelona", "Lyon", "Bayern Munich"],
+    correctAnswer: 1,  // B
+    explanation: "Arsenal defeated Barcelona to win the 2024-25 UEFA Women's Champions League, showcasing their skill, teamwork, and tactical mastery. This victory added a major European trophy to Arsenal’s women's football achievements."
+  },
+  {
+    id: "ca107",
+    question: "107. Which Song Won 'Album of the Year' Award At Grammy Awards 2025?",
+    options: ["Back to friends", "Cowboy Carter", "Water meets fire", "Shape of you"],
+    correctAnswer: 1,  // B
+    explanation: "'Cowboy Carter' won the 'Album of the Year' at the Grammy Awards 2025, recognized for its exceptional composition, production quality, and musical innovation, setting a high standard in the music industry."
+  },
+  {
+    id: "ca108",
+    question: "108. Which State/Union Territory topped the medal table of the first Khelo India Beach Games 2025?",
+    options: ["Nagaland", "Manipur", "Tamil Nadu", "Delhi"],
+    correctAnswer: 1,  // B
+    explanation: "Manipur topped the medal table at the first Khelo India Beach Games 2025 due to its strong performance across multiple sports. This achievement highlights the state's focus on sports development and nurturing athletic talent."
+  },
+  {
+    id: "ca109",
+    question: "109. Who won the gold medal in the women's 10m air pistol event?",
+    options: ["Kanak Budhwar", "Anna Dulce", "Prachi", "Chen Yen-ching"],
+    correctAnswer: 0,  // A
+    explanation: "Kanak Budhwar won the gold medal in the women's 10m air pistol event, demonstrating precision, concentration, and excellence in competitive shooting at an international level."
+  },
+  {
+    id: "ca110",
+    question: "110. Which team won the 2025 Indian Premier League (TATA IPL 2025) final, and by what margin?",
+    options: ["Punjab Kings defeated Royal Challengers Bengaluru by 6 runs", "Royal Challengers Bengaluru defeated Punjab Kings by 6 runs", "Royal Challengers Bengaluru defeated Chennai Super Kings by 6 wickets", "Punjab Kings defeated Mumbai Indians by 6 wickets"],
+    correctAnswer: 1,  // B
+    explanation: "Royal Challengers Bengaluru defeated Punjab Kings by 6 runs to win the IPL 2025 final. The match was closely contested, with strategic batting and bowling performances deciding the victory."
+  },
+  {
+    id: "ca111",
+    question: "111. Who won the International Booker Prize 2025?",
+    options: ["Arundhati Roy", "Deepa Bhasthi", "Banu Mushtaq", "Amitav Ghosh"],
+    correctAnswer: 2,  // C
+    explanation: "Banu Mushtaq won the International Booker Prize 2025 for her outstanding literary contribution. The award recognizes exceptional writing that combines creativity, thematic depth, and global literary relevance."
+  },
+  {
+    id: "ca112",
+    question: "112. Which Indian actor was honoured with the Locarno Film Festival Career Award in July 2024?",
+    options: ["Amitabh Bachchan", "Shah Rukh Khan", "Rajinikanth", "Aamir Khan"],
+    correctAnswer: 1,  // B
+    explanation: "Shah Rukh Khan was honoured with the Locarno Film Festival Career Award in July 2024, recognizing his iconic career in Indian cinema and his impact on global film culture through remarkable performances and versatility."
+  },
+  {
+    id: "ca113",
+    question: "113. Who took the most wickets in IPL 2025?",
+    options: ["Josh Hazlewood", "Yuzvendra Chahal", "Prasidh Krishna", "Harshal Patel"],
+    correctAnswer: 2,  // C
+    explanation: "Prasidh Krishna took the most wickets in IPL 2025, highlighting his consistency, pace, and ability to perform under pressure. His contributions were crucial in helping his team win matches throughout the season."
+  },
+  {
+    id: "ca114",
+    question: "114. Who received the Pravasi Bharatiya Samman Award in January 2025?",
+    options: ["Sundar Pichai", "Christine Carla", "Satya Nadella", "Indra Nooyi"],
+    correctAnswer: 1,  // B
+    explanation: "Christine Carla received the Pravasi Bharatiya Samman Award in January 2025 for her exceptional contribution to society, culture, and promoting India’s interests abroad. The award honours distinguished members of the Indian diaspora."
+  },
+  {
+    id: "ca115",
+    question: "115. Which player scored the most runs in IPL 2025?",
+    options: ["Rishabh Pant", "Sai Sudharsan", "Shubman Gill", "Virat Kohli"],
+    correctAnswer: 1,  // B
+    explanation: "Sai Sudharsan scored the most runs in IPL 2025, showcasing his batting consistency, technique, and ability to perform under pressure. His contribution was pivotal for his team's overall performance in the tournament."
+  },
+  {
+    id: "ca116",
+    question: "116. Who has been awarded the Sahitya Akademi Yuva Puraskar 2025 For Hindi?",
+    options: ["Parvati Tirkey", "Mohan Das", "Tanushreeta Sarkar", "Abu Qadri"],
+    correctAnswer: 0,  // A
+    explanation: "Parvati Tirkey was awarded the Sahitya Akademi Yuva Puraskar 2025 for Hindi literature, recognizing her outstanding contribution as a young writer. The award celebrates creativity, literary excellence, and influence in modern Hindi literature."
+  },
+  {
+    id: "ca117",
+    question: "117. In 2025, Sharda Sinha (Posthumous) received the Padma Vibhushan award, in which field?",
+    options: ["Medicine", "Public affairs", "Art", "Science and engineering"],
+    correctAnswer: 2,  // C
+    explanation: "Sharda Sinha received the Padma Vibhushan posthumously in 2025 in the field of Art. Her lifelong contributions to folk music and cultural preservation earned her this prestigious civilian award."
+  },
+
+
+  {
+    id: "ca118",
+    question: "118. Which player won the IPL 2025 Most Valuable Player (MVP)?",
+    options: ["Rishabh Pant", "Suryakumar Yadav", "Jasprit Bumrah", "Shubman Gill"],
+    correctAnswer: 1,  // 0=A, 1=B, 2=C, 3=D
+    explanation: "Suryakumar Yadav of Mumbai Indians won the IPL 2025 MVP award, earning ₹10 lakh and a trophy. He had an outstanding season with consistent performances. Previous winners include Jos Buttler (2022), Shubman Gill (2023), and Sunil Narine (2024)."
+  },
+  {
+    id: "ca119",
+    question: "119. What area of expertise did Dr. Ravi Kannan R. receive the Padma Shri for in 2025?",
+    options: ["Social Work", "Medicine", "Science and Engineering", "Public Affairs"],
+    correctAnswer: 1,
+    explanation: "Dr. Ravi Kannan R., a distinguished surgical oncologist and director of Cachar Cancer Hospital and Research Centre, received the Padma Shri 2025 for Medicine. He provides free cancer treatment for underprivileged patients and has also received the Ramon Magsaysay Award."
+  },
+  {
+    id: "ca120",
+    question: "120. Which Indian short film was nominated for best live action short film at the 97th Oscar Awards?",
+    options: ["Anuja", "Leave One Day", "The Spectacle", "Screamboat"],
+    correctAnswer: 0,
+    explanation: "The 22-minute short film 'Anuja', produced by Guneet Monga, Priyanka Chopra Jonas, and Mindy Kaling, was nominated at the 97th Oscars. Though it lost to 'I'm Not a Robot', the nomination highlighted the growing recognition of Indian short films internationally."
+  },
+  {
+    id: "ca121",
+    question: "121. Who was named BBC Sports Personality of the Year 2024 after claiming Olympic and European titles in the 800m?",
+    options: ["Keely Hodgkinson", "Mo Farah", "Dina Asher-Smith", "Adam Peaty"],
+    correctAnswer: 0,
+    explanation: "Keely Hodgkinson won BBC Sports Personality of the Year 2024 due to her exceptional performance in the 800m, securing both Olympic and European titles. Her achievements brought her international recognition and inspired young athletes."
+  },
+  {
+    id: "ca122",
+    question: "122. Who was honoured with the Padma Bhushan for their contributions to Indian music in 2025?",
+    options: ["A.R. Rahman", "Pankaj Udhas", "Zakir Hussain", "Lata Mangeshkar"],
+    correctAnswer: 1,
+    explanation: "Pankaj Udhas was posthumously awarded the Padma Bhushan in 2025 for his contributions to Indian music, particularly ghazals. His melodious voice and contribution to music enriched India's cultural heritage."
+  },
+  {
+    id: "ca123",
+    question: "123. Which Indian athlete was awarded the 2024 Arjuna Award for excellence in javelin throw?",
+    options: ["Neeraj Chopra", "Kishore Jena", "Navdeep Singh", "Shivpal Singh"],
+    correctAnswer: 2,
+    explanation: "Navdeep Singh received the 2024 Arjuna Award for his excellence in javelin throw. The award recognizes outstanding performance in national and international athletics competitions."
+  },
+  {
+    id: "ca124",
+    question: "124. Which field did Ashok Kumar Mahapatra receive the Padma Shri for in 2025?",
+    options: ["Art", "Literature", "Medicine", "Public Affairs"],
+    correctAnswer: 2,
+    explanation: "Eminent neurosurgeon Ashok Kumar Mahapatra was awarded the Padma Shri in 2025 for Medicine. He served as Principal Advisor (Health Sciences) at Siksha 'O' Anusandhan, headed AIIMS Bhubaneswar, and contributed significantly to neurosurgery in India."
+  },
+  {
+    id: "ca125",
+    question: "125. Who received the Dadasaheb Phalke Award 2024 for outstanding contribution to Indian cinema?",
+    options: ["Rajinikanth", "Amitabh Bachchan", "Mithun Chakraborty", "Kamal Haasan"],
+    correctAnswer: 2,
+    explanation: "Mithun Chakraborty was honoured with the 2024 Dadasaheb Phalke Award, recognizing his exceptional contribution to Indian cinema over decades. He is celebrated for his versatility and iconic performances."
+  },
+  {
+    id: "ca126",
+    question: "126. Who was honoured with the Best FIFA Men's Player Award 2024?",
+    options: ["Lionel Messi", "Erling Haaland", "Kylian Mbappé", "Vinícius Júnior"],
+    correctAnswer: 3,
+    explanation: "Vinícius Júnior received the Best FIFA Men's Player Award 2024 for his outstanding performances in club and international football. Other 2024 FIFA award winners include Aitana Bonmati (Best Women's Player) and Alejandro Garnacho (Puskas Award)."
+  },
+  {
+    id: "ca127",
+    question: "127. Who has been conferred the Sangita Kalanidhi award in 2024 by the Madras Music Academy?",
+    options: ["Aruna Sairam", "N G Ganesan", "Ritha Rajan", "T M Krishna"],
+    correctAnswer: 3,
+    explanation: "Renowned Carnatic vocalist T M Krishna was conferred the Sangita Kalanidhi award 2024 for his contributions to music and innovative approach. He is known for challenging social barriers in classical music."
+  },
+  {
+    id: "ca128",
+    question: "128. Which Indian actor won the Best Actor award at the Filmfare Awards 2024?",
+    options: ["Ranbir Kapoor", "Shah Rukh Khan", "Vicky Kaushal", "Allu Arjun"],
+    correctAnswer: 0,
+    explanation: "Ranbir Kapoor won the Best Actor award at the 2024 Filmfare Awards for his performance in 'Animal'. The award recognizes exceptional acting skills and contribution to Indian cinema."
+  },
+  {
+    id: "ca129",
+    question: "129. In 2025, Sunil Mittal received what honorary award from the UK?",
+    options: ["Order of Merit", "Honorary Knighthood", "British Empire Medal", "Order of the Garter"],
+    correctAnswer: 1,
+    explanation: "Sunil Mittal, the founder of Bharti Enterprises, was conferred an Honorary Knighthood in 2025 by the UK for his contribution to telecommunications and global business."
+  },
+  {
+    id: "ca130",
+    question: "130. Which organization was honored with the Subhash Chandra Bose Aapda Prabandhan Puraskar-2025?",
+    options: ["NDMA", "INCOIS", "DRDO", "Indian Red Cross Society"],
+    correctAnswer: 1,
+    explanation: "INCOIS (Indian National Center for Ocean Information Services) was honored in 2025 for its disaster management and ocean monitoring services. It operates under the Ministry of Earth Sciences and is based in Hyderabad."
+  },
+  {
+    id: "ca131",
+    question: "131. Who became the first Indian to win the Ramsar Award for Wetland Wise Use?",
+    options: ["Unnan Krishnan", "Sourav Sinha", "Jayshree Vencatesan", "Ajay Samanta"],
+    correctAnswer: 2,
+    explanation: "Jayshree Vencatesan was recognized by the Ramsar Convention in March 2025 for her efforts in global wetland conservation, making her the first Indian to receive this award."
+  },
+  {
+    id: "ca132",
+    question: "132. Hariman Sharma, known as 'The Apple Man of India' was awarded which award in 2025?",
+    options: ["Padma Vibhushan", "Padma Bhushan", "Padma Shri", "Bharat Ratna"],
+    correctAnswer: 2,
+    explanation: "Hariman Sharma received the Padma Shri in 2025 for his contribution to horticulture, particularly developing the HRMN-99 apple variety, boosting India’s apple cultivation."
+  },
+  {
+    id: "ca133",
+    question: "133. Chandrika Tandon's 'Triveni' won a Grammy Award for what category?",
+    options: ["Best Pop Vocal Album", "Best New Age Album", "Best World Music Album", "Best Classical Album"],
+    correctAnswer: 1,
+    explanation: "'Triveni', a collaboration between Chandrika Tandon, Wouter Kellerman, and Eru Matsumoto, won the Grammy for Best New Age Album in 2025, recognized for its fusion of global musical styles."
+  },
+  {
+    id: "ca134",
+    question: "134. Where were the 82nd Annual Golden Globe Awards held?",
+    options: ["New York", "California", "London", "Paris"],
+    correctAnswer: 1,
+    explanation: "The 82nd Annual Golden Globe Awards were held in California, USA. The event celebrated global achievements in film and television for 2024."
+  },
+  {
+    id: "ca135",
+    question: "135. In the WEF 2025, which of the following people were honoured with a Crystal Award?",
+    options: ["David Beckham", "Diane von Furstenberg", "Riken Yamamoto", "All of the above"],
+    correctAnswer: 3,
+    explanation: "At the 55th World Economic Forum in Davos, Switzerland, all listed individuals, including David Beckham, Diane von Furstenberg, and Riken Yamamoto, received the Crystal Award for their contributions to arts, culture, and society."
+  },
+  {
+    id: "ca136",
+    question: "136. Travis Head won which award at the 2025 Australian Cricket Awards?",
+    options: ["The Border-Gavaskar Trophy", "Allan Border Medal", "The Ashes Medal", "The Chappell-Hadlee Trophy"],
+    correctAnswer: 1,
+    explanation: "Travis Head won the Allan Border Medal at the 2025 Australian Cricket Awards, recognizing him as Australia’s most outstanding male cricketer for the season."
+  },
+  {
+    id: "ca137",
+    question: "137. In 2025, who was awarded the Padma Shri for contributions to Literature and Education, particularly in Odisha?",
+    options: ["Manoj Das", "Pratibha Satpathy", "Sitakant Mahapatra", "Jayanta Mahapatra"],
+    correctAnswer: 1,
+    explanation: "Pratibha Satpathy, a renowned Odia poet and editor of the poetry magazine Udbhasa, was awarded the Padma Shri 2025 for her contributions to literature and education in Odisha."
+  },
+  {
+    id: "ca138",
+    question: "138. Who has been honoured with the Sangita Kalanidhi Award 2025?",
+    options: ["Fulwanti Sinha", "M. Rajeshwar Rao", "R.K. Shriramkumar", "Rishabh Rikhiram Sharma"],
+    correctAnswer: 2,
+    explanation: "Violinist R.K. Shriramkumar was honoured with the Sangita Kalanidhi Award 2025 for his mastery in Carnatic music, especially in the compositions of Muthuswami Dikshitar and the Sangita Sampradaya Pradarshini tradition."
+  },
+  {
+    id: "ca139",
+    question: "139. Who received the Sangeet Natak Akademi Fellowship (Akademi Ratna) in 2025 for their contribution to Indian classical dance?",
+    options: ["Saroja Vaidyanathan", "Pandit Birju Maharaj (posthumous)", "Teejan Bai", "Yamini Krishnamurthy"],
+    correctAnswer: 0,
+    explanation: "Saroja Vaidyanathan received the Sangeet Natak Akademi Fellowship in 2025 for her exceptional contributions to Indian classical dance, along with previously receiving Padma Shri (2002) and Padma Bhushan (2013)."
+  },
+  {
+    id: "ca140",
+    question: "140. How many Padma Vibhushan awards were conferred in 2025?",
+    options: ["113", "19", "7", "1"],
+    correctAnswer: 2,
+    explanation: "In 2025, 7 Padma Vibhushan awards were conferred. The total Padma Awards included 19 Padma Bhushan and 113 Padma Shri, summing up to 139 awards across various fields."
+  },
+  {
+    id: "ca141",
+    question: "141. Which institution was awarded the National Intellectual Property Awards 2025 for Top Academic Institution?",
+    options: ["IIT Delhi", "IIT Madras", "IISc Bangalore", "IIT Bombay"],
+    correctAnswer: 1,
+    explanation: "IIT Madras received the National Intellectual Property Award 2025 for Top Academic Institution, recognizing its innovations, patents, and contribution to intellectual property development in India."
+  },
+  {
+    id: "ca142",
+    question: "142. Who has been honoured with the Maharaja Hari Singh Peace and Harmony Award 2024-25?",
+    options: ["Manoj Sinha", "Jagan Sarkar", "Dr. Karan Singh", "Himanshu Shukla"],
+    correctAnswer: 0,
+    explanation: "Manoj Sinha, Lt. Governor of Jammu & Kashmir, received the Maharaja Hari Singh Peace and Harmony Award 2024-25 for his efforts in administrative reforms and promoting good governance in the region."
+  },
+  {
+    id: "ca143",
+    question: "143. The Golden Peacock HR Excellence Award was given to which company?",
+    options: ["Tata Consultancy Services", "Infosys", "Startek India", "Wipro"],
+    correctAnswer: 2,
+    explanation: "Startek India was awarded the Golden Peacock HR Excellence Award for its exceptional human resource practices, employee engagement, and contribution to HR innovation."
+  },
+  {
+    id: "ca144",
+    question: "144. Which Indian state received the 'Best State' award in the National Water Awards 2025?",
+    options: ["Maharashtra", "Odisha", "Uttar Pradesh", "Rajasthan"],
+    correctAnswer: 1,
+    explanation: "Odisha was recognized as the 'Best State' in the National Water Awards 2025 for efficient water management and sustainable practices, with Uttar Pradesh second and Gujarat & Puducherry tied for third."
+  },
+  {
+    id: "ca145",
+    question: "145. Recently, who has been conferred the Nritya Kalanidhi Award 2024?",
+    options: ["Vasanthalakshmi Narasimhachari", "Jayashri", "Neena Prasad", "Vid Bragha Bessell"],
+    correctAnswer: 2,
+    explanation: "Neena Prasad, an eminent Mohiniyattam exponent, was awarded the Nritya Kalanidhi Award 2024 for her outstanding contribution to classical dance."
+  },
+  {
+    id: "ca146",
+    question: "146. Which state won the most National Panchayat Awards in 2025?",
+    options: ["Uttar Pradesh", "Madhya Pradesh", "Odisha", "Rajasthan"],
+    correctAnswer: 2,
+    explanation: "Odisha won the most National Panchayat Awards in 2025, recognizing its Panchayati Raj institutions’ efficiency, governance, and development initiatives."
+  },
+  {
+    id: "ca147",
+    question: "147. Who is set to receive the Padmapani Lifetime Achievement Award?",
+    options: ["R. Aswin", "Akshay Kumar", "Amitabh Bachchan", "Sai Paranjpye"],
+    correctAnswer: 3,
+    explanation: "Sai Paranjpye, renowned filmmaker known for films like 'Sparsh' (1980) and 'Chashme Buddoor' (1981), was set to receive the Padmapani Lifetime Achievement Award for her contributions to Indian cinema."
+  },
+  
+  {
+    id: "ca148",
+    question: "148. Which film won Best Film Awards at 'BAFTA Awards 2025'?",
+    options: ["Conclave", "The Brutalist", "Humanity", "Anora"],
+    correctAnswer: 0,  // 0=A, 1=B, 2=C, 3=D
+    explanation: "The film 'Conclave' won the Best Film award at the BAFTA Awards 2025. Other winners included Adrien Brody (Best Actor, The Brutalist) and Mikey Madison (Best Actress, Anora)."
+  },
+  {
+    id: "ca149",
+    question: "149. Which men's footballer became the 1st to win the 'Presidential Medal of Freedom', the highest civilian honour of the USA?",
+    options: ["Lionel Messi", "Cristiano Ronaldo", "Md. Salah", "Neymar Jr."],
+    correctAnswer: 0,  // 0=A, 1=B, 2=C, 3=D
+    explanation: "Lionel Messi became the first male soccer player and the first Argentine to receive the Presidential Medal of Freedom from President Joe Biden, recognizing his global impact in football."
+  },
+  {
+    id: "ca150",
+    question: "150. Which film won the 'Best picture (drama)' award at the Golden Globes 2025?",
+    options: ["The Brutalist", "Interstellar", "Oppenheimer", "RRR"],
+    correctAnswer: 0,
+    explanation: "'The Brutalist' won the Best Picture (Drama) award at the 2025 Golden Globes, highlighting its critical acclaim and storytelling excellence."
+  },
+  {
+    id: "ca151",
+    question: "151. Which team won the title of 78th '2024–25 Santosh Trophy'?",
+    options: ["West Bengal", "Manipur", "Bihar", "Kerala"],
+    correctAnswer: 0,
+    explanation: "West Bengal won the 78th Santosh Trophy in 2024-25, defeating Kerala 1-0 in the final, with Robi Hansda scoring the only goal. Kerala was the runner-up."
+  },
+  {
+    id: "ca152",
+    question: "152. Who won the Ramnath Goenka Award for excellence in journalism 2025 (Hindi)?",
+    options: ["Tanushka Kaur", "Pranjal Sarkar", "Mridulika Jha", "Ravinder Shukla"],
+    correctAnswer: 2,
+    explanation: "Mridulika Jha of Aaj Tak won the 2025 Ramnath Goenka Award for Hindi journalism for her coverage on 'Dunki route', highlighting youth migration from Haryana."
+  },
+  {
+    id: "ca153",
+    question: "153. Which state won Best Tableau Award of Republic Day parade 2025?",
+    options: ["Uttar Pradesh", "Odisha", "Kerala", "Haryana"],
+    correctAnswer: 0,
+    explanation: "Uttar Pradesh won the Best Tableau Award at the Republic Day parade 2025 with the theme 'Mahakumbh'. Tripura secured 2nd place and Andhra Pradesh 3rd."
+  },
+  {
+    id: "ca154",
+    question: "154. Who received the 'Sri Chandrasekarendra Saraswathi' Award for Leadership?",
+    options: ["J.P. Nadda", "S. Jaishankar", "Nirmala Sitharaman", "Rajnath Singh"],
+    correctAnswer: 1,
+    explanation: "External Affairs Minister S. Jaishankar received the Sri Chandrasekarendra Saraswathi Award for Leadership, awarded by the South Indian Education Society (SIES)."
+  },
+  {
+    id: "ca155",
+    question: "155. Who won the Stockholm Water Prize 2025?",
+    options: ["Cincinnati Black", "Marco Anthony", "Günter Blöschl", "Glenn Smile"],
+    correctAnswer: 2,
+    explanation: "Austrian hydrologist Günter Blöschl won the Stockholm Water Prize 2025 for his outstanding contributions to water research and management."
+  },
+  {
+    id: "ca156",
+    question: "156. Which city has been declared as the cleanest city in India in 9th Edition of Swachh Survekshan?",
+    options: ["Ahmedabad", "Guwahati", "Indore", "Kolkata"],
+    correctAnswer: 2,
+    explanation: "Indore was declared the cleanest city in India in the 9th edition of Swachh Survekshan, recognized for sustained efforts in sanitation, waste management, and public participation."
+  },
+  {
+    id: "ca157",
+    question: "157. Who has been conferred with the Maharashtra Bhushan Award 2024?",
+    options: ["Ram V. Sutar", "Palak Mucchal", "Asha Bhonsle", "Shaan"],
+    correctAnswer: 0,
+    explanation: "Renowned sculptor Ram V. Sutar received the Maharashtra Bhushan Award 2024 for his iconic works including the Statue of Unity and Lord Ram statue in Ayodhya. The award includes ₹25 lakh cash and a memento."
+  },
+  {
+    id: "ca158",
+    question: "158. Which film won the Best Film Award at Oscar 2025?",
+    options: ["Hit & Run", "The Brutalist", "Anora", "Conjuring: Last Part"],
+    correctAnswer: 2,
+    explanation: "'Anora' won the Best Film Award at the Oscars 2025, recognized for its cinematic excellence and storytelling."
+  },
+  {
+    id: "ca159",
+    question: "159. Who has been honoured with the prestigious Ugadi Award 2025 for Historical Research?",
+    options: ["MyNaa Swamy", "Irfan Habib", "Satish Chandra", "Ramachandra Guha"],
+    correctAnswer: 0,
+    explanation: "MyNaa Swamy received the Ugadi Award 2025 for Historical Research for his epigraphical discoveries of ancient inscriptions related to the Vijayanagara Empire."
+  },
+  {
+    id: "ca160",
+    question: "160. Who won the 2024–25 Indian Super League (ISL) Title?",
+    options: ["Sunrisers Hyderabad", "Kerala Blasters", "Mohun Bagan", "Lucknow Super Giants"],
+    correctAnswer: 2,
+    explanation: "Mohun Bagan won the 2024–25 ISL title, with Alaeddine Ajaraie as the top goalscorer, registering 23 goals in the season."
+  },
+  {
+    id: "ca161",
+    question: "161. Who won Laureus Sportsman of the Year Award 2025?",
+    options: ["Mondo Duplantis", "Lionel Messi", "Neymar Jr.", "Sai Sudarshan"],
+    correctAnswer: 0,
+    explanation: "Swedish pole vaulter Mondo Duplantis won the Laureus Sportsman of the Year Award 2025 for his outstanding achievements and records in athletics."
+  },
+  {
+    id: "ca162",
+    question: "162. Who won 2025 World Food Prize for Advancements in Biological Nitrogen Fixation?",
+    options: ["Shuvam Kant", "Jigyasha Shadhukha", "Ranveer Oberoy", "Mariangela Hungria"],
+    correctAnswer: 3,
+    explanation: "Brazilian microbiologist Mariangela Hungria won the 2025 World Food Prize for her work on Biological Nitrogen Fixation, which significantly reduces chemical fertilizer use and saves approximately USD 40 billion annually."
+  },
+
+],
 
   // Teaching Aptitude:
 "teaching-aptitude": [
