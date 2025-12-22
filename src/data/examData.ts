@@ -1264,6 +1264,7 @@ export const sampleQuestions: Record<string, Question[]> = {
     explanation: "A bus is a communication pathway used to transmit data and control signals."
   }
   ],
+  
   //Current Affairs:
   
 "summits-conferences": [
@@ -2070,6 +2071,7 @@ export const sampleQuestions: Record<string, Question[]> = {
     correctAnswer: 1,
     explanation: "Acharya Devvrat was given the additional charge as the Governor of Maharashtra in September 2025. Governors act as constitutional heads of states and ensure smooth administration."
   },
+  ],
 
 
 
