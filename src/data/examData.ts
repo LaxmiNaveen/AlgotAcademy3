@@ -142,9 +142,11 @@ export const subjects: Subject[] = [
     id: "current-affairs1", 
     name: "Current Affairs", 
     icon: "🏛️", 
-    questionCount: 272, 
+    questionCount: 400, 
     color: "hsl(167 72% 40%)",
     subtopics: [
+       { id: "books-authors", name: "Books and Authors", questionCount: 35 },
+      { id: "science-tech", name: "Science and Technology", questionCount: 40 },
       { id: "imp-appointments", name: "Important Appointments", questionCount: 40 },
       { id: "awards-honours1", name: "Awards and Honours 2025-Part-1", questionCount: 30 },
       { id: "awards-honours2", name: "Awards and Honours 2025-Part-2", questionCount: 132 },
@@ -1266,6 +1268,544 @@ export const sampleQuestions: Record<string, Question[]> = {
   ],
   
   //Current Affairs:
+
+"science-tech": [
+  {
+    id: "q1",
+    question: "Which country developed the world’s first wooden satellite named LignoSat?",
+    options: ["China", "Japan", "Russia", "Israel"],
+    correctAnswer: 1,
+    explanation: "Japan developed LignoSat, the world’s first wooden satellite, using magnolia wood. The project aims to test eco-friendly materials in space and reduce space debris, marking a major step toward sustainable space technology."
+  },
+  {
+    id: "q2",
+    question: "Who introduced the Grok 3 advanced AI chatbot?",
+    options: ["Sam Altman", "Mark Zuckerberg", "Elon Musk", "Sundar Pichai"],
+    correctAnswer: 2,
+    explanation: "Grok 3 was introduced by Elon Musk through his AI venture xAI. The chatbot is designed to provide advanced reasoning and real-time insights, competing with other leading AI chatbots globally."
+  },
+  {
+    id: "q3",
+    question: "Which organization launched the IMAP mission to study the heliosphere from L1?",
+    options: ["ISRO", "NASA", "ESA", "SpaceX"],
+    correctAnswer: 1,
+    explanation: "NASA launched the Interstellar Mapping and Acceleration Probe (IMAP) mission. It studies the heliosphere, solar wind, and energetic particles from the Earth–Sun Lagrange Point 1."
+  },
+  {
+    id: "q4",
+    question: "Who launched the ‘Never Alone’ AI App to prevent student suicides?",
+    options: ["CBSE", "NCERT", "AIIMS Delhi", "IIT Madras"],
+    correctAnswer: 2,
+    explanation: "AIIMS Delhi launched the ‘Never Alone’ AI App to provide mental health support for students. The app uses AI-driven tools for early intervention and psychological assistance."
+  },
+  {
+    id: "q5",
+    question: "Which space agency unveiled the CHAPEA Mars habitat to simulate year-long missions?",
+    options: ["ISRO", "JAXA", "NASA", "ESA"],
+    correctAnswer: 2,
+    explanation: "NASA unveiled the CHAPEA Mars habitat to simulate long-duration Mars missions. It helps researchers study human health, behavior, and performance in isolated environments."
+  },
+  {
+    id: "q6",
+    question: "Which company expanded its AI-powered no-code app builder ‘Opal’ to 15 countries?",
+    options: ["Amazon", "Google", "Microsoft", "OpenAI"],
+    correctAnswer: 1,
+    explanation: "Google expanded its AI-powered no-code app builder ‘Opal’ to multiple countries, including India and Japan, enabling users to create applications without coding knowledge."
+  },
+  {
+    id: "q7",
+    question: "Which country appointed ‘Diella’, the world’s first AI cabinet minister?",
+    options: ["France", "Albania", "Italy", "Greece"],
+    correctAnswer: 1,
+    explanation: "Albania appointed ‘Diella’ as the world’s first AI cabinet minister. The AI system assists the government in data analysis and policy decision-making."
+  },
+  {
+    id: "q8",
+    question: "Which institution became India’s first government medical college to train doctors on the da Vinci Robotic Surgical System?",
+    options: ["PGIMER Chandigarh", "JIPMER Puducherry", "AIIMS Delhi", "NIMHANS Bengaluru"],
+    correctAnswer: 2,
+    explanation: "AIIMS Delhi became the first government medical college in India to offer training on the da Vinci Robotic Surgical System, enhancing precision and minimally invasive surgical education."
+  },
+  {
+    id: "q9",
+    question: "What is the name of India’s first fully indigenous 32-bit microprocessor developed for space missions?",
+    options: ["Shakti-2100", "Vikram-3201", "Aryabhata-2001", "Bharat-Chip X10"],
+    correctAnswer: 1,
+    explanation: "Vikram-3201 is India’s first fully indigenous 32-bit microprocessor developed for space missions, supporting self-reliance in advanced space electronics."
+  },
+  {
+    id: "q10",
+    question: "Which country launched the advanced spy satellite Ofek-19 in September 2025?",
+    options: ["Turkey", "Israel", "Iran", "Syria"],
+    correctAnswer: 1,
+    explanation: "Israel launched the advanced reconnaissance satellite Ofek-19 to strengthen its space-based surveillance and national security capabilities."
+  },
+  {
+    id: "q11",
+    question: "Which country’s submersible ‘Nautile’ was used by Indian aquanauts for Samudrayaan preparations?",
+    options: ["United States", "Russia", "France", "Japan"],
+    correctAnswer: 2,
+    explanation: "France’s deep-sea submersible Nautile was used by Indian aquanauts as part of preparations for the Samudrayaan deep-ocean human exploration mission."
+  },
+  {
+    id: "q12",
+    question: "Which company partnered with the Department of Posts to implement the DIGIPIN digital addressing system?",
+    options: ["Google Maps", "TCS", "Infosys", "MapmyIndia"],
+    correctAnswer: 3,
+    explanation: "MapmyIndia partnered with the Department of Posts to implement DIGIPIN, a digital addressing system that improves logistics, navigation, and emergency services."
+  },
+  {
+    id: "q13",
+    question: "Which institution performed India’s first robotic laser cataract surgery?",
+    options: ["Apollo Hospitals", "Safdarjung Hospital", "AIIMS Delhi", "Army Hospital Research & Referral"],
+    correctAnswer: 3,
+    explanation: "The Army Hospital Research & Referral (AHRR) performed India’s first robotic laser cataract surgery, showcasing advanced medical technology in the armed forces."
+  },
+  {
+    id: "q14",
+    question: "Which Indian telecom company signed MoUs with Ericsson, Qualcomm, Cisco, and Nokia to boost 5G and AI skills?",
+    options: ["Reliance Jio", "Vodafone Idea", "Airtel", "BSNL"],
+    correctAnswer: 3,
+    explanation: "BSNL signed MoUs with leading global tech firms to strengthen 5G, AI, and digital skills, supporting India’s telecom modernization efforts."
+  },
+  {
+    id: "q15",
+    question: "How long will the totality of the September 2025 Blood Moon last?",
+    options: ["70 Minutes", "60 Minutes", "82 Minutes", "90 Minutes"],
+    correctAnswer: 2,
+    explanation: "The totality of the September 2025 Blood Moon will last 82 minutes, making it a rare and long-duration total lunar eclipse."
+  },
+  {
+    id: "q16",
+    question: "Which country’s scientists converted CO₂-derived methanol into white sugar?",
+    options: ["China", "Germany", "Japan", "South Korea"],
+    correctAnswer: 0,
+    explanation: "Chinese scientists developed a method to convert CO₂-derived methanol into sugar using an in vitro biotransformation system, supporting sustainable food and climate solutions."
+  },
+  {
+    id: "q17",
+    question: "Which country developed the world’s lightest brain controller to guide bees like flying robots?",
+    options: ["Singapore", "Japan", "China", "South Korea"],
+    correctAnswer: 2,
+    explanation: "China developed the world’s lightest brain controller that can guide bees, opening new possibilities in bio-robotics and surveillance research."
+  },
+  {
+    id: "q18",
+    question: "Which tech company partnered with Yotta Data Services to promote AI adoption via the Shakti Cloud platform?",
+    options: ["IBM", "Microsoft", "Oracle", "Google"],
+    correctAnswer: 1,
+    explanation: "Microsoft partnered with Yotta Data Services to promote AI adoption in India through the Shakti Cloud platform, strengthening domestic AI infrastructure."
+  },
+  {
+    id: "q19",
+    question: "What is the name of the U.S. Air Force’s secretive spaceplane known as the Orbital Test Vehicle?",
+    options: ["Falcon 9", "Dragon Capsule", "X-37B", "Space Shuttle Atlantis"],
+    correctAnswer: 2,
+    explanation: "The X-37B is an unmanned, reusable spaceplane operated by the U.S. Air Force for classified space experiments and long-duration missions."
+  },
+  {
+    id: "q20",
+    question: "Which company announced the AI-first restructuring strategy ‘AI Matryoshka’ at the I/O Developers Conference 2025?",
+    options: ["Amazon", "Meta", "Google", "Microsoft"],
+    correctAnswer: 2,
+    explanation: "Google announced the AI-first restructuring strategy ‘AI Matryoshka’, focusing on embedding artificial intelligence across all its products and services."
+  },
+
+  {
+    id: "q21",
+    question: "21. Which two companies partnered with the Andhra Pradesh government to develop the Quantum Valley Tech Park in Amaravati?",
+    options: ["Google and Infosys", "Microsoft and Wipro", "Amazon and HCL Technologies", "IBM and Tata Consultancy Services"],
+    correctAnswer: 3,
+    explanation: "The Andhra Pradesh government partnered with IBM and Tata Consultancy Services (TCS) to set up the Quantum Valley Tech Park in Amaravati, aimed at advancing quantum computing research and innovation."
+  },
+  {
+    id: "q22",
+    question: "22. BlueBird communication satellite is developed by which country?",
+    options: ["United States", "France", "China", "Russia"],
+    correctAnswer: 0,
+    explanation: "The BlueBird communication satellite is developed by the United States and is designed to provide direct satellite connectivity to smartphones."
+  },
+  {
+    id: "q23",
+    question: "23. Which institute released the report titled 'Unlocking a $200 Billion Opportunity: Electric Vehicles in India'?",
+    options: ["NITI Aayog", "Bureau of Indian Standards", "Ministry of Road Transport and Highways", "Central Pollution Control Board"],
+    correctAnswer: 0,
+    explanation: "NITI Aayog released the report highlighting India’s electric vehicle market potential and the roadmap for clean mobility transition."
+  },
+  {
+    id: "q24",
+    question: "24. LEAP-1 is the first commercial satellite mission of which Indian space-tech startup?",
+    options: ["Dhruva Space", "Agnikul", "Skyroot Aerospace", "Digantar"],
+    correctAnswer: 0,
+    explanation: "LEAP-1 is the first commercial satellite mission launched by Dhruva Space, marking a milestone for India’s private space sector."
+  },
+  {
+    id: "q25",
+    question: "25. What is the name of the AI-powered tool launched by the government to generate structured minutes of Gram Sabha meetings?",
+    options: ["SabhaSaar", "SarpanchSamvaad", "eGramMission", "ViksitPanchayat"],
+    correctAnswer: 0,
+    explanation: "SabhaSaar is an AI-powered tool that converts voice discussions into structured meeting minutes, enhancing transparency in rural governance."
+  },
+  {
+    id: "q26",
+    question: "26. In which country was the first-ever 3D-printed train station developed?",
+    options: ["Germany", "South Korea", "Japan", "China"],
+    correctAnswer: 2,
+    explanation: "Japan developed the world’s first 3D-printed train station, showcasing innovation in construction technology."
+  },
+  {
+    id: "q27",
+    question: "27. Which country has announced the Venera-D mission to Venus by 2036?",
+    options: ["USA", "Japan", "Russia", "China"],
+    correctAnswer: 2,
+    explanation: "Russia announced the Venera-D mission as part of its renewed Venus exploration program."
+  },
+  {
+    id: "q28",
+    question: "28. What is the name of the AI startup launched by ex-Twitter CEO Parag Agrawal?",
+    options: ["Neural Web", "Parallel", "Synapse", "QuantumAI"],
+    correctAnswer: 1,
+    explanation: "Parallel is the AI startup launched by former Twitter CEO Parag Agrawal, focusing on advanced AI research."
+  },
+  {
+    id: "q29",
+    question: "29. Who announced India’s targets of a space station by 2035 and a crewed Moon mission by 2040?",
+    options: ["Narendra Modi", "R. Umamaheswaran", "Dr. Jitendra Singh", "S. Somanath"],
+    correctAnswer: 2,
+    explanation: "Dr. Jitendra Singh announced India’s long-term space goals, including a space station and a human Moon mission."
+  },
+  {
+    id: "q30",
+    question: "30. Which missile was recently test-fired successfully by India?",
+    options: ["Agni-IV", "Agni-V", "Prithvi-II", "Akash"],
+    correctAnswer: 1,
+    explanation: "Agni-V is an intercontinental ballistic missile (ICBM) that strengthens India’s strategic deterrence capability."
+  },
+  {
+    id: "q31",
+    question: "31. India’s inaugural Diabetes Biobank has been established in which city?",
+    options: ["Chennai", "Kolkata", "Mumbai", "Kanpur"],
+    correctAnswer: 0,
+    explanation: "India’s first Diabetes Biobank was established in Chennai to support advanced research on diabetes."
+  },
+  {
+    id: "q32",
+    question: "32. Which tech giant launched the 'Nano Banana' AI photo editing tool in 2025?",
+    options: ["Microsoft", "Apple", "Google (Gemini)", "Meta"],
+    correctAnswer: 2,
+    explanation: "Google launched the 'Nano Banana' AI photo editing tool under its Gemini AI ecosystem."
+  },
+  {
+    id: "q33",
+    question: "33. Where was the Indian Institute of Creative Technology (IICT) launched?",
+    options: ["New Delhi", "Mumbai", "Bengaluru", "Hyderabad"],
+    correctAnswer: 1,
+    explanation: "IICT was launched in Mumbai to promote animation, gaming, VFX, and creative technologies."
+  },
+  {
+    id: "q34",
+    question: "34. In which state was the Dhwanispandana Yojana launched to aid visually impaired passengers?",
+    options: ["Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh"],
+    correctAnswer: 1,
+    explanation: "Karnataka launched Dhwanispandana Yojana to assist visually impaired passengers through audio-based navigation."
+  },
+  {
+    id: "q35",
+    question: "35. India’s first electric air taxi is known by what name?",
+    options: ["Gagan", "Shunya", "Shital", "Pavan"],
+    correctAnswer: 1,
+    explanation: "Shunya is India’s first electric air taxi prototype aimed at zero-emission urban air mobility."
+  },
+  {
+    id: "q36",
+    question: "36. RHUMI-1, the world’s first mobile hybrid rocket, was built by which country?",
+    options: ["France", "UK", "India", "Japan"],
+    correctAnswer: 2,
+    explanation: "India built RHUMI-1, the world’s first mobile hybrid rocket, combining solid and liquid propulsion."
+  },
+  {
+    id: "q37",
+    question: "37. The first Hyperloop test track in India was set up by which IIT?",
+    options: ["IIT Madras", "IIT Kharagpur", "IIT Bombay", "IIT Guwahati"],
+    correctAnswer: 0,
+    explanation: "IIT Madras developed India’s first Hyperloop test track, advancing ultra-high-speed transport research."
+  },
+  {
+    id: "q38",
+    question: "38. The world’s most detailed weather forecasting system with a 6-km grid was launched by which country?",
+    options: ["India", "Japan", "United States", "China"],
+    correctAnswer: 0,
+    explanation: "India launched the world’s most detailed weather forecasting system with a 6-km resolution grid."
+  },
+  {
+    id: "q39",
+    question: "39. The needle-free, painless shock syringe was developed by which institute?",
+    options: ["IIT Roorkee", "IIT Kharagpur", "IIT Guwahati", "IIT Bombay"],
+    correctAnswer: 3,
+    explanation: "IIT Bombay developed the needle-free shock syringe using jet injection technology."
+  },
+  {
+    id: "q40",
+    question: "40. Tomahawk is a subsonic cruise missile developed by which country?",
+    options: ["United States", "Russia", "Ukraine", "India"],
+    correctAnswer: 0,
+    explanation: "The Tomahawk missile is a long-range subsonic cruise missile developed by the United States."
+  },
+
+ ],
+
+
+
+"books-authors": [
+  {
+    id: "q1",
+    question: "1. Who wrote the book 'The World After Gaza'?",
+    options: ["Amitabh Kant", "Amitav Ghosh", "Pankaj Mishra", "Dr. Deepa Malik"],
+    correctAnswer: 2,
+    explanation: "‘The World After Gaza’ is written by Pankaj Mishra, a noted Indian essayist and historian, analyzing the global political and humanitarian consequences of the Gaza conflict."
+  },
+  {
+    id: "q2",
+    question: "2. Who is the author of the memoir 'BRING IT ON: The Incredible Story of My Life'?",
+    options: ["Dr. K.S. Chauhan", "Dr. Deepa Malik", "Sanghamitra Chakraborty", "Amitabh Kant"],
+    correctAnswer: 1,
+    explanation: "This autobiography is written by Dr. Deepa Malik, India’s first female Paralympic medalist, highlighting her inspiring life journey and achievements."
+  },
+  {
+    id: "q3",
+    question: "3. 'How India Scaled Mt G20: The Inside Story of the G20 Presidency' is written by whom?",
+    options: ["Amitav Ghosh", "Pankaj Mishra", "Amitabh Kant", "Dr. K.S. Chauhan"],
+    correctAnswer: 2,
+    explanation: "The book is authored by Amitabh Kant, India’s G20 Sherpa, providing an insider account of India’s leadership during its G20 Presidency."
+  },
+  {
+    id: "q4",
+    question: "4. Who authored the book 'The Sour Mango Tree'?",
+    options: ["R.K. Narayan", "Palyaada Lankesh", "Arundhati Roy", "Ruskin Bond"],
+    correctAnswer: 1,
+    explanation: "‘The Sour Mango Tree’ is written by Palyaada (P.) Lankesh, a prominent Kannada writer known for social realism."
+  },
+  {
+    id: "q5",
+    question: "5. Who is the author of 'Woman! Life! Freedom!', capturing the 2022 Iranian uprising?",
+    options: ["Azar Nafisi", "Marjane Satrapi", "Chowra Makarem", "Shirin Ebadi"],
+    correctAnswer: 1,
+    explanation: "Marjane Satrapi authored the book documenting the protests in Iran following Mahsa Amini’s death and highlighting women’s rights."
+  },
+  {
+    id: "q6",
+    question: "6. Who wrote the book 'Wild Fictions'?",
+    options: ["Amitav Ghosh", "Dr. K.S. Chauhan", "Pankaj Mishra", "Sanghamitra Chakraborty"],
+    correctAnswer: 0,
+    explanation: "‘Wild Fictions’ is written by Amitav Ghosh and explores themes of environment, climate change, and humanity’s relationship with nature."
+  },
+  {
+    id: "q7",
+    question: "7. The book 'Soumitra Chatterjee and His World (Vintage)' is written by whom?",
+    options: ["Amitav Ghosh", "Sanghamitra Chakraborty", "Dr. Deepa Malik", "Pankaj Mishra"],
+    correctAnswer: 1,
+    explanation: "Sanghamitra Chakraborty authored this biography of legendary actor Soumitra Chatterjee, exploring his cultural and cinematic legacy."
+  },
+  {
+    id: "q8",
+    question: "8. Who is the author of 'I Am a Soldier’s Wife: The Life and Love of Toni Lidder'?",
+    options: ["Geetika Lidder", "Kailash Satyarthi", "Amitabh Kant", "Toni Lidder"],
+    correctAnswer: 0,
+    explanation: "The memoir is written by Geetika Lidder, sharing a deeply personal account of life, love, and sacrifice in an army family."
+  },
+  {
+    id: "q9",
+    question: "9. 'Life on Mars: Collected Stories' is written by whom?",
+    options: ["Kailash Satyarthi", "Geetika Lidder", "Namita Gokhale", "Toni Lidder"],
+    correctAnswer: 2,
+    explanation: "Namita Gokhale authored this collection of short stories reflecting contemporary themes and human experiences."
+  },
+  {
+    id: "q10",
+    question: "10. Recently, who authored the book 'Diyaslai'?",
+    options: ["Amitabh Kant", "Geetika Lidder", "Kailash Satyarthi", "Rajiv Kumar"],
+    correctAnswer: 2,
+    explanation: "‘Diyaslai’ is written by Nobel Peace Prize laureate Kailash Satyarthi, focusing on social justice and human values."
+  },
+  {
+    id: "q11",
+    question: "11. Who is the author of the book 'She for Her'?",
+    options: ["Sapna Sharma", "Rashmi Trivedi", "Rachel Clarke", "Clare Mulley"],
+    correctAnswer: 1,
+    explanation: "Rashmi Trivedi authored ‘She for Her’, a book centered on women empowerment and leadership."
+  },
+  {
+    id: "q12",
+    question: "12. 'The Life and Contribution of the Women Members of the Constituent Assembly' was released by which ministry?",
+    options: ["Ministry of Women Affairs", "Ministry of Education", "Ministry of Home Affairs", "Ministry of Law & Justice"],
+    correctAnswer: 2,
+    explanation: "The Ministry of Home Affairs released the book highlighting the role of women in drafting India’s Constitution."
+  },
+  {
+    id: "q13",
+    question: "13. Who wrote 'To the Seventh Generation'?",
+    options: ["Rashmi Trivedi", "Dr. V.I. Mathan", "Sapna Sharma", "Clare Mulley"],
+    correctAnswer: 1,
+    explanation: "Dr. V.I. Mathan authored the book emphasizing sustainability and responsibility towards future generations."
+  },
+  {
+    id: "q14",
+    question: "14. 'A Thousand Threads' is authored by whom?",
+    options: ["Neneh Cherry", "Rachel Clarke", "Chloe Dalton", "Clare Mulley"],
+    correctAnswer: 0,
+    explanation: "‘A Thousand Threads’ is written by Neneh Cherry, blending memoir with cultural reflections."
+  },
+  {
+    id: "q15",
+    question: "15. Who is the author of 'The Story of a Heart'?",
+    options: ["Rashmi Trivedi", "Yuan Yang", "Rachel Clarke", "Helen Scales"],
+    correctAnswer: 2,
+    explanation: "Rachel Clarke authored this moving medical narrative centered on a heart transplant journey."
+  },
+  {
+    id: "q16",
+    question: "16. Who wrote the book 'AI on Trial'?",
+    options: ["Sarah Wynn-Williams", "Shri Sujeet Kumar", "Not Listed", "Gopalkrishna Gandhi"],
+    correctAnswer: 1,
+    explanation: "‘AI on Trial’ is written by Shri Sujeet Kumar, examining ethical and legal challenges posed by artificial intelligence."
+  },
+  {
+    id: "q17",
+    question: "17. 'The Undying Light: A Personal History of Independent India' is authored by whom?",
+    options: ["Fali S. Nariman", "S. Ambujammal", "Gopalkrishna Gandhi", "Amarjit Singh Dulat"],
+    correctAnswer: 2,
+    explanation: "Gopalkrishna Gandhi authored this personal and historical account of India’s post-independence journey."
+  },
+  {
+    id: "q18",
+    question: "18. Who wrote 'Buransh: The Fragrance of Words'?",
+    options: ["Anupama Sharma", "Hari Singh Rana", "Shalini Goyal Bhalla", "Arun Singhal"],
+    correctAnswer: 0,
+    explanation: "The book is written by Anupama Sharma and reflects literary and cultural expressions."
+  },
+  {
+    id: "q19",
+    question: "19. 'The India I Saw' is a book written by whom?",
+    options: ["Gopalkrishna Gandhi", "Dr. Prabhat Ojha", "S. Ambujammal", "Himanshu Roy"],
+    correctAnswer: 2,
+    explanation: "‘The India I Saw’ is authored by S. Ambujammal, offering reflections on Indian society and culture."
+  },
+  {
+    id: "q20",
+    question: "20. Who is the author of 'Sanskriti Ka Paanchva Adhyay'?",
+    options: ["Shalini Goyal Bhalla", "Shri Ram Bahadur Rai", "Fali S. Nariman", "Amarjit Singh Dulat"],
+    correctAnswer: 1,
+    explanation: "The book is written by Shri Ram Bahadur Rai, focusing on Indian culture and civilizational values."
+  },
+
+  {
+    id: "q21",
+    question: "21. Who is the author of the book 'Agent Zo'?",
+    options: ["Hari Singh Rana", "Clare Mulley", "Anupama Sharma", "Sarah Wynn-Williams"],
+    correctAnswer: 1,
+    explanation: "‘Agent Zo’ is written by Clare Mulley. The book narrates the extraordinary life of Elżbieta Zawacka, a World War II resistance fighter and intelligence agent, blending biography with espionage history."
+  },
+  {
+    id: "q22",
+    question: "22. The book 'The Chief Minister and the Spy' is authored by whom?",
+    options: ["Shri Sujeet Kumar", "Amarjit Singh Dulat", "Fali S. Nariman", "Himanshu Roy"],
+    correctAnswer: 1,
+    explanation: "Former RAW chief Amarjit Singh Dulat authored this book, offering insider perspectives on intelligence operations and political leadership, especially related to Kashmir."
+  },
+  {
+    id: "q23",
+    question: "23. Who wrote the book 'Beyond the Courtroom'?",
+    options: ["Gopalkrishna Gandhi", "S. Ambujammal", "Fali S. Nariman", "Amarjit Singh Dulat"],
+    correctAnswer: 2,
+    explanation: "‘Beyond the Courtroom’ is written by Fali S. Nariman, a legendary jurist, discussing constitutional law, landmark cases, and the role of judiciary in democracy."
+  },
+  {
+    id: "q24",
+    question: "24. 'Chunautiyaan Mujhe Pasand Hain' is the biography of which Uttar Pradesh Governor?",
+    options: ["Anandiben Patel", "Banwari Lal Joshi", "Aziz Qureshi", "Ram Naik"],
+    correctAnswer: 0,
+    explanation: "The book is the biography of Anandiben Patel, highlighting her political journey, leadership challenges, and administrative experience."
+  },
+  {
+    id: "q25",
+    question: "25. Who is the author of the book 'India@2047: Leading the Global Economic Order'?",
+    options: ["Bandaru Dattatraya", "Dr. S. P. Sharma", "Srinath Raghavan", "Zhaleo Rio"],
+    correctAnswer: 1,
+    explanation: "Dr. S. P. Sharma authored this book outlining India’s economic vision and leadership goals as the nation approaches 2047."
+  },
+  {
+    id: "q26",
+    question: "26. Who wrote the PMAY-U Coffee Table Book?",
+    options: ["Zhaleo Rio", "Srinath Raghavan", "Jake Tapper and Alex Thompson", "Bandaru Dattatraya"],
+    correctAnswer: 0,
+    explanation: "Zhaleo Rio authored the PMAY-U Coffee Table Book, showcasing the achievements of the Pradhan Mantri Awas Yojana–Urban through visuals and narratives."
+  },
+  {
+    id: "q27",
+    question: "27. The book 'Original Sin' is written by whom?",
+    options: ["Srinath Raghavan", "Jake Tapper and Alex Thompson", "Dr. S. P. Sharma", "Bandaru Dattatraya"],
+    correctAnswer: 1,
+    explanation: "‘Original Sin’ is co-authored by journalists Jake Tapper and Alex Thompson, focusing on modern politics, power, and accountability."
+  },
+  {
+    id: "q28",
+    question: "28. 'Janta Ki Kahani Meri Aatmkatha' is authored by whom?",
+    options: ["Rajendra Arlekar", "Prem Singh Tamang", "Bandaru Dattatraya", "Atishi Marlena"],
+    correctAnswer: 2,
+    explanation: "This autobiography is written by Bandaru Dattatraya, reflecting his political life, grassroots work, and public service."
+  },
+  {
+    id: "q29",
+    question: "29. PMO Through the Ages is a book written by whom?",
+    options: ["Satyan Pandey", "Ganguram Patidar", "Himanshu Roy", "Sevacharan Pillai"],
+    correctAnswer: 2,
+    explanation: "Himanshu Roy authored this book tracing the evolution, structure, and role of the Prime Minister’s Office in India."
+  },
+  {
+    id: "q30",
+    question: "30. Who authored the book 'Modi's Niti Shastra: The World's His Oyster'?",
+    options: ["Suman Bery", "Bibek Debroy", "Sanjeev Sanyal", "Adish C. Aggarwala"],
+    correctAnswer: 3,
+    explanation: "Adish C. Aggarwala authored this book analyzing Prime Minister Narendra Modi’s governance philosophy and policy framework."
+  },
+  {
+    id: "q31",
+    question: "31. 'Prajal Kathe Na Atmakatha' is the autobiography of whom?",
+    options: ["Venkaiah Naidu", "Bandaru Dattatreya", "Ramnath Kovind", "A. Revanth Reddy"],
+    correctAnswer: 1,
+    explanation: "The book is the autobiography of Bandaru Dattatreya, detailing his life journey and political experiences."
+  },
+  {
+    id: "q32",
+    question: "32. Who is the author of the book 'The Stars Light the Way: A Powerful Tale of Self, Spirit, and Destiny'?",
+    options: ["Sudha Murty", "Deepak Chopra", "Sucheta Raj Khanna", "Anu Aggarwala"],
+    correctAnswer: 2,
+    explanation: "Sucheta Raj Khanna authored this inspirational book focusing on spirituality, self-discovery, and personal growth."
+  },
+  {
+    id: "q33",
+    question: "33. Who wrote 'India’s Finance Ministers III: Different Strokes (1998–2014)'?",
+    options: ["Yashwant Sinha", "Ashok Bhattacharya", "A.K. Bhattacharya", "Pranab Mukherjee"],
+    correctAnswer: 2,
+    explanation: "A.K. Bhattacharya authored this analytical work examining the policies and tenures of India’s finance ministers between 1998 and 2014."
+  },
+  {
+    id: "q34",
+    question: "34. Who recently released a book on the Kashmir insurgency of 1989–90?",
+    options: ["Gen Bipin Rawat", "Gen Manoj Pande", "Gen V. P. Malik", "Gen Dalbir Singh"],
+    correctAnswer: 2,
+    explanation: "Former Army Chief Gen V. P. Malik released a book providing a military and strategic account of the Kashmir insurgency period."
+  },
+  {
+    id: "q35",
+    question: "35. Who wrote the book 'Mere Achhe Din'?",
+    options: ["Dr. Devendra Kumar Sharma", "Hari Singh Rana", "Anupama Sharma", "Shri Sujeet Kumar"],
+    correctAnswer: 1,
+    explanation: "‘Mere Achhe Din’ is written by Hari Singh Rana, reflecting personal and social themes relevant to contemporary discourse."
+  },
+],
+
+
   
 "summits-conferences": [
   {
