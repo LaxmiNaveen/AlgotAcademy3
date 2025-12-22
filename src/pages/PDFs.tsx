@@ -41,6 +41,13 @@ const subjects = [
 ];
 
 const pdfTopics: PDFTopic[] = [
+    {
+    code: "CA-CA-03",
+    subject: "Current Affairs-2025",
+    topic: "Appointments (No. of Questions 110) @ Just Rs. 10/-",
+    price: "₹10",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
   {
     code: "CA-CA-01",
     subject: "Current Affairs-2025",
