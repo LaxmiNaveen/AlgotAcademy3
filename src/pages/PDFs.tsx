@@ -41,7 +41,21 @@ const subjects = [
 ];
 
 const pdfTopics: PDFTopic[] = [
-    {
+  {
+    code: "CA-CA-05",
+    subject: "Current Affairs-2025",
+    topic: "Books and Authors (No. of Questions 45) @ Just Rs. 5/-",
+    price: "₹10",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
+    code: "CA-CA-04",
+    subject: "Current Affairs-2025",
+    topic: "Science and Technology (No. of Questions 120) @ Just Rs. 10/-",
+    price: "₹10",
+    formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
+  },
+  {
     code: "CA-CA-03",
     subject: "Current Affairs-2025",
     topic: "Appointments (No. of Questions 110) @ Just Rs. 10/-",
@@ -62,7 +76,7 @@ const pdfTopics: PDFTopic[] = [
     price: "₹5",
     formUrl: "https://forms.gle/9Dd8jpEuDwGZsvWL8",
   },
-   {
+  {
     code: "CS-ICT-01",
     subject: "Computer Knowledge(ICT)",
     topic: "Computer Knowledge(ICT)-9 Chapters- Available @ Just Rs. 60/-",
