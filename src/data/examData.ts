@@ -125,8 +125,7 @@ export const subjects: Subject[] = [
     questionCount: 65, 
     color: "hsl(199 89% 48%)",
     subtopics: [
-      { id: "awards-honours1", name: "Awards and Honours 2025-Part1", questionCount: 30 },
-      { id: "awards-honours2", name: "Awards and Honours 2025-Part2", questionCount: 30 },
+
       { id: "ict-part1", name: "Information and Communication Technology (ICT) -Part1", questionCount: 20 },
       { id: "ict-part2", name: "Information and Communication Technology (ICT) -Part2", questionCount: 15 },
       { id: "ict-part3", name: "Information and Communication Technology (ICT) -Part3", questionCount: 50 },
@@ -143,11 +142,12 @@ export const subjects: Subject[] = [
     id: "current-affairs1", 
     name: "Current Affairs", 
     icon: "🏛️", 
-    questionCount: 30, 
+    questionCount: 272, 
     color: "hsl(167 72% 40%)",
     subtopics: [
+      { id: "imp-appointments", name: "Important Appointments", questionCount: 40 },
       { id: "awards-honours1", name: "Awards and Honours 2025-Part-1", questionCount: 30 },
-      { id: "awards-honours2", name: "Awards and Honours 2025-Part-2", questionCount: 30 },
+      { id: "awards-honours2", name: "Awards and Honours 2025-Part-2", questionCount: 132 },
        { id: "summits-conferences", name: "Important Summits and Conferences", questionCount: 70 },
     ]
   },
@@ -1786,6 +1786,294 @@ export const sampleQuestions: Record<string, Question[]> = {
 
 ],
 
+
+"imp-appointments": [
+  {
+    id: "q1",
+    question: "Who was sworn in as Chief Minister of Bihar for a historic term in 2025?",
+    options: ["Tejashwi Yadav", "Nitish Kumar", "Chirag Paswan", "Bhupendra Patel"],
+    correctAnswer: 1,
+    explanation: "Nitish Kumar was sworn in as the Chief Minister of Bihar in 2025, marking a historic continuation of his leadership. He is one of the longest-serving CMs in the state and has played a key role in Bihar’s governance and development."
+  },
+  {
+    id: "q2",
+    question: "Who has been appointed as an Executive Director at the Reserve Bank of India (RBI)?",
+    options: ["Viral Acharya", "Usha Janakiraman", "Shaktikanta Das", "N. S. Vishwanathan"],
+    correctAnswer: 1,
+    explanation: "Usha Janakiraman was appointed as an Executive Director at the RBI. Executive Directors supervise important regulatory and policy departments, contributing to financial stability and banking supervision."
+  },
+  {
+    id: "q3",
+    question: "Who has been elected as the first woman President of the Press Club of India?",
+    options: ["Nidhi Razdan", "Sangeeta Barooah Pisharoty", "Barkha Dutt", "Rana Ayyub"],
+    correctAnswer: 1,
+    explanation: "Sangeeta Barooah Pisharoty became the first woman President of the Press Club of India, marking a historic milestone for women’s representation in Indian journalism leadership."
+  },
+  {
+    id: "q4",
+    question: "Who has been appointed as the Chairman-cum-Managing Director (CMD) of Coal India?",
+    options: ["Pramod Agrawal", "B. Sairam", "Anil Kumar Jain", "P. M. Prasad"],
+    correctAnswer: 1,
+    explanation: "B. Sairam was appointed as CMD of Coal India. Coal India is the world’s largest coal producer, and its leadership is vital for India’s energy security."
+  },
+  {
+    id: "q5",
+    question: "Who has been appointed as Pakistan’s first Chief of Defence Forces?",
+    options: ["Raheel Sharif", "Qamar Javed Bajwa", "Asim Munir", "Imran Khan"],
+    correctAnswer: 2,
+    explanation: "Asim Munir became Pakistan’s first Chief of Defence Forces. This role coordinates the Army, Navy, and Air Force, improving joint military planning and operations."
+  },
+  {
+    id: "q6",
+    question: "Who has been appointed as the Managing Director (MD) of LIC of India?",
+    options: ["Hemant Bhargava", "Ramakrishnan Chander", "M. R. Kumar", "S. K. Sharma"],
+    correctAnswer: 1,
+    explanation: "Ramakrishnan Chander was appointed as MD of LIC of India. LIC is the largest insurance provider in India, and the MD plays a crucial role in policy and business decisions."
+  },
+  {
+    id: "q7",
+    question: "Who has been elected as the new President of Interpol?",
+    options: ["Ahmed Nasser Al-Raisi", "Jürgen Stock", "Lucas Philippe", "Kim Jong Yang"],
+    correctAnswer: 2,
+    explanation: "Lucas Philippe was elected as the new President of Interpol. The Interpol President presides over its General Assembly and strengthens international police cooperation."
+  },
+  {
+    id: "q8",
+    question: "Who has been appointed as the Chief Information Commissioner?",
+    options: ["Ashok Lavasa", "Raj Kumar Goyal", "Alok Kumar Verma", "Tushar Mehta"],
+    correctAnswer: 1,
+    explanation: "Raj Kumar Goyal was appointed as the Chief Information Commissioner, heading the Central Information Commission which ensures transparency under the RTI Act."
+  },
+  {
+    id: "q9",
+    question: "Who was recently sworn in as the Prime Minister of the Czech Republic?",
+    options: ["Petr Fiala", "Andrej Babiš", "Václav Klaus", "Miloš Zeman"],
+    correctAnswer: 1,
+    explanation: "Andrej Babiš was sworn in as the Prime Minister of the Czech Republic. The Prime Minister leads the government and plays a central role in national policy-making."
+  },
+  {
+    id: "q10",
+    question: "Who has been appointed as the next Director (Chief) of Mossad?",
+    options: ["David Barnea", "Roman Gofman", "Yossi Cohen", "Benny Gantz"],
+    correctAnswer: 1,
+    explanation: "Roman Gofman was appointed as the next Chief of Mossad, Israel’s external intelligence agency responsible for national security and foreign intelligence operations."
+  },
+  {
+    id: "q11",
+    question: "Who has taken charge as the new Managing Director (MD) of SBI?",
+    options: ["Dinesh Khara", "Ravi Ranjan", "Ashwini Tewari", "Rajnish Kumar"],
+    correctAnswer: 1,
+    explanation: "Ravi Ranjan took charge as the Managing Director of State Bank of India, India’s largest public sector bank, overseeing major banking operations."
+  },
+  {
+    id: "q12",
+    question: "Who has been appointed as the first President & CEO of Reliance Retail?",
+    options: ["Mukesh Ambani", "Jeyandran Venugopal", "Aditya Puri", "Kumar Mangalam Birla"],
+    correctAnswer: 1,
+    explanation: "Jeyandran Venugopal was appointed as the first President & CEO of Reliance Retail, highlighting professional management in India’s largest retail company."
+  },
+  {
+    id: "q13",
+    question: "Who has been nominated as the next Executive Chairman of NALSA?",
+    options: ["Justice Surya Kant", "Justice Vikram Nath", "Justice D. Y. Chandrachud", "Justice Sanjay Kishan Kaul"],
+    correctAnswer: 1,
+    explanation: "Justice Vikram Nath was nominated as the Executive Chairman of NALSA, which provides free legal aid to weaker sections of society."
+  },
+  {
+    id: "q14",
+    question: "Who has been appointed as the 53rd Chief Justice of India and took oath on 24 November 2025?",
+    options: ["Justice Sanjiv Khanna", "Justice Surya Kant", "Justice D. Y. Chandrachud", "Justice B. R. Gavai"],
+    correctAnswer: 1,
+    explanation: "Justice Surya Kant became the 53rd Chief Justice of India. The CJI is the head of the Indian judiciary and allocates cases in the Supreme Court."
+  },
+  {
+    id: "q15",
+    question: "Who has been appointed as a Whole-Time Member of SEBI for a three-year term?",
+    options: ["Ajay Tyagi", "Sandip Pradhan", "Madhabi Puri Buch", "Ashwani Bhatia"],
+    correctAnswer: 1,
+    explanation: "Sandip Pradhan was appointed as a Whole-Time Member of SEBI, the regulator of India’s capital markets, responsible for policy and enforcement."
+  },
+  {
+    id: "q16",
+    question: "Jose Antonio Kast has been elected as President of which country in December 2025?",
+    options: ["Peru", "Chile", "Brazil", "Poland"],
+    correctAnswer: 1,
+    explanation: "Jose Antonio Kast was elected President of Chile in December 2025, marking a significant political shift in the country."
+  },
+  {
+    id: "q17",
+    question: "RBI appoints whom as the Chairman of Jammu & Kashmir Bank?",
+    options: ["S. Krishnan", "T. Rabi Sankar", "S. S. Mundra", "M. Rajeshwar Rao"],
+    correctAnswer: 0,
+    explanation: "S. Krishnan was appointed as Chairman of Jammu & Kashmir Bank by the RBI, ensuring regulatory stability and effective governance."
+  },
+  {
+    id: "q18",
+    question: "Who has been appointed as the Brand Ambassador of the Haryana State Women’s Commission?",
+    options: ["Harmanpreet Kaur", "Shafali Verma", "Smriti Mandhana", "Jemimah Rodrigues"],
+    correctAnswer: 1,
+    explanation: "Shafali Verma was appointed as Brand Ambassador of the Haryana State Women’s Commission to promote women empowerment and inspire young girls."
+  },
+  {
+    id: "q19",
+    question: "Who was recently appointed as the Director General of CISF?",
+    options: ["Alok Kumar", "Praveer Ranjan", "Rakesh Asthana", "Ajay Kumar Bhalla"],
+    correctAnswer: 1,
+    explanation: "Praveer Ranjan was appointed as the Director General of CISF, which protects critical infrastructure such as airports and metro systems."
+  },
+  {
+    id: "q20",
+    question: "Who has been appointed as the first woman Vice-Chancellor of Nagpur University since 1923?",
+    options: ["Shalini Deshmukh", "Manali Makarand Kshirsagar", "Maneka Gandhi", "Kalpana Chawla"],
+    correctAnswer: 1,
+    explanation: "Manali Makarand Kshirsagar became the first woman Vice-Chancellor of Nagpur University, breaking a century-old tradition in academic leadership."
+  },
+
+  {
+    id: "q21",
+    question: "21. Who has become the new President of ASSOCHAM?",
+    options: ["Sanjiv Mehta", "Nirmal Minda", "Kiran Mazumdar-Shaw", "Ramesh Abhishek"],
+    correctAnswer: 1,
+    explanation: "ASSOCHAM is one of India’s oldest industry associations. Nirmal Minda, a leading industrialist, was appointed as its President. The President represents industry interests and works closely with the government on economic and industrial policy matters."
+  },
+  {
+    id: "q22",
+    question: "22. Who was appointed as the Director-General of UNESCO in October 2025?",
+    options: ["Audrey Azoulay", "Khaled El-Enany", "Firmin Edouard Matoko", "Amadou-Mahtar M'Bow"],
+    correctAnswer: 1,
+    explanation: "UNESCO promotes education, science, culture, and heritage globally. Khaled El-Enany was appointed as its Director-General in October 2025. The Director-General sets the organization’s global priorities and policies."
+  },
+  {
+    id: "q23",
+    question: "23. Who has been appointed as the Director General of the National Cadet Corps (NCC)?",
+    options: ["Gurbirpal Singh", "Virendra Vats", "Vinod Vashisht", "Aniruddha Chakravarty"],
+    correctAnswer: 1,
+    explanation: "The NCC is a youth organization that builds discipline and leadership among students. Lt. Gen. Virendra Vats was appointed as Director General of NCC, becoming the top authority responsible for its administration and training."
+  },
+  {
+    id: "q24",
+    question: "24. Who was elected as the President of the Indian Cricketers' Association?",
+    options: ["Harmanpreet Kaur", "Mithali Raj", "Shantha Rangaswamy", "Jhulan Goswami"],
+    correctAnswer: 2,
+    explanation: "The Indian Cricketers' Association represents the interests of cricketers. Former women’s cricket captain Shantha Rangaswamy was elected as its President, highlighting growing representation of women in sports administration."
+  },
+  {
+    id: "q25",
+    question: "25. Who took charge as the Director General of ITBP in 2025?",
+    options: ["Rakesh Asthana", "Praveer Ranjan", "Praveen Kumar", "Sanjay Arora"],
+    correctAnswer: 2,
+    explanation: "The ITBP guards India’s border with China. Praveen Kumar took charge as Director General of ITBP in 2025, playing a crucial role in strengthening border security and operational preparedness."
+  },
+  {
+    id: "q26",
+    question: "26. Who has been appointed as the Executive Director of the Reserve Bank of India (RBI)?",
+    options: ["Nirmala Sitharaman", "Sonali Sen Gupta", "Urjit Patel", "Shaktikanta Das"],
+    correctAnswer: 1,
+    explanation: "Executive Directors at RBI supervise key regulatory and policy departments. Sonali Sen Gupta’s appointment strengthens RBI’s leadership in maintaining financial stability and banking regulation."
+  },
+  {
+    id: "q27",
+    question: "27. Who has become the new Deputy Chief Minister of Gujarat in the latest Cabinet?",
+    options: ["Rushikesh Patel", "Bhupendra Patel", "Harsh Sanghavi", "Kanubhai Desai"],
+    correctAnswer: 2,
+    explanation: "Harsh Sanghavi was appointed as the Deputy Chief Minister of Gujarat. The Deputy CM assists the Chief Minister in governance and plays a major role in state administration."
+  },
+  {
+    id: "q28",
+    question: "28. Who has been appointed as the International Monetary Fund’s (IMF) first Deputy Managing Director?",
+    options: ["Christine Lagarde", "Dan Katz", "Kristalina Georgieva", "Raghuram Rajan"],
+    correctAnswer: 1,
+    explanation: "The IMF ensures global financial stability. Dan Katz was appointed as the IMF’s first Deputy Managing Director, assisting in policy coordination and global economic management."
+  },
+  {
+    id: "q29",
+    question: "29. Who has been appointed as the new Controller General of Defence Accounts (CGDA)?",
+    options: ["Ajay Kumar", "Vishvajit Sahay", "Anurag Jain", "Rajeev Kumar"],
+    correctAnswer: 1,
+    explanation: "The CGDA manages defence finances and audits. Vishvajit Sahay’s appointment ensures transparency and efficiency in defence expenditure and financial management."
+  },
+  {
+    id: "q30",
+    question: "30. Who has been appointed as the President of FICCI?",
+    options: ["Sanjay Agrawal", "Anant Goenka", "Harsh Vardhan", "Nirmal Kr Minda"],
+    correctAnswer: 1,
+    explanation: "FICCI is a major business association in India. Anant Goenka was appointed as its President, playing a key role in strengthening industry–government engagement and economic policy dialogue."
+  },
+  
+  {
+    id: "q31",
+    question: "31. Who has been appointed as the Managing Director & CEO of Aditya Birla Capital Limited (ABCL)?",
+    options: ["Chanda Kochhar", "Vishakha Mulye", "Usha Sangwan", "Shobhana Bhartia"],
+    correctAnswer: 1,
+    explanation: "Aditya Birla Capital Limited is a major financial services company in India. Vishakha Mulye was appointed as its MD & CEO, responsible for leading the company’s strategy, operations, and growth across financial services segments."
+  },
+  {
+    id: "q32",
+    question: "32. Who became the first transgender member of a Supreme Court-appointed committee?",
+    options: ["Joyita Mondal", "Laxmi Narayan Tripathi", "Akkai Padmashali", "Gauri Sawant"],
+    correctAnswer: 2,
+    explanation: "Akkai Padmashali, a noted transgender rights activist from Karnataka, became the first transgender member of a Supreme Court-appointed committee. This appointment marked a major step toward inclusivity and representation."
+  },
+  {
+    id: "q33",
+    question: "33. Who has become the world’s oldest serving President at the age of 92 in 2025?",
+    options: ["Yoweri Museveni", "Paul Biya", "Paul Kagame", "Teodoro Obiang Nguema"],
+    correctAnswer: 1,
+    explanation: "Paul Biya, President of Cameroon since 1982, became the world’s oldest serving President at the age of 92 in 2025, making him one of the longest-serving leaders globally."
+  },
+  {
+    id: "q34",
+    question: "34. Who has been appointed as the Chairperson of the NSE Governing Board with SEBI’s approval (September 2025)?",
+    options: ["Vikram Limaye", "Ashish Chauhan", "Srinivas Injeti", "Madhabi Puri Buch"],
+    correctAnswer: 2,
+    explanation: "Srinivas Injeti was appointed as the Chairperson of the NSE Governing Board with SEBI’s approval. The Chairperson plays a vital role in ensuring good governance and regulatory compliance in capital markets."
+  },
+  {
+    id: "q35",
+    question: "35. Who has been appointed as the new Chief Secretary of Delhi?",
+    options: ["Naresh Kumar", "Rajeev Verma", "T. V. Somanathan", "S. N. Subrahmanyan"],
+    correctAnswer: 1,
+    explanation: "Rajeev Verma was appointed as the Chief Secretary of Delhi, the highest-ranking civil servant in the UT. He is responsible for administrative coordination and implementation of government policies."
+  },
+  {
+    id: "q36",
+    question: "36. Who has been appointed as Nepal’s interim Prime Minister, becoming the first woman to hold that post?",
+    options: ["Pushpa Kamal Dahal", "Sushila Karki", "Sher Bahadur Deuba", "Bipin Rawat"],
+    correctAnswer: 1,
+    explanation: "Sushila Karki, former Chief Justice of Nepal, was appointed as interim Prime Minister, becoming the first woman to hold the post and marking a milestone in Nepal’s political history."
+  },
+  {
+    id: "q37",
+    question: "37. Who has been appointed as the 29th Controller General of Accounts (CGA) of India in September 2025?",
+    options: ["Meena Agarwal", "T. C. A. Kalyani", "Rajiv Gauba", "Arvind Saxena"],
+    correctAnswer: 1,
+    explanation: "T. C. A. Kalyani was appointed as the 29th Controller General of Accounts of India. The CGA is responsible for maintaining and overseeing the government’s accounting and financial reporting systems."
+  },
+  {
+    id: "q38",
+    question: "38. Who has officially assumed charge as the Director of the All India Institute of Ayurveda (AIIA), New Delhi (September 2025)?",
+    options: ["Dr. Rajesh Kotecha", "Professor Bhushan Patwardhan", "Professor Pradeep Kumar Prajapati", "Dr. Tanuja Nesari"],
+    correctAnswer: 2,
+    explanation: "Professor Pradeep Kumar Prajapati assumed charge as the Director of AIIA, New Delhi. He is responsible for academic leadership, research development, and administration of the institute."
+  },
+  {
+    id: "q39",
+    question: "39. Who has been elected as the 15th Vice President of India?",
+    options: ["Jagdeep Dhankhar", "C. P. Radhakrishnan", "Venkaiah Naidu", "Justice B. Sudershan Reddy"],
+    correctAnswer: 1,
+    explanation: "C. P. Radhakrishnan was elected as the 15th Vice President of India. The Vice President is the second-highest constitutional authority and serves as the Chairman of the Rajya Sabha."
+  },
+  {
+    id: "q40",
+    question: "40. Who has been given the additional charge as the Governor of Maharashtra (September 2025)?",
+    options: ["Thawar Chand Gehlot", "Acharya Devvrat", "Arif Mohammed Khan", "Ramesh Bais"],
+    correctAnswer: 1,
+    explanation: "Acharya Devvrat was given the additional charge as the Governor of Maharashtra in September 2025. Governors act as constitutional heads of states and ensure smooth administration."
+  },
+
+
+
+  
 "awards-honours1": [
   {
     id: "ca1",
